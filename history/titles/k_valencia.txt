@@ -38,7 +38,7 @@ d_valencia = {
 	}
 	798.1.1 = {
 		holder = levantine0023 # Suleyman ibn Hisham
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 		liege = k_andalusia
 	}
 	801.1.1 = {
@@ -150,7 +150,7 @@ d_valencia = {
 c_valencia = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -291,7 +291,7 @@ c_valencia = {
 c_castellon = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -435,7 +435,7 @@ c_castellon = {
 c_teruel = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -547,7 +547,7 @@ c_teruel = {
 c_denia = {
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 		liege = d_valencia
 	}
 	#801-803: Unknown Walih of Valencia
@@ -690,7 +690,7 @@ c_alicante = {
 	695.1.1 = {
 		holder = 73901 # Teodomiro de Orihuela
 		liege = d_murcia
-		government = clan_government # islamic_government
+		government = islamic_government # clan_government
 	}
 	743.1.1 = {
 		holder = levantine0093 # Jattab ibn Abd al-Yabbar
