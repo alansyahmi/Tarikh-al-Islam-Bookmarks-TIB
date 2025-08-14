@@ -3528,7 +3528,7 @@
 	name = "Yusuf"
 	dynasty = 12236
 	religion = "ashari"
-	culture = baranis
+	culture = sicilian_arab # baranis, to force him be at Siqilli provinces
 	father = 73310
 	1035.1.1 = {
 		birth = "1035.1.1"
@@ -5395,19 +5395,6 @@
 			death_reason = death_murder_known
 			killer = 73209 # Emir Isma'il ibn Muhammad of Seville
 		}
-	}
-}
-
-159195 = {
-	name = "Ali" # father of al-Hasan Kalbid
-	dynasty = 12240
-	religion = "ismaili"
-	culture = maghrebi
-	850.1.1 = {
-		birth = "850.1.1"
-	}
-	900.1.1 = {
-		death = "900.1.1"
 	}
 }
 
@@ -8673,7 +8660,7 @@ baranis0027 = {
 	trait = deceitful
 	trait = education_martial_3
 	father = 20825 # Tamin
-	1062.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
 	1063.1.1 = {

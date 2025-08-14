@@ -1079,6 +1079,7 @@
 	1100.1.1 = {
 		culture = turkish
 		religion = ashari
+		holding = city_holding
 	}
 	1235.1.1 = {
 		culture = anatolian_turkish

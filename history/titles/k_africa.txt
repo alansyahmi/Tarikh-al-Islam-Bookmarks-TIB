@@ -1553,6 +1553,12 @@ c_gabes = {
 		government = islamic_government # clan_government
 		holder = zanata0003 #Abdallah ibn Muhammad of Banu al-Rand
 	}
+	1055.1.1 = {
+		liege = d_tunis #tributary to Hilalian Arabs - Riyahdids
+	}
+	1062.1.1 = {
+		liege = k_africa
+	}
 	1073.1.1 = {
 		holder = zanata0004
 	}

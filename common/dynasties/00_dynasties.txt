@@ -8931,7 +8931,7 @@ tribe_quraysh = {
 	culture = "maghrebi"
 }
 12237 = {
-	name = "dynn_Avethid"
+	name = "dynn_Abbadid"
 	culture = "maghrebi"
 }
 12238 = {
@@ -8939,12 +8939,12 @@ tribe_quraysh = {
 	culture = "maghrebi"
 }
 12239 = {
-	name = "dynn_Nicmavid"
+	name = "dynn_Hawwasid"
 	culture = "maghrebi"
 }
 12240 = {
 	name = "dynn_Kalbid"
-	culture = "maghrebi"
+	culture = "levantine"
 }
 12241 = {
 	name = "dynn_Mdinid"

@@ -15095,7 +15095,7 @@ prefix = "dynnp_di"
 	
 }
 1000054609 = {
-	name="Makkí" #Gabes
+	name="dynn_Makki_" #Gabes 
 	prefix = "dynnp_al-"
 	culture = maghrebi
 	
@@ -15113,19 +15113,19 @@ prefix = "dynnp_di"
 	
 }
 1000054612 = {
-	name="Thumní"
+	name="dynn_Thumni_"
 	prefix = "dynnp_al-"
 	culture = baranis
 	
 }
 1000054613 = {
-	name="Mankúdí"
+	name="dynn_Manku_di_"
 	prefix = "dynnp_al-"
 	culture = baranis
 	
 }
 1000054614 = {
-	name="Andalusí"
+	name="dynn_Andalusi_"
 	prefix = "dynnp_al-"
 	culture = baranis
 	
@@ -22515,4 +22515,3 @@ prefix = "dynnp_z"
 	
 	
 }
-

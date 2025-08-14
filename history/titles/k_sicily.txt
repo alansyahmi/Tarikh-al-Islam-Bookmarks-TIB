@@ -108,46 +108,53 @@ d_sicily = {
 #		holder = 0
 #	}
 	910.1.1 = {
-		liege = k_africa
+		liege = k_egypt
 	}
 	948.1.1 = {
-		holder = 159183 # al-Hasan Kalbid
-		liege = 0
-	}
-	954.1.1 = {
-		holder = 159184 # Ahmad I
-	}
-	970.1.1 = {
-		holder = 159185 # Ali Ab'l-Qasim
-	}
-	982.1.1 = {
-		holder = 159186 # Jabir
-	}
-	983.1.1 = {
-		holder = 159188 # Jafar I
-	}
-	985.1.1 = {
-		holder = 159189 # Abdallah
-	}
-	990.1.1 = {
-		holder = 159190 # Yusuf
-	}
-	998.1.1 = {
-		holder = 159191 # Jafar II
+		holder = 159183 # al-Hasan of Sicily
 		liege = k_africa
 	}
+	954.1.1 = {
+		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
+	}
+	970.1.1 = {
+		holder = 159185 # Abi l-Qasim Ali  of Sicily
+	}
+	982.1.1 = {
+		holder = 159186 # Jabir of Sicily
+	}
+	983.1.1 = {
+		holder = 159188 # Jafar bin Muhammad I of Sicily
+	}
+	985.1.1 = {
+		holder = 159189 # Abdallah bin Muhammad Kalbid
+		liege = 0
+	}
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
+	}
+	998.1.1 = {
+		holder = 159191 # Ja'far II Kalbid
+	}
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
+	}
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
+	}
 	1019.1.1 = {
-		holder = 159192 # Ahmad II
+		holder = 159190a # Ahmad al-Akhal Kalbid
 	}
-	1037.1.1 = {
-		holder = 0
+	1035.1.1 = {
+		holder = 159190aa # Ja'far III Kalbid
 	}
-	1040.1.1 = {
-		holder = 159193 # Hassan II
+	1035.6.1 = {
+		holder = later_kalbid_1 # Hasan Samsam ad-Dawla I Kalbid
 	}
-	1053.1.1 = {
-		holder = 0
+	1060.1.1 = {
+		holder = later_kalbid_3 # Ni'ma bin Hasan Samsam ad-Dawla I Kalbid, nominal emir, capital controlled by Ibn al-Hawwas
 	}
+	
 	1071.1.1 = {
 		holder = 1132 # Roger I de Hauteville
 	}
@@ -226,7 +233,8 @@ c_palermo = {
 		liege = 0
 	}
 	1055.1.1 = {
-		holder = 73309 # Muhammad Kalbid
+		holder = 73312 # Ali ibn al-Hawwas
+		liege = d_sicily
 	}
 	1068.1.1 = {
 		holder = 20831 # Yusuf ibn Abdallah Mankudid
@@ -462,11 +470,16 @@ c_siracusa = {
 		holder = 159192 # Ahmad II of Sicily
 	}
 	1053.1.1 = {
-		holder = 73309 # Muhammad Kalbid
+		holder = 73309 # Muhammad al-Thumna
 		liege = 0
 	}
-	1071.1.1 = {
+	1062.1.1 = { # Zirid-Hawwasid Alliance made
+		holder = 1600578 # Ali Zirid
+		liege = k_africa
+	}
+	1068.1.1 = {
 		holder = 20829 # Ibn Abbad 'Benavert'
+		liege = d_sicily
 	}
 	1086.1.1 = {
 		liege = d_sicily
@@ -562,31 +575,37 @@ c_agrigento = {
 		holder = 159192 # Ahmad II of Sicily
 	}
 	1040.1.1 = {
-		holder = 73312 # Ali ibn Nima
-		liege = 0
+		holder = 73312 # Ali ibn al-Hawwas
+		liege = d_sicily
 	}
-	1067.1.1 = {
-		holder = 20832 # Ayyub Zirid
-		liege = d_tunis
+	1063.1.1 = { # Zirid-Hawwasid Alliance made
+		holder = baranis0027 # Ayyub Zirid
+		liege = k_africa
 	}
 	1068.1.1 = {
-		holder = 73313 # Abdul-Qadir Hammadid
-		liege = d_alger
+		holder = 1900507 # Hammud Hamut
+		liege = d_sicily
 	}
 	1087.1.1 = {
 		holder = 1132 # Roger I de Hauteville
 		liege = d_sicily
 	}
-	1101.6.22 = {
-		holder = 127065 # Mauger
+	1100.1.1 = {
+		holder = hamut_1
 	}
-	1125.1.1 = {
-		holder = 211502 # Roger II
+	1133.1.1 = {
+		holder = hamut_2
 	}
 	1130.12.25 = {
 		liege = k_sicily
 	}
-	1154.2.26 = {
+	1167.1.1 = {
+		holder = hamut_3
+	}
+	1179.1.1 = {
+		holder = hamut_4 # Roger Hamut
+	}
+	1193.1.1 = {
 		holder = 211516 # Simon
 	}
 	1202.1.1 = {
@@ -647,58 +666,66 @@ c_malta = {
 #	890.1.1 = {
 #		holder = baranis0004 # Sawada ibn Muhammad (2nd time)
 #	}
+
+	# Kalbids
 	948.1.1 = {
 		holder = 159183 # al-Hasan of Sicily
-		liege = k_africa
 	}
 	954.1.1 = {
-		holder = 159184 # Ahmad I of Sicily
+		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
 	}
 	970.1.1 = {
-		holder = 159185 # Ali Ab'l-Qasim of Sicily
+		holder = 159185 # Abi l-Qasim Ali  of Sicily
 	}
 	982.1.1 = {
 		holder = 159186 # Jabir of Sicily
 	}
 	983.1.1 = {
-		holder = 159188 # Jafar I of Sicily
+		holder = 159188 # Jafar bin Muhammad I of Sicily
 	}
-	937.1.1 = {
-		holder = 1900508 # Abu'l Qasim Mdnid
+	985.1.1 = {
+		holder = 159189 # Abdallah bin Muhammad Kalbid
 		#liege = d_sicily
 	}
-	948.1.1 = {
-		liege = d_sicily
-	}
-	966.1.1 = {
-		holder = 1900509 # Abdallah Mdnid
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
 	}
 	998.1.1 = {
-		holder = 1900510 # Ja'far Mdnid
+		holder = 159191 # Ja'far II Kalbid
 	}
-	1021.1.1 = {
-		holder = 1600700 # Abdallah Mdnid
-		liege = 0
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
 	}
-	1032.1.1 = {
-		holder = 1226717 # Ahmad Mdnid
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
 	}
-	909.1.1 = {
-		liege = 0
+	1019.1.1 = {
+		holder = 159190a # Ahmad al-Akhal Kalbid
 	}
-	1065.1.1 = {
-		holder = 20828 # Ramadan Mdnid
+	1035.1.1 = {
+		holder = 159190aa # Ja'far III Kalbid
 	}
-	1092.1.1 = {
-		holder = 73314 # Muhammad
+	1035.6.1 = {
+		holder = later_kalbid_1 # Hasan Samsam ad-Dawla I Kalbid
 	}
-	1120.1.1 = {
-		holder = 73315 # Abdallah
+	1060.1.1 = {
+		holder = later_kalbid_2 # Ja'far IV Kalbid
+		liege = d_sicily # to his nominal Emir brother, Ni'ma
+	}
+	1070.1.1 = {
+		holder = later_kalbid_2a # Ja'far V Kalbid
+	}
+	1088.1.1 = {
+		holder = later_kalbid_2aa # Hasan Samsam ad-Dawla II Kalbid
+	}
+	1115.1.1 = {
+		holder = later_kalbid_2aaa # Ja'far VI Kalbid
 	}
 	1127.1.1 = {
 		liege = d_sicily
-		holder = 211502 # Roger II of Sicily
+		#holder = 211502 # Roger II of Sicily
 	}
+
 	1130.12.25 = {
 		liege = k_sicily
 	}
@@ -744,9 +771,9 @@ c_malta = {
 }
 
 d_benevento = {
-	#571.1.1 = {
-		#liege = k_italy
-	#}
+	571.1.1 = {
+		liege = k_italy
+	}
 	571.1.1 = {
 		holder = 190127 # Zotto Gausian
 	}
@@ -2763,16 +2790,7 @@ d_calabria = {
 		holder = 0
 		liege = 0
 	}
-
-	# Catepanate of Italy
-	970.1.1 = {
-		liege = e_byzantium
-	}
-	1010.1.1 = {
-		holder = 1500374 # Basil Mesardonites
-	}
-
-	1101.6.22 = {
+	 1101.6.22 = {
 		holder = 127070 # Simon of Sicily
 	}
 	1105.9.28 = {
@@ -2811,15 +2829,6 @@ c_cosenza = {
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
-
-	# Catepanate of Italy
-	970.1.1 = {
-		liege = e_byzantium
-	}
-	1010.1.1 = {
-		holder = 1500374 # Basil Mesardonites
-	}
-
 	1057.1.1 = {
 		holder = 1132 # Roger I of Sicily
 	}
@@ -2906,15 +2915,6 @@ c_rossano = { # County of Catanzaro
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
-
-	# Catepanate of Italy
-	970.1.1 = {
-		liege = e_byzantium
-	}
-	1010.1.1 = {
-		holder = 1500374 # Basil Mesardonites
-	}
-
 	1057.1.1 = {
 		holder = 1128 # Robert of Apulia
 	}
@@ -2975,15 +2975,6 @@ c_reggio_calabria = {
 		liege = d_apulia
 		holder = 163094 # Sawdan of Bari
 	}
-
-	# Catepanate of Italy
-	970.1.1 = {
-		liege = e_byzantium
-	}
-	1010.1.1 = {
-		holder = 1500374 # Basil Mesardonites
-	}
-
 	1057.1.1 = {
 		holder = 1132 # Roger I of Sicily
 	}

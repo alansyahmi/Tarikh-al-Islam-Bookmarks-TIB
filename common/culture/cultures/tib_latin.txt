@@ -226,7 +226,7 @@ maltese = { # Based on Sicilian (and Maghrebi)
 		tradition_storytellers # The Għanja and sorts
 	}
 	
-	name_list = name_list_sicilian
+	name_list = name_list_maltese
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -234,7 +234,7 @@ maltese = { # Based on Sicilian (and Maghrebi)
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		20 = mediterranean_byzantine
+		15 = mediterranean_byzantine
 		10 = italian
 		5 = arab
 		1 = baranis
