@@ -969,6 +969,12 @@
 		religion = ashari
 
 		holding = city_holding
+<<<<<<< Updated upstream
+=======
+	}
+	1235.1.1 = {
+		culture = anatolian_turkish
+>>>>>>> Stashed changes
 	}
 }
 

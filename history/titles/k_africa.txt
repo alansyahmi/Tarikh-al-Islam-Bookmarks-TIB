@@ -1479,6 +1479,9 @@ c_gabes = {
 	1062.1.1 = {
 		liege = k_africa
 	}
+	1062.1.1 = {
+		liege = k_africa
+	}
 	1073.1.1 = {
 		holder = zanata0004
 	}

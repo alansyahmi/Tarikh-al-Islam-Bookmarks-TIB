@@ -112,6 +112,7 @@ d_sicily = {
 	}
 	948.1.1 = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		holder = 159183 # al-Hasan Kalbid
 		liege = 0
 	}
@@ -136,9 +137,39 @@ d_sicily = {
 	998.1.1 = {
 		holder = 159191 # Jafar II
 =======
+=======
+>>>>>>> Stashed changes
 		holder = 159183 # al-Hasan of Sicily
 		liege = k_africa
 >>>>>>> Stashed changes
+	}
+	954.1.1 = {
+		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
+	}
+	970.1.1 = {
+		holder = 159185 # Abi l-Qasim Ali  of Sicily
+	}
+	982.1.1 = {
+		holder = 159186 # Jabir of Sicily
+	}
+	983.1.1 = {
+		holder = 159188 # Jafar bin Muhammad I of Sicily
+	}
+	985.1.1 = {
+		holder = 159189 # Abdallah bin Muhammad Kalbid
+		liege = 0
+	}
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
+	}
+	998.1.1 = {
+		holder = 159191 # Ja'far II Kalbid
+	}
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
+	}
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
 	}
 	954.1.1 = {
 		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
@@ -711,6 +742,7 @@ c_malta = {
 	}
 	985.1.1 = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		holder = 159189 # Abdallah of Sicily
 	}
 	990.1.1 = {
@@ -752,6 +784,28 @@ c_malta = {
 	1060.1.1 = {
 		holder = 20828 # Ramadan Mdnid
 =======
+	1035.1.1 = {
+		holder = 159190aa # Ja'far III Kalbid
+>>>>>>> Stashed changes
+=======
+		holder = 159189 # Abdallah bin Muhammad Kalbid
+		#liege = d_sicily
+	}
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
+	}
+	998.1.1 = {
+		holder = 159191 # Ja'far II Kalbid
+	}
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
+	}
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
+	}
+	1019.1.1 = {
+		holder = 159190a # Ahmad al-Akhal Kalbid
+	}
 	1035.1.1 = {
 		holder = 159190aa # Ja'far III Kalbid
 >>>>>>> Stashed changes

@@ -14546,12 +14546,15 @@ e_byzantium = {
 					}
 				}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				b_soloi = {
 					province = 5674
 				
 					color = { 200 20 40 }
 					color2= { 255 255 255 }
 				}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 				b_derbe = {

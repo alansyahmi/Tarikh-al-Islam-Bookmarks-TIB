@@ -1,6 +1,7 @@
 ﻿
 clan_government = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	primary_holding = castle_holding
 	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic heritage_mongol heritage_berber }
 	
@@ -13,6 +14,8 @@ clan_government = {
 
 	valid_holdings = { castle_holding tribal_holding }
 =======
+=======
+>>>>>>> Stashed changes
 	government_rules = {
 		create_cadet_branches = yes
 		rulers_should_have_dynasty = yes
@@ -32,6 +35,7 @@ clan_government = {
 >>>>>>> Stashed changes
 	required_county_holdings = { castle_holding city_holding church_holding }
 	always_use_patronym = yes
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 	vassal_contract = {
@@ -51,12 +55,21 @@ clan_government = {
 	house_unity = clan_house_unity
 	tax_slot_type = clan_tax_slot
 
+=======
+
+	house_unity = clan_house_unity
+	tax_slot_type = clan_tax_slot
+
+>>>>>>> Stashed changes
 	vassal_contract_group = clan_vassal
 
 	ai = {
 		use_legends = yes
 	}
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	opinion_of_liege = {
 		scope:vassal = {
@@ -68,6 +81,7 @@ clan_government = {
 					}
 				}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				if = {
 					limit = {
 						is_powerful_vassal = yes
@@ -77,6 +91,9 @@ clan_government = {
 				else = {
 					value = -15
 				}
+=======
+				value = clan_powerful_vassal_no_alliance_opinion_penalty_value
+>>>>>>> Stashed changes
 =======
 				value = clan_powerful_vassal_no_alliance_opinion_penalty_value
 >>>>>>> Stashed changes

@@ -47,9 +47,15 @@
 	religion = orthodox
 	holding = castle_holding
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	869.1.1 = {
 		culture = sicilian_arabic
 		religion = ashari
+=======
+	1160.1.1 = {
+		culture = sicilian_arab
+		#religion = ashari
+>>>>>>> Stashed changes
 =======
 	1160.1.1 = {
 		culture = sicilian_arab
@@ -113,6 +119,9 @@
 		religion = asharite
 	}
 	1223.1.1 = {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		culture = sicilian
 		religion = catholic
