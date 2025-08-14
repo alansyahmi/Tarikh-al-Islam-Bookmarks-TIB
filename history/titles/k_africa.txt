@@ -368,8 +368,6 @@ c_kairwan = {
 
 }
 
-
-
 c_west_qamuda = {
 	700.1.1 = {
 		government = islamic_government # clan_government

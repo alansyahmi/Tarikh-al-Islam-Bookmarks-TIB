@@ -34,7 +34,7 @@
 		"dynn_Cutajar"
 		"dynn_Cachia"
 		"dynn_Calleja"
-		"dynn_Camilleri
+		"dynn_Camilleri"
 		"dynn_Canzuh"
 		"dynn_Caruana"
 		"dynn_Casha"
@@ -81,6 +81,7 @@
 		"dynn_Saliba"
 		"dynn_Sultana"
 		"dynn_Said"
+		"dynn_Tabone"
 		"dynn_Tonna"
 		"dynn_Theuma"
 		"dynn_Vasallo"

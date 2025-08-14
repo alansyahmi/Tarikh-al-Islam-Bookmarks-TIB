@@ -1281,11 +1281,14 @@ c_cabra = {
 		holder = 3208 # Hisham III Umayyad
 	}
 	1031.1.1 = {
-		holder = 45015 # Habud Zirid
-		liege = d_granada
+		holder = 45000 # Abd al-Azm Jawharid of Cordoba
+		liege = d_cordoba
 	}
-	1038.1.1 = {
-		holder = 45016 # Badis Zirid
+	1043.1.1 = {
+		holder = 45001 # Muhammad Jawharid of Cordoba
+	}
+	1065.1.1 = {
+		holder = 20852 # Abd al-Malik al-Mansur Jawharid of Cordoba
 	}
 	1073.1.1 = {
 		holder = 32952 # Abdallah Zirid

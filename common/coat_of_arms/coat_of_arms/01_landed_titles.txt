@@ -16009,17 +16009,17 @@ c_eschenlohe = {
 	}
 }
 
-c_innsbruck = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_eagle.dds"
-		color1 = "white"
-		color2 = "yellow"
-		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
-	}
-}
+#c_innsbruck = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "blue"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_eagle.dds"
+#		color1 = "white"
+#		color2 = "yellow"
+#		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
+#	}
+#}
 
 c_leuchtenburg = {
 	pattern = "pattern_solid.dds"
@@ -18035,13 +18035,13 @@ c_agrigento = {
 
 c_malta = {
 	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "white"
+	color1 = "white"
+	color2 = "red"
 	colored_emblem = {
-		texture = "ce_eagle.dds"
+		texture = "ce_pattern_vertical_split_01.dds"
 		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 }
 
@@ -20572,16 +20572,16 @@ c_verona = {
 	}
 }
 
-c_speyer = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_ordinary_cross_thin.dds"
-		color1 = "white"
-		color2 = "white"
-	}
-}
+#c_speyer = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "blue"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_ordinary_cross_thin.dds"
+#		color1 = "white"
+#		color2 = "white"
+#	}
+#}
 
 c_novara = {
 	pattern = "pattern_solid.dds"
