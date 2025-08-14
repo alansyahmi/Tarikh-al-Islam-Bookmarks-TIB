@@ -525,3 +525,43 @@ house_Sulaym = { # Suleimid
 	}
 
 }
+<<<<<<< Updated upstream
+=======
+house_Ayyubid = { # Ayyubid
+	pattern="pattern_solid.dds"
+	color1=rgb { 215 150 26 }
+	color2=black
+	color3=white
+	colored_emblem={
+		color1=rgb { 126 5 5 }
+		color2=rgb { 58 7 0 }
+		color3=rgb { 63 19 13 }
+		texture="tib_saladin_standard_eagle.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+# Sicilian Arabs / Siqalli COAs
+12239={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=white
+	colored_emblem={
+		color1=yellow
+		color2=red
+		color3=white
+		texture="ce_bend_thin.dds"
+		instance={
+			position={ 0.480000 0.480000 }
+		}
+
+	}
+
+}
+>>>>>>> Stashed changes

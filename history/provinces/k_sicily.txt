@@ -22,7 +22,7 @@
 			farm_estates_01
 		}
 	}
-	1071.1.1 = {
+	1223.1.1 = {
 		culture = sicilian
 		religion = catholic
 	}
@@ -46,11 +46,18 @@
 	culture = greek
 	religion = orthodox
 	holding = castle_holding
+<<<<<<< Updated upstream
 	869.1.1 = {
 		culture = sicilian_arabic
 		religion = ashari
+=======
+	1160.1.1 = {
+		culture = sicilian_arab
+		#religion = ashari
+>>>>>>> Stashed changes
 	}
-	1057.1.1 = {
+
+	1223.1.1 = {
 		culture = sicilian
 		religion = catholic
 	}
@@ -78,7 +85,7 @@
 			barracks_01
 		}
 	}
-	1116.1.1 = {
+	1223.1.1 = {
 		culture = sicilian
 		religion = catholic
 	}
@@ -99,7 +106,14 @@
 		culture = sicilian_arabic
 		religion = ashari
 	}
+<<<<<<< Updated upstream
 	1102.1.1 = {
+=======
+	1000.1.1 = {
+		religion = asharite
+	}
+	1223.1.1 = {
+>>>>>>> Stashed changes
 		culture = sicilian
 		religion = catholic
 	}
@@ -120,8 +134,10 @@
 		culture = sicilian_arabic
 		religion = ashari
 	}
-	1127.1.1 = {
+	1260.1.1 = {
 		religion = catholic
+	}
+	1300.1.1 = {
 		culture = maltese
 	}
 }

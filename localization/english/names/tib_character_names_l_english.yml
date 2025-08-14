@@ -34,6 +34,16 @@
  Abu_l-Rabi__Sulayman:0 "Abu'l-Rabi' Sulayman"
  Abu_Abdallah_Muhammad:0 "Abu 'Abdallah Muhammad"
 
+<<<<<<< Updated upstream:localization/english/names/tib_character_names_l_english.yml
+=======
+ # Sicily
+ al-Hawwas:0 "al-Hawwas"
+
+ # Zayyanid Tlemcen
+ Abu_Hammu_Musa:0 "Abu Hammu Musa"
+ Abu_Tashfin_Abd-al-Rahman:0 "Abu Tashfin Abd-al-Rahman"
+
+>>>>>>> Stashed changes:localization/replace/english/names/tib_character_names_l_english.yml
  Vicente_BellvI_s:0 "Vicente Bellvís"
  Alda_Ferrandis:0 "Alda Ferrandis"
  Fernando_PE_rez:0 "Fernando Pérez"

@@ -5967,7 +5967,7 @@
 }
 
 163029 = { # A sahaba
-	name = "Mu_awiyah"
+	name = "Mu_awiyah" # Mu'awiyah ibn Abi Sufyan
 	dynasty_house = house_Umayyad
 	religion = "ashari"
 	culture = "hijazi"
@@ -5988,6 +5988,7 @@
 	religion = "ashari"
 	culture = "hijazi"
 	father = 163029
+	mother = kalbi_maysun
 	trait = sayyid_quraysh
 	645.1.1 = {
 		birth = "645.1.1"

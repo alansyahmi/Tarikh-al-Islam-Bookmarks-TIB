@@ -3588,7 +3588,7 @@
 	name = "Yusuf"
 	dynasty = 12236
 	religion = "ashari"
-	culture = baranis
+	culture = sicilian_arab # baranis, to force him be at Siqilli provinces
 	father = 73310
 	1035.1.1 = {
 		birth = "1035.1.1"
@@ -5438,6 +5438,7 @@
 		death = "980.1.1"
 	}
 }
+<<<<<<< Updated upstream
 159188 = {
 	name = "Jafar"
 	dynasty = 12240
@@ -5542,6 +5543,277 @@
 	}
 }
 
+=======
+
+73689 = {
+	name = "al-Qasim" # al-Qasim [I] ibn Yahya, Muwalladi Caliph (1018-1021 & 1023-1036), Sultan of Andalusia (1018-1021 & 1023), Walih of Seville (1011-1023) & Sheik of Sevilla (1011-1023), Cabra, Cordoba, & Moura (1018-1021 & 1023-1036) & Niebla (1018-1021)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_3
+	trait = brave
+	trait = ambitious
+	trait = arbitrary
+
+	father = 73688 # Yahya ibn Hammud
+
+	961.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 159497 # Emir Idris I of Rif
+		}
+	}
+}
+
+73690 = {
+	name = "Yahya" # Yahya (I) ibn Ali, Muwalladi Caliph (1021-1023 & 1025-1027), Sultan of Andalusia (1021-1023 & 1025-1027), Emir of Rif (1016-1035), Sheik of Cauta & Tangiers (1016-1018), Algeciras & Malaga (1018-1035), Cabra, Cordoba & Moura (1021-1023 & 1025-1027), Niebla (1021-1023) & Naib of Carmona (1035)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_intrigue_3
+
+	father = 73687 # Caliph Ali I of Andalusia
+
+	990.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
+	}
+	1018.9.1 = {
+		add_spouse = 159491 # Fatima bint al-Qasim
+	}
+	1035.12.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = 73209 # Emir Isma'il ibn Muhammad of Seville
+		}
+	}
+}
+
+159490 = {
+	name = "Muhammad" # Muhammad ibn al-Qasim, Sheik of Algeciras (1035-1048)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_3
+
+	father = 73689 # Caliph al-Qasim I of Andalusia
+
+	985.1.1 = {
+		birth = yes
+	}
+	1021.8.4 = {
+		add_spouse = baranis0075 # Hadiya bint Ali
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+159491 = {
+	name = "Fatima" # Fatima bint al-Qasim, wife of Caliph Yahya I of Andalusia (73690)
+	female = yes
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_diplomacy_1
+
+	father = 73689 # Caliph al-Qasim I of Andalusia
+
+	1000.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+159492 = {
+	name = "al-Qasim" # al-Qasim (II) ibn Muhammad, Sheik of Algeciras (1048-1055)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_2
+
+	father = 159490 # Sheik Muhammad ibn al-Qasim of Algeciras
+
+	1010.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		add_pressed_claim = title:c_algeciras
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+159493 = {
+	name = "Hammud" # Hammud ibn Yahya
+	dynasty_house = house_Hammudid # House Hammudid, Founder
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_1
+
+	father = 159512 # Yahya ibn Idris
+
+	900.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+159494 = {
+	name = "Idris" # Idris ibn Yahya
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_1
+
+	father = 73688 # Yahya ibn Hammud
+
+	963.1.1 = {
+		birth = yes
+	}
+	1039.5.2 = {
+		death = yes
+	}
+}
+
+159495 = {
+	name = "Hassan" # Hassan ibn Yahya, Emir of Rif (1039-1042) & Sheik of Ceuta & Tangiers (1035-1040) & Malaga (1040-1042)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_3
+
+	father = 73690 # Caliph Yahya I of Andalusia
+
+	1020.1.1 = {
+		birth = yes
+	}
+	1039.10.8 = {
+		add_spouse = baranis0078 # Rahima bint Idris
+	}
+	1042.1.1 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+159496 = {
+	name = "Yahya" # Yahya (II) ibn Idris, Sheik of Malaga (1035-1040)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_diplomacy_1
+
+	father = 159497 # Emir Idris I of Rif
+ 
+	1020.1.1 = {
+		birth = yes
+	}
+	1042.12.1 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+159497 = {
+	name = "Idris" # Idris (I) ibn Ali, Emir of Rif (1035-1039) & Sheik of Algeciras & Malaga (1016-1018), Ceuta & Tangiers (1018-1039)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_2
+
+	father = 73687 # Caliph Ali I of Andalusia
+
+	995.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		faith = muwalladi
+		culture = andalusian
+	}
+	1039.10.8 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
+}
+159498 = {
+	name = "Idris" # Idris (II) ibn Yahya, Emir of Rif (1043-1055)&  Sheik Ceuta & Tangiers (1040-1041 & 1043-1053) & Malaga (1043-1046 & 1053-1055)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_diplomacy_1
+
+	father = 73690 # Caliph Yahya I of Andalusia
+	mother = 159491 # Sultana Fatima bint al-Qasim
+
+	1030.1.1 = {
+		birth = yes
+	}
+	1055.5.12 = {
+		death = yes
+	}
+}
+
+159499 = {
+	name = "Muhammad" # Muhammad ibn Idris, Sheik of Malaga (1046-1053)
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_stewardship_2
+
+	father = 159497 # Emir Idris I of Rif
+
+	1015.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+159500 = {
+	name = "Yahya" # Yahya ibn Idris
+	dynasty_house = house_Hammudid # House Hammudid
+	religion = zayidi
+	culture = maghrebi
+	trait = sayyid
+	trait = education_diplomacy_1
+
+	father = 159498 # Emir Idris II of Rif
+
+	1048.1.1 = {
+		birth = yes
+	}
+	1065.12.16 = {
+		death = yes
+	}
+}
+
+
+>>>>>>> Stashed changes
 159502 = {
 	name = "Idris"
 	dynasty_house = house_Idrisid
@@ -9206,8 +9478,69 @@ khali0009 = {
 	1071.1.1 = {
 		trait = education_stewardship_1
 	}
+<<<<<<< Updated upstream
 	1090.1.1 = {
 		add_pressed_claim = title:d_granada
+=======
+
+	883.1.1 = {
+		death = yes
+	}
+}
+
+khali0007 = { #Banu Khali scion (fictional)
+	name = "Nuwayra"
+	dynasty_house = house_khali
+	female = yes
+	religion = ashari
+	culture = baranis
+	trait = education_diplomacy_1
+
+	father = khali0003
+	mother = khali0008
+ 
+	849.1.1 = {
+		birth = yes
+	}
+
+	908.1.1 = {
+		death = yes
+	}
+}
+
+khali0008 = { #Banu Khali matriarch (fictional)
+	name = "Hawwa"
+	female = yes
+	religion = ashari
+	culture = baranis
+	trait = education_stewardship_1
+
+	815.1.1 = {
+		birth = yes
+	}
+
+	900.1.1 = {
+		death = yes
+	}
+ 
+}
+
+# Zirid sons of Tamim
+
+baranis0027 = {
+	name = "Ayyub"
+	dynasty = 595 # Zirid
+	religion = "ashari"
+	culture = baranis
+	trait = deceitful
+	trait = education_martial_3
+	father = 20825 # Tamin
+	1045.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		add_unpressed_claim = title:d_sicily
+>>>>>>> Stashed changes
 	}
 	1100.1.1 = {
 		death = yes

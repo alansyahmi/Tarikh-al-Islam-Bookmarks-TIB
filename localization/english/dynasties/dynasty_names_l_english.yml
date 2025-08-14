@@ -6973,6 +6973,7 @@
  dynnpat_pre_ap:0 "ap "
  dynnpat_pre_Bar:0 "Bar "
  dynnpat_pre_Barta:0 "Barta "
+ dynnpat_pre_bint:0 "bin "
  dynnpat_pre_bint:0 "bint "
  dynnpat_pre_di:0 "di "
  dynnpat_pre_duda:0 "duda "

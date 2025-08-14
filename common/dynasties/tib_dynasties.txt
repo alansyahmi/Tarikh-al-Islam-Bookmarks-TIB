@@ -137,6 +137,12 @@ house_gadmiwi = {
     culture = "baranis"
 }
 
+# Sicilian dynasties
+dynn_Hamut = {
+    name = dynn_Hamut
+    culture = "sicilian_arab"
+}
+
 # Mamluk dynasties
 house_Burji = {
     name = "Burji"
