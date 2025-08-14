@@ -641,7 +641,7 @@ pay_zakat_decision = {
 	}
 
 	is_valid = {
-		gold > 0
+		gold >= 1
 	}
 
 	cooldown = { years = 1 }

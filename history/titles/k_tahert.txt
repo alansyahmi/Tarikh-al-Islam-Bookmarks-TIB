@@ -791,6 +791,9 @@ c_figuig = {
 		holder = 159513 # Muhammad Idrisid
 		liege = k_maghreb
 	}
+	1010.1.1 = {
+		liege = 0
+	}
 	1066.1.1 = {
 		holder = 155021
 	}
@@ -1032,6 +1035,9 @@ c_tanas = {
 	904.12.16 = { # Placeholder
 		holder = 159513 # Muhammad Idrisid
 		liege = k_maghreb
+	}
+	1010.1.1 = {
+		liege = 0
 	}
 	1066.1.1 = {
 		holder = 155020
@@ -1415,6 +1421,7 @@ d_zab = {
 	1066.1.1 = {
 		government = tribal_government
 		holder = 155173	#Hassan b. Serhan Athbejid
+		liege = 0
 	}
 	1080.1.1 = {
 		holder = 155175	#Masud Athbejid

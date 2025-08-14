@@ -385,7 +385,7 @@ c_west_qamuda = {
 
 	997.1.1 = {
 		holder = 159382 # Abu Zayd al-Hilali, Banu Hilal migrates/expelled to Ifriqiya
-		liege = k_africa
+		#liege = k_africa # Sent to destory the Zirids not join them!
 		government = tribal_government # Brought nomadism with them
 	}
 	1052.1.1 = {
@@ -522,6 +522,7 @@ c_tabassa = {
 	}
 	920.1.1 = {
 		holder = 20931
+		liege = 0 # assuming the Bedouins hate the Zirids
 	}
 	973.1.1 = {
 		holder = 20932
@@ -1247,6 +1248,7 @@ c_constantine = {
 	}
 	1032.1.1 = {
 		holder = 155037
+		liege = 0
 	}
 	1066.1.1 = {
 		liege = d_zab #should be tributary
@@ -1554,9 +1556,9 @@ c_gabes = {
 	1055.1.1 = {
 		liege = d_tunis #tributary to Hilalian Arabs - Riyahdids
 	}
-	1062.1.1 = {
-		liege = k_africa
-	}
+	#1062.1.1 = {
+		#liege = k_africa
+	#}
 	1073.1.1 = {
 		holder = zanata0004
 	}
@@ -1656,7 +1658,7 @@ d_jerid = {
 
 	997.1.1 = {
 		holder = 155137 # Walmiya al-Hilali, Banu Hilal migrates/expelled to Ifriqiya
-		liege = k_africa
+		liege = 0
 		government = tribal_government # Brought nomadism with them
 	}
 
@@ -1686,7 +1688,7 @@ c_qashtiliya = {
 
 	997.1.1 = {
 		holder = 155137 # Walmiya al-Hilali, Banu Hilal migrates/expelled to Ifriqiya
-		liege = k_africa
+		liege = 0
 		government = tribal_government # Brought nomadism with them
 	}
 	
@@ -2432,6 +2434,7 @@ c_djerba = {
 	1066.1.1 = {
 		government = tribal_government
 		holder = 155185
+		liege = 0
 	}
 	1087.1.1 = {
 		holder = 155186
@@ -2447,6 +2450,7 @@ c_djerba = {
 	}
 	1160.1.22 = {
 		holder = 33013
+		liege = k_africa
 	}
 	1172.1.1 = {
 		holder = 155113
@@ -2511,7 +2515,7 @@ c_jafara = {
 	}
 	997.1.1 = {
 		holder = 155182 # Abdallah al-Zughbadi (Zoghbadid), Banu Hilal migrates/expelled to Ifriqiya
-		liege = k_africa
+		liege = 0
 		government = tribal_government # Brought nomadism with them
 	}
 	1052.1.1 = {
@@ -2535,6 +2539,7 @@ c_jafara = {
 	}
 	1160.1.22 = {
 		holder = 33013
+		liege = k_africa
 	}
 	1172.1.1 = {
 		holder = 155113

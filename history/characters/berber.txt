@@ -405,7 +405,7 @@
 
 20834 = {
 	name = "al-Nasir" # Alger 1062-1088
-	# AKA: al
+	# AKA: al-Nasir
 	dynasty_house = house_hammadid
 	martial = 5
 	diplomacy = 5
@@ -3542,7 +3542,7 @@
 	name = "Ibrahim"
 	dynasty = 1027003
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	945.1.1 = {
 		birth = "945.1.1"
 	}
@@ -3555,7 +3555,7 @@
 	name = "abd-al-Rahman" #ibn Ibrahim
 	dynasty = 1027003
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155000
 	958.1.1 = {
 		birth = "958.1.1"
@@ -3569,7 +3569,7 @@
 	name = "Muhammad" #ibn abd-al-Rahman
 	dynasty = 1027003
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155001
 	1010.1.1 = {
 		birth = "1010.1.1"
@@ -3583,7 +3583,7 @@
 	name = "Qasim" #ibn Muhammad
 	dynasty = 1027003
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155002
 	1040.1.1 = {
 		birth = "1040.1.1"
@@ -3596,7 +3596,7 @@
 155004 = {
 	name = "Muhammad"
 	dynasty = 1027006
-	religion = "ashari" #heretic?
+	religion = "sufri" #heretic?
 	culture = baranis
 	970.1.1 = {
 		birth = "970.1.1"
@@ -3609,7 +3609,7 @@
 155005 = {
 	name = "Suqut" #ibn Muhammad
 	dynasty = 1027006
-	religion = "ashari"
+	religion = "sufri"
 	culture = masmuda
 	father = 155004
 	trait = education_martial_2
@@ -3625,7 +3625,7 @@
 	name = "Diya_al-Dawla"
 	#al-Mu'izz-Diya'al-Dawla ibn Suqut
 	dynasty = 1027006
-	religion = "ashari"
+	religion = "sufri"
 	culture = masmuda
 	father = 155005
 	1060.1.1 = {
@@ -3655,7 +3655,7 @@
 	#placeholder
 	dynasty = 1027000
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	1045.1.1 = {
 		birth = "1045.1.1"
 	}
@@ -3669,7 +3669,7 @@
 	#placeholder
 	dynasty = 1027000
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	1087.1.1 = {
 		birth = "1087.1.1"
 	}
@@ -4541,7 +4541,7 @@
 	name = "Abu-Nas"
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155134
 	1130.1.1 = {
 		birth = "1130.1.1"
@@ -4555,7 +4555,7 @@
 	name = "Abd-al-Rahman" #ibn Abu-Nas
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155091
 	1150.1.1 = {
 		birth = "1150.1.1"
@@ -4569,7 +4569,7 @@
 	name = "Mandil" #ibn Abd-al-Rahman
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155092
 	1170.1.1 = {
 		birth = "1170.1.1"
@@ -4583,7 +4583,7 @@
 	name = "Al-_Abbas" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1188.1.1 = {
 		birth = "1188.1.1"
@@ -4597,7 +4597,7 @@
 	name = "Muhammad" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1200.1.1 = {
 		birth = "1200.1.1"
@@ -4611,7 +4611,7 @@
 	name = "Ayd" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1204.1.1 = {
 		birth = "1204.1.1"
@@ -4628,7 +4628,7 @@
 	name = "Umar" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1213.1.1 = {
 		birth = "1213.1.1"
@@ -4642,7 +4642,7 @@
 	name = "Thabit" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1222.1.1 = {
 		birth = "1222.1.1"
@@ -4655,7 +4655,7 @@
 	name = "Muhammad" #ibn Thabit
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155098
 	1245.1.1 = {
 		birth = "1245.1.1"
@@ -4669,7 +4669,7 @@
 	name = "Rashid" #ibn Thabit
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155098
 	1255.1.1 = {
 		birth = "1255.1.1"
@@ -4683,7 +4683,7 @@
 	name = "Waghram" #ibn Mandil
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155093
 	1223.1.1 = {
 		birth = "1223.1.1"
@@ -4697,7 +4697,7 @@
 	name = "Umar" #ibn Maghram
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155101
 	1250.1.1 = {
 		birth = "1250.1.1"
@@ -4711,7 +4711,7 @@
 	name = "Ali" #ibn Rashid
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155100
 	1285.1.1 = {
 		birth = "1285.1.1"
@@ -4868,7 +4868,7 @@
 	name = "Khazer"
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 1236438
 	845.1.1 = {
 		birth = "845.1.1"
@@ -4882,7 +4882,7 @@
 	name = "Felful" #ibn Khazer
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155116
 	870.1.1 = {
 		birth = "870.1.1"
@@ -4896,7 +4896,7 @@
 	name = "Khazrun" #ibn Felful
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155117
 	895.1.1 = {
 		birth = "895.1.1"
@@ -4910,7 +4910,7 @@
 	name = "Abd-_Allah" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155118
 	914.1.1 = {
 		birth = "914.1.1"
@@ -4924,7 +4924,7 @@
 	name = "Attia" #ibn Abdallah
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155119
 	933.1.1 = {
 		birth = "933.1.1"
@@ -4937,7 +4937,7 @@
 	name = "Ziri" #ibn Attia
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155120
 	952.1.1 = {
 		birth = "952.1.1"
@@ -4950,7 +4950,7 @@
 	name = "Said" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155118
 	920.1.1 = {
 		birth = "920.1.1"
@@ -4963,7 +4963,7 @@
 	name = "Felful" #ibn Said
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155122
 	950.1.1 = {
 		birth = "950.1.1"
@@ -4976,7 +4976,7 @@
 	name = "Warru" #ibn Said
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155122
 	955.1.1 = {
 		birth = "955.1.1"
@@ -4989,7 +4989,7 @@
 	name = "Khazrun" #ibn Said
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155122
 	960.1.1 = {
 		birth = "960.1.1"
@@ -5002,7 +5002,7 @@
 	name = "Khalifa" #ibn Warru
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155124
 	975.1.1 = {
 		birth = "975.1.1"
@@ -5015,7 +5015,7 @@
 	name = "Said" #ibn Khazrun-ibn-Said
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155125
 	980.1.1 = {
 		birth = "980.1.1"
@@ -5028,7 +5028,7 @@
 	name = "Khazrun" #ibn Khalifa-ibn-Warru
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155126
 	995.1.1 = {
 		birth = "995.1.1"
@@ -5041,7 +5041,7 @@
 	name = "Abd-_Allah" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155128
 	1015.1.1 = {
 		birth = "1015.1.1"
@@ -5054,7 +5054,7 @@
 	name = "al-Muntasir" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155128
 	1020.1.1 = {
 		birth = "1020.1.1"
@@ -5067,7 +5067,7 @@
 	name = "Khalifa" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155128
 	1025.1.1 = {
 		birth = "1025.1.1"
@@ -5081,7 +5081,7 @@
 	#placeholder
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155129
 	1040.1.1 = {
 		birth = "1040.1.1"
@@ -5094,7 +5094,7 @@
 	name = "Khazrun"
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155132
 	1070.1.1 = {
 		birth = "1070.1.1"
@@ -5107,7 +5107,7 @@
 	name = "Muhammad" #ibn Khazrun
 	dynasty = 1027001
 	religion = "ashari"
-	culture = baranis
+	culture = zenata
 	father = 155133
 	1095.1.1 = {
 		birth = "1095.1.1"

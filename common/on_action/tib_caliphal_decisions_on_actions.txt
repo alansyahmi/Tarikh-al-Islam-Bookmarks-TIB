@@ -10,8 +10,9 @@ trigger_zakat_reminder = {
 				limit = {
 					years_from_game_start >= 1
 					faith.religion = religion:islam_religion
-					NOT = {
+					NOR = {
 						has_character_modifier = done_zakat_modifier
+						gold < 0
 					}
 				}
 				trigger_event = {

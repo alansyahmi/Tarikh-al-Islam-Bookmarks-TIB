@@ -96,13 +96,14 @@ c_gilan = {
 		liege = k_persia
 	}
 	1066.1.1 = {
-		liege = "d_azerbaijan"
+		liege = "d_tabaristan"
 	}
 	1066.1.1 = {
 		holder = 20722
 	}
 	1071.1.1 = {
 		holder = 3040
+		liege = "d_azerbaijan"
 	}
 	1072.11.1 = {
 		holder = 3042
@@ -418,11 +419,12 @@ d_tabaristan = {
 		holder = 3040
 	}
 	1066.1.1 = {
-		liege = e_persia
+		liege = 0
 		holder = 1000229909
 	}
 	1088.11.1 = {
 		holder = 3042
+		liege = e_persia
 	}
 	1092.11.1 = {
 		holder = 144012
@@ -758,7 +760,7 @@ c_gurgan = {
 	}
 	
 	1066.1.1 = {
-		liege = e_persia
+		liege = d_tabaristan
 		holder = 20703
 	}
 	1087.1.1 = {
@@ -1186,11 +1188,11 @@ c_tabriz = {
 		holder = 478011
 	}
 	1256.1.1 = {
-		capital = title:c_maragha
+		capital_province = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
-		capital = title:c_tabriz
+		capital_province = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -1428,11 +1430,11 @@ c_maragha = {
 		holder = 478011
 	}
 	1256.1.1 = {
-		capital = title:c_maragha
+		capital_province = title:c_maragha
 	}
 	1265.2.8 = {
 		holder = 478010
-		capital = title:c_tabriz
+		capital_province = title:c_tabriz
 	}
 	1282.1.1 = {
 		holder = 125523
@@ -1791,8 +1793,6 @@ d_shirvan = {
 		liege = e_golden_horde
 	}
 }
-
-
 c_shirvan = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
@@ -1929,8 +1929,6 @@ c_shirvan = {
 		holder = 144574
 	}
 }
-
-
 c_shaki = {
 	867.1.1 = {	change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }

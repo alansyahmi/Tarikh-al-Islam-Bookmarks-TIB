@@ -5,14 +5,16 @@
 		tib_islamic_schism_post_mihna
 	}
 }
+
 yearly_global_pulse = {
 	on_actions = {
 		tib_islamic_schism_early_bookmark
 	}
 }
+
 tib_islamic_schism = {
 	effect = {
-		if = { # Late Sunni schism
+		if = { # Late Sunni schism (950+ start dates)
 			limit = {
 				# Game started in 950 or later
 				game_start_date >= 950.1.1
@@ -21,6 +23,7 @@ tib_islamic_schism = {
 			religion:islam_religion = {
 				faith:ashari = {
 					every_faith_character = {
+						# Exclude North West Africa for consistency
 						#limit = {
 						#	NOR = {
 						#		employer.capital_county.title_province = { geographical_region = world_africa_north_west }
@@ -29,7 +32,7 @@ tib_islamic_schism = {
 						#}
 						trigger_event = {
 							id = tib_islamic_schism.0001
-							days = 0
+							days = { 1 5 } # Random delay to prevent performance issues
 						}
 					}
 				}
@@ -39,20 +42,21 @@ tib_islamic_schism = {
 					every_faith_character = {
 						trigger_event = {
 							id = tib_islamic_schism.0010
-							days = 0
+							days = { 1 5 }
 						}
-					}
-					every_realm_county = {
-						limit = {
-							faith = faith:ismaili
-							NOT = { geographical_region = custom_zayidi }
-						}
-						set_county_faith = faith:ismailite
 					}
 				}
 			}
+			# Move province conversion outside character loop for better performance
+			every_county = {
+				limit = {
+					faith = faith:ismaili
+					NOT = { county.title_province = { geographical_region = custom_zayidi } }
+				}
+				set_county_faith = faith:ismailite
+			}
 		}
-		if = { # Early Sunni schism
+		if = { # Early Sunni schism (<851 start dates, after 750)
 			limit = {
 				# Game started in 851 or earlier
 				game_start_date < 851.1.1
@@ -63,7 +67,7 @@ tib_islamic_schism = {
 					every_faith_character = {
 						trigger_event = {
 							id = tib_islamic_schism.0002
-							days = 0
+							days = { 1 5 }
 						}
 					}
 				}
@@ -73,24 +77,26 @@ tib_islamic_schism = {
 					every_faith_character = {
 						trigger_event = {
 							id = tib_islamic_schism.0010
-							days = 0
-						}
-						every_realm_county = {
-							limit = {
-								faith = faith:ismaili
-								NOT = { geographical_region = custom_zayidi }
-							}
-							set_county_faith = faith:ismailite
+							days = { 1 5 }
 						}
 					}
 				}
 			}
+			# Move province conversion outside character loop
+			every_county = {
+				limit = {
+					faith = faith:ismaili
+					NOT = { county.title_province = { geographical_region = custom_zayidi } }
+				}
+				set_county_faith = faith:ismailite
+			}
 		}
 	}
 }
+
 tib_islamic_schism_early_bookmark = {
 	effect = {
-		if = {
+		if = { # Late schism trigger for early start games
 			limit = {
 				# Game started in 950 or earlier
 				game_start_date < 950.1.1
@@ -104,16 +110,16 @@ tib_islamic_schism_early_bookmark = {
 								employer.capital_county.title_province = { geographical_region = world_africa_north_west }
 								capital_province = { geographical_region = world_africa_north_west }
 							}
-							trigger_event = {
-								id = tib_islamic_schism.0001
-								days = 0
-							}
+						}
+						trigger_event = {
+							id = tib_islamic_schism.0001
+							days = { 1 5 }
 						}
 					}
 				}
 			}
 		}
-		if = {
+		if = { # Early schism continuation
 			limit = {
 				# Game started in 851 or earlier
 				game_start_date < 851.1.1
@@ -124,7 +130,7 @@ tib_islamic_schism_early_bookmark = {
 					every_faith_character = {
 						trigger_event = {
 							id = tib_islamic_schism.0002
-							days = 0
+							days = { 1 5 }
 						}
 					}
 				}
@@ -134,7 +140,7 @@ tib_islamic_schism_early_bookmark = {
 					every_faith_character = {
 						trigger_event = {
 							id = tib_islamic_schism.0010
-							days = 0
+							days = { 1 5 }
 						}
 					}
 				}
@@ -142,17 +148,19 @@ tib_islamic_schism_early_bookmark = {
 		}
 	}
 }
+
 tib_islamic_schism_post_mihna = {
 	effect = {
-		if = {
+		if = { # Post-Mihna theological realignment (851-949)
 			limit = {
-				# Game started in 851 or earlier
+				# Game started before 950, current date in post-Mihna period
 				game_start_date < 950.1.1
 				current_date >= 851.1.1
 				current_date < 949.1.1
 			}
 			religion:islam_religion = {
 				faith:ashari = {
+					# Convert to Athari (traditionalist) in most regions
 					every_faith_character = {
 						limit = {
 							NOR = {
@@ -178,6 +186,7 @@ tib_islamic_schism_post_mihna = {
 							set_county_faith = faith:athari
 						}
 					}
+					# Convert to Mutazila (rationalist) in Iberia and Roman Africa
 					every_faith_character = {
 						limit = {
 							OR = {
@@ -213,7 +222,7 @@ on_islamic_start = {
 	effect = {
 		every_ruler = {
 			limit = { 
-				#NOT = {exists = var:cal_authority}
+				# Initialize Islamic rulers with zakat resources
 				OR = {
 					has_government = clan_government
 					has_government = islamic_government
@@ -222,11 +231,7 @@ on_islamic_start = {
 					}
 				}
 			}
-			#save_scope_as = caliph
-			#set_variable = {
-			#	name = cal_authority
-			#	value = 10
-			#}
+			# Initialize zakat resource tracking
 			set_variable = {
 				name = zakat_resource
 				value = 0

@@ -204,14 +204,14 @@ c_valencia = {
 		liege = k_maghreb
 	}
 	1094.6.15 = {
-		holder = 107590 # Rodrigo D�az de Vivar 'el Cid'
+		holder = 107590 # Rodrigo D?az de Vivar 'el Cid'
 		liege = 0
 	}
 	1096.1.1 = {
 		liege = k_castille
 	}
 	1099.7.10 = {
-		holder = 108519 # Jimena D�az de Oviedo
+		holder = 108519 # Jimena D?az de Oviedo
 	}
 	1102.1.1 = {
 		holder = 73182 # Muhammad Hayyid
@@ -408,7 +408,7 @@ c_castellon = {
 		liege = 0
 	}
 	1234.1.1 = {
-		holder = 210516 # Nuno San� de Barcelona
+		holder = 210516 # Nuno San? de Barcelona
 		liege = k_aragon
 	}
 	1242.1.1 = {
@@ -520,7 +520,7 @@ c_teruel = {
 		liege = d_murcia
 	}
 	1234.1.1 = {
-		holder = 210516 # Nuno San� de Barcelona
+		holder = 210516 # Nuno San? de Barcelona
 		liege = k_aragon
 	}
 	1242.1.1 = {
@@ -584,7 +584,7 @@ c_denia = {
 	}
 	1065.1.1 = { #fix for re-balance after FP2 history pass
 		holder = andalusian0059 #Wali Raws of Burjanna (not historical holder)
-		liege = d_toledo 
+		liege = d_mallorca
 	}
 	1076.1.1 = {
 		holder = 3934 # Emir al-Muqtadir of Zaragoza
@@ -602,14 +602,14 @@ c_denia = {
 		liege = d_valencia
 	}
 	1094.6.15 = {
-		holder = 107590 # Rodrigo D�az de Vivar
+		holder = 107590 # Rodrigo D?az de Vivar
 		liege = 0
 	}
 	1096.1.1 = {
 		liege = k_castille
 	}
 	1099.7.10 = {
-		holder = 108519 # Jimena D�az de Oviedo
+		holder = 108519 # Jimena D?az de Oviedo
 	}
 	1102.1.1 = {
 		holder = 73182 # Muhammad Hayyid
@@ -816,7 +816,7 @@ c_alicante = {
 		holder = 73627 # Abu Bakr Hudid
 	}
 	1266.1.1 = {
-		holder = 457621 # Manuel Fern�ndez de Villena
+		holder = 457621 # Manuel Fern?ndez de Villena
 		liege = d_murcia
 	}
 	1283.12.25 = {
@@ -882,7 +882,7 @@ d_murcia = {
 		liege = 0
 	}
 	1178.1.1 = {
-		holder = 72882 # G�mez Gonz�lez de Traba
+		holder = 72882 # G?mez Gonz?lez de Traba
 		liege = k_castille
 	}
 	1204.1.1 = {
@@ -890,17 +890,17 @@ d_murcia = {
 		liege = e_maghreb
 	}
 	1233.5.16 = {
-		holder = 72889 # Rodrigo G�mez de Traba
+		holder = 72889 # Rodrigo G?mez de Traba
 		liege = k_castille
 	}
 	1247.4.19 = {
-		holder = 72503 # Pedro Gonz�lez de Lara
+		holder = 72503 # Pedro Gonz?lez de Lara
 	}
 	1260.1.1 = {
-		holder = 72504 # G�mez Gonz�lez de Lara
+		holder = 72504 # G?mez Gonz?lez de Lara
 	}
 	1266.1.1 = {
-		holder = 457621 # Manuel Fern�ndez de Villena
+		holder = 457621 # Manuel Fern?ndez de Villena
 		liege = k_castille
 		de_jure_liege = k_castille
 	}
@@ -1001,7 +1001,7 @@ c_murcia = {
 		#liege = 0
 	#}
 	1178.1.1 = {
-		holder = 72882 # G�mez Gonz�lez de Traba
+		holder = 72882 # G?mez Gonz?lez de Traba
 		liege = k_castille
 	}
 	1204.1.1 = {
@@ -1009,33 +1009,33 @@ c_murcia = {
 		liege = e_maghreb
 	}
 	1233.5.16 = {
-		holder = 72889 # Rodrigo G�mez de Traba
+		holder = 72889 # Rodrigo G?mez de Traba
 		liege = k_castille
 	}
 	1247.4.19 = {
-		holder = 72503 # Pedro Gonz�lez de Lara
+		holder = 72503 # Pedro Gonz?lez de Lara
 	}
 	1260.1.1 = {
-		holder = 72504 # G�mez Gonz�lez de Lara
+		holder = 72504 # G?mez Gonz?lez de Lara
 	}
 	1268.1.1 = {
-		holder = 72507 # Rodrigo G�mez de Lara
+		holder = 72507 # Rodrigo G?mez de Lara
 	}
 	1266.1.1 = {
-		holder = 457621 # Manuel Fern�ndez de Villena
+		holder = 457621 # Manuel Fern?ndez de Villena
 		liege = d_murcia
 	}
 	1283.12.25 = {
 		holder = 457630 # Juan Manuel de Villena
 	}
 	1293.1.1 = {
-		holder = 72486 # Garc�a Manrique de Lara
+		holder = 72486 # Garc?a Manrique de Lara
 	}
 	1302.1.1 = {
 		holder = 72488 # Pedro Manrique de Lara
 	}
 	1323.1.1 = {
-		holder = 72490 # Garc�a Manrique de Lara
+		holder = 72490 # Garc?a Manrique de Lara
 	}
 }
 
@@ -1130,7 +1130,7 @@ c_alcaraz = {
 		#liege = 0
 	#}
 	1178.1.1 = {
-		holder = 72882 # G�mez Gonz�lez de Traba
+		holder = 72882 # G?mez Gonz?lez de Traba
 		liege = k_castille
 	}
 	1204.1.1 = {
@@ -1138,33 +1138,33 @@ c_alcaraz = {
 		liege = e_maghreb
 	}
 	1233.5.16 = {
-		holder = 72889 # Rodrigo G�mez de Traba
+		holder = 72889 # Rodrigo G?mez de Traba
 		liege = k_castille
 	}
 	1247.4.19 = {
-		holder = 72503 # Pedro Gonz�lez de Lara
+		holder = 72503 # Pedro Gonz?lez de Lara
 	}
 	1260.1.1 = {
-		holder = 72504 # G�mez Gonz�lez de Lara
+		holder = 72504 # G?mez Gonz?lez de Lara
 	}
 	1268.1.1 = {
-		holder = 72507 # Rodrigo G�mez de Lara
+		holder = 72507 # Rodrigo G?mez de Lara
 	}
 	1266.1.1 = {
-		holder = 457621 # Manuel Fern�ndez de Villena
+		holder = 457621 # Manuel Fern?ndez de Villena
 		liege = d_murcia
 	}
 	1283.12.25 = {
 		holder = 457630 # Juan Manuel de Villena
 	}
 	1293.1.1 = {
-		holder = 72486 # Garc�a Manrique de Lara
+		holder = 72486 # Garc?a Manrique de Lara
 	}
 	1302.1.1 = {
 		holder = 72488 # Pedro Manrique de Lara
 	}
 	1323.1.1 = {
-		holder = 72490 # Garc�a Manrique de Lara
+		holder = 72490 # Garc?a Manrique de Lara
 	}
 }
 
@@ -1253,7 +1253,7 @@ c_alarcon = {
 		#liege = 0
 	#}
 	1178.1.1 = {
-		holder = 72882 # G�mez Gonz�lez de Traba
+		holder = 72882 # G?mez Gonz?lez de Traba
 		liege = k_castille
 	}
 	1204.1.1 = {
@@ -1261,33 +1261,33 @@ c_alarcon = {
 		liege = e_maghreb
 	}
 	1233.5.16 = {
-		holder = 72889 # Rodrigo G�mez de Traba
+		holder = 72889 # Rodrigo G?mez de Traba
 		liege = k_castille
 	}
 	1247.4.19 = {
-		holder = 72503 # Pedro Gonz�lez de Lara
+		holder = 72503 # Pedro Gonz?lez de Lara
 	}
 	1260.1.1 = {
-		holder = 72504 # G�mez Gonz�lez de Lara
+		holder = 72504 # G?mez Gonz?lez de Lara
 	}
 	1268.1.1 = {
-		holder = 72507 # Rodrigo G�mez de Lara
+		holder = 72507 # Rodrigo G?mez de Lara
 	}
 	1266.1.1 = {
-		holder = 457621 # Manuel Fern�ndez de Villena
+		holder = 457621 # Manuel Fern?ndez de Villena
 		liege = d_murcia
 	}
 	1283.12.25 = {
 		holder = 457630 # Juan Manuel de Villena
 	}
 	1293.1.1 = {
-		holder = 72486 # Garc�a Manrique de Lara
+		holder = 72486 # Garc?a Manrique de Lara
 	}
 	1302.1.1 = {
 		holder = 72488 # Pedro Manrique de Lara
 	}
 	1323.1.1 = {
-		holder = 72490 # Garc�a Manrique de Lara
+		holder = 72490 # Garc?a Manrique de Lara
 	}
 }
 
@@ -1364,7 +1364,7 @@ d_mallorca = {
 		liege = 0
 	}
 	1311.5.29 = {
-		holder = 460604 # San� Jaume de Barcelona
+		holder = 460604 # San? Jaume de Barcelona
 	}
 	1324.9.4 = {
 		holder = 460620 # Jaume III de Barcelona
@@ -1494,7 +1494,7 @@ c_mallorca = {
 		holder = 460602 # Jaume II de Barcelona-Mallorca
 	}
 	1311.5.29 = {
-		holder = 460604 # San� Jaume de Barcelona-Mallorca
+		holder = 460604 # San? Jaume de Barcelona-Mallorca
 	}
 	1324.9.4 = {
 		holder = 460620 # Jaume III de Barcelona-Mallorca
@@ -1612,7 +1612,7 @@ c_menorca = {
 		liege = d_mallorca
 	}
 	1311.5.29 = {
-		holder = 460604 # San� Jaume de Barcelona-Mallorca
+		holder = 460604 # San? Jaume de Barcelona-Mallorca
 	}
 	1324.9.4 = {
 		holder = 460620 # Jaume III de Barcelona-Mallorca
@@ -1739,7 +1739,7 @@ c_iviza = {
 		holder = 460602 # Jaume II de Barcelona-Mallorca
 	}
 	1311.5.29 = {
-		holder = 460604 # San� Jaume de Barcelona-Mallorca
+		holder = 460604 # San? Jaume de Barcelona-Mallorca
 	}
 	1324.9.4 = {
 		holder = 460620 # Jaume III de Barcelona-Mallorca

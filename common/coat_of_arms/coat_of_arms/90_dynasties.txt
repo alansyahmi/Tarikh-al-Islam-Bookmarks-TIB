@@ -2129,7 +2129,7 @@ house_vimaranes = 8626
 		instance = { position = { 0.50 0.67 } scale = { 1.0 1.34 }  }		
 	}			
 }
-house_Hammadid = { # Zirid
+house_hammadid = { # Zirid
 	pattern = "pattern_solid.dds"
 	color1 = "green"
 	color2 = "white"
