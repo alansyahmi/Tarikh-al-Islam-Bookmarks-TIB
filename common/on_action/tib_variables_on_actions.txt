@@ -214,7 +214,13 @@ on_islamic_start = {
 		every_ruler = {
 			limit = { 
 				#NOT = {exists = var:cal_authority}
-				has_government = islamic_government
+				OR = {
+					has_government = clan_government
+					has_government = islamic_government
+					faith = {
+						religion_tag = islam_religion
+					}
+				}
 			}
 			#save_scope_as = caliph
 			#set_variable = {

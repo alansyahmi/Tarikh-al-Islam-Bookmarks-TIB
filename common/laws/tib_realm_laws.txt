@@ -18,7 +18,10 @@ tib_caliphal_authority = {
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government = islamic_government
+				OR = {
+					has_government = clan_government
+					has_government = islamic_government
+				}
                 has_title = faith.religious_head_title
             }
         }
@@ -56,7 +59,10 @@ tib_caliphal_authority = {
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government = islamic_government
+                OR = {
+					has_government = clan_government
+					has_government = islamic_government
+				}
                 has_title = faith.religious_head_title
             }
         }
@@ -122,7 +128,10 @@ tib_caliphal_authority = {
 		can_keep = { # Only Caliphs can access this
             AND = {
                 realm_law_use_crown_authority = yes
-                has_government = islamic_government
+                OR = {
+					has_government = clan_government
+					has_government = islamic_government
+				}
                 has_title = faith.religious_head_title
             }
         }
