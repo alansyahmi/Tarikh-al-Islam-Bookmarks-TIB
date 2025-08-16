@@ -7,6 +7,7 @@
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_chivalry
@@ -39,6 +40,7 @@ anglo_saxon = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -69,6 +71,7 @@ old_saxon = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 		tradition_stalwart_defenders
@@ -107,6 +110,7 @@ scottish = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_city_keepers

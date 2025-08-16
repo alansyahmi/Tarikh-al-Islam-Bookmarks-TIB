@@ -7,6 +7,7 @@
 	heritage = heritage_iberian
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hit_and_run
 	}
@@ -53,6 +54,7 @@ basque = {
 	heritage = heritage_iberian
 	language = language_basque
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_visigothic_codes
 		tradition_mountaineers
@@ -85,6 +87,7 @@ castilian = {
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_martial_admiration
 		tradition_castle_keepers
@@ -122,6 +125,7 @@ catalan = {
 	heritage = heritage_iberian
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_visigothic_codes
 		tradition_maritime_mercantilism
@@ -155,6 +159,7 @@ portuguese = {
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_chivalry
 		tradition_fervent_temple_builders
@@ -188,6 +193,7 @@ visigothic = { # Iberian Visigoths
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_visigothic_codes
 		tradition_hit_and_run
@@ -225,6 +231,7 @@ galician = {
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_highland_warriors
@@ -261,6 +268,7 @@ asturleonese = {
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hit_and_run
 		tradition_mountaineers
@@ -293,6 +301,7 @@ aragonese = {
 	heritage = heritage_iberian
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_visigothic_codes
 		tradition_martial_admiration
@@ -328,6 +337,7 @@ suebi = {
 	heritage = heritage_central_germanic
 	language = language_suebi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_agrarian
@@ -349,18 +359,22 @@ suebi = {
 
 # TIB
 hispano_roman = {
-	color = { 0.8 0.1 0.1 }
+	color = { 0.8 0.2 0.1 }
 
-	parents = { roman }
+	parents = { roman cantabrian }
+	history_loc_override = hispano_roman_history_loc
 
 	created = 350.1.1
 
 	ethos = ethos_egalitarian
-	heritage = heritage_iberian
+	heritage = heritage_latin
 	language = language_iberian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_roman_legacy
+		tradition_legalistic
+		tradition_mountaineers
 		tradition_formation_fighting
 		tradition_martial_admiration
 		tradition_poetry
@@ -371,12 +385,12 @@ hispano_roman = {
 		requires_dlc_flag = the_fate_of_iberia
 	}
 	
-	name_list = name_list_visigothic
+	name_list = name_list_hispano_roman
 	
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	unit_gfx = { iberian_christian_unit_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx byzantine_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
 		10 = mediterranean
@@ -390,6 +404,7 @@ celtiberian = {
 	heritage = heritage_iberian
 	language = language_brythonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_storytellers
@@ -424,6 +439,7 @@ mozarab = { # Musta'rab (Those who were Arabised) particularly on the native Ibe
 	heritage = heritage_iberian
 	language = language_mozarabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_family_entrepreneurship

@@ -5,6 +5,7 @@
 	heritage = heritage_east_african
 	language = language_coptic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_philosopher_culture
 		tradition_agrarian

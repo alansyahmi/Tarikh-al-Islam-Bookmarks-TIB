@@ -9,6 +9,7 @@
 	heritage = heritage_south_slavic
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_astute_diplomats

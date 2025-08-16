@@ -9,6 +9,7 @@ balti = { #A Tibetan people that inhabit a large area given to the Indo Aryan Ka
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_sacred_mountains
@@ -34,6 +35,7 @@ ladakhi = { #Even referenced by Paradox in the province files but just not added
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_music_theory
@@ -62,6 +64,7 @@ khampa = { #
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_adaptive_skirmishing
@@ -90,6 +93,7 @@ amdo = { #
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_tribe_unity
@@ -119,6 +123,7 @@ kinnauri = { #
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_sacred_mountains
@@ -146,6 +151,7 @@ baima = { #
 	heritage = heritage_qiangic
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_music_theory

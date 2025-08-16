@@ -5,6 +5,7 @@
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_saharan_nomads
@@ -32,6 +33,7 @@ baranis = { # Baranis - Medieval North Berber classification
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_family_entrepreneurship
@@ -59,6 +61,7 @@ guanches = { # Guanches - Canary Islanders
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_mystical_ancestors
@@ -87,6 +90,7 @@ zaghawa = {
 	heritage = heritage_berber
 	language = language_tubu
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_saharan_nomads
@@ -114,6 +118,7 @@ tuareg = {
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {	
 		tradition_desert_ribat #the description is a bit off but the MAA is literally a tuareg unit so...
 		tradition_poetry #poetry and the performance of it is valued form of entertainment 
@@ -143,6 +148,7 @@ tagelmust = { # Tagelmust Sanhaja - Based on Baranis
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_desert_ribat
@@ -171,6 +177,7 @@ danhagha = { # Kabyle Sanhaja - Based on Baranis
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
@@ -202,6 +209,7 @@ masmuda = { # Moroccan Atlas Sanhaja - Based on Baranis
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_desert_ribat
 		tradition_dryland_dwellers
@@ -231,6 +239,7 @@ zenata = { # Based on Baranis, historically one of the largest Berber confederat
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
@@ -260,6 +269,7 @@ hawwara = { # The Aures - Based on Zenata and Baranis, the direct heirs of the a
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_maritime_mercantilism # Just beside the Mediterrenean Sea
@@ -289,6 +299,7 @@ siwi = { # Egyptian Berbers residing at Siwa valley - Based on Baranis
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_african_tolerance
 		tradition_isolationist # Pretty far isolated from their other Berber brethren

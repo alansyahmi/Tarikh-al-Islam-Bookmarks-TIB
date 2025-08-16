@@ -7,9 +7,10 @@ arberian = { #Could maybe be just Illyrian.
 	parents = { illyro_roman }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_albanian
 	language = language_albanian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes #Albania is mountainous
 		tradition_stalwart_defenders
@@ -36,9 +37,10 @@ udi = { #Based on Alani
 	color = { 0.5 0.8 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_iranian
 	language = language_udi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_horse_lords
 		tradition_mountaineers
@@ -62,9 +64,10 @@ circassian = { #Based on Alani
 	color = { 0.55 0.2 0.1 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_circassian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_horse_lords
 		tradition_mountaineers
@@ -88,9 +91,10 @@ caucasian_avar = { #Based on Alani
 	color = { 0.75 0.3 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_cauc_avar
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountaineers
 		tradition_stalwart_defenders
@@ -121,18 +125,34 @@ pontic = {
 	heritage = heritage_byzantine
 	language = language_greek
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
+		#tradition_legalistic
+		#tradition_roman_legacy
 		tradition_hill_dwellers
 		tradition_maritime_mercantilism
-		tradition_byzantine_succession
+		#tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
 	}
 	
 	name_list = name_list_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { byzantine_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
@@ -145,9 +165,10 @@ mingrelian = {
 	color = { 0.7 0.2 0.9 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_georgian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_hit_and_run
@@ -171,9 +192,10 @@ svan = {
 	color = { 0.5 0.4 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_georgian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_hunters
@@ -197,9 +219,10 @@ abkhazians = {
 	color = { 0.75 0.3 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_circassian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_caucasian_wolves
 		tradition_mystical_ancestors
@@ -225,6 +248,7 @@ lezgi = {
 	heritage = heritage_caucasian 
 	language = language_circassian # language_lezgi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_caucasian_wolves
 		tradition_staunch_traditionalists
@@ -247,9 +271,10 @@ tsakonian = { #A relatively minor culture/language by CK3 but I think it's neat 
 	color = { 0.5 0.4 0.7 }
 	
 	ethos = ethos_stoic
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_circassian # language_doric 
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_roman_legacy

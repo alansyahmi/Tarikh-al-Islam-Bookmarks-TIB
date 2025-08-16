@@ -5,6 +5,7 @@
 	heritage = heritage_east_germanic
 	language = language_gothic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_formation_fighting
@@ -43,6 +44,7 @@ ostrogothic = {
 	heritage = heritage_east_germanic
 	language = language_gothic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_visigothic_codes
         tradition_stand_and_fight
@@ -79,6 +81,7 @@ burgundian = {
 	heritage = heritage_east_germanic
 	language = language_burgundian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_things

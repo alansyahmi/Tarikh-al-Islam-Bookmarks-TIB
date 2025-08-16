@@ -5,6 +5,7 @@
 	heritage = heritage_south_slavic
 	language = language_slavonic	#The Danube marks the frontier between the West and South Slavs; Carantanians aren't West Slavs either by historical standards; really, west and south slavs didnt exist until the Hungarian migration per se
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_pastoralists
@@ -34,6 +35,7 @@ dudlebian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic	
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_pastoralists
@@ -60,6 +62,7 @@ slavonian = {
 	heritage = heritage_south_slavic
 	language = language_slovenian	
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_stalwart_defenders
@@ -85,6 +88,7 @@ neretljanian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_fishermen
@@ -113,6 +117,7 @@ abotrite = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_stalwart_defenders
@@ -142,6 +147,7 @@ branichian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_isolationist
@@ -168,6 +174,7 @@ doclean = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_maritime_mercantilism
@@ -193,6 +200,7 @@ travunian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_mountaineer_ruralism
@@ -218,6 +226,7 @@ zachlumian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_mountaineer_ruralism
@@ -246,6 +255,7 @@ pannonian = {
 	heritage = heritage_south_slavic
 	language = language_slavonic	
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_pastoralists
 		tradition_hussar
@@ -275,6 +285,7 @@ illyrian_slavic = {
 	heritage = heritage_south_slavic
 	language = language_slavonic	
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_mountaineer_ruralism
@@ -300,6 +311,7 @@ berzite = {
 	heritage = heritage_south_slavic
 	language = language_slavonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_martial_admiration

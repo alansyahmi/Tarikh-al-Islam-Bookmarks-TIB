@@ -8,6 +8,7 @@
 	heritage = heritage_north_germanic
 	language = language_goidelic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_maritime_mercantilism
@@ -45,6 +46,7 @@ manx = {
 	heritage = heritage_goidelic
 	language = language_goidelic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_practiced_pirates
 		tradition_battlefield_looters

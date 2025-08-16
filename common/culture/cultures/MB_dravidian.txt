@@ -7,6 +7,7 @@ tuluva = { # Based on Kannada
 	heritage = heritage_dravidian
 	language = language_kannada
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	
 	name_list = name_list_kannada
 	
@@ -37,6 +38,7 @@ malayali = { #Based on Tamil
 	heritage = heritage_dravidian
 	language = language_tamil
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	
 	name_list = name_list_tamil
 	

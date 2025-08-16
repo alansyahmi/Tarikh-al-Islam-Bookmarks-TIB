@@ -5,6 +5,7 @@
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_desert_nomads
@@ -32,6 +33,7 @@ levantine = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_medicinal_plants
 		tradition_mubarizuns
@@ -69,6 +71,7 @@ egyptian = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_philosopher_culture
 		tradition_agrarian
@@ -97,13 +100,19 @@ maghrebi = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
-		tradition_xenophilic
+		tradition_ce1_ritual_washing
 		tradition_african_tolerance
 		tradition_mubarizuns #Replaced tradition_hit_and_run
 		#tradition_dryland_dwellers
 		tradition_fishermen
 		tradition_corsairs
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
 	}
 	
 	name_list = name_list_maghrebi
@@ -128,6 +137,7 @@ yemeni = {
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountaineers
 		tradition_mountain_herding 
@@ -156,6 +166,7 @@ hadhrami = {
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_dryland_dwellers
 		tradition_quarrelsome
@@ -187,12 +198,24 @@ sicilian_arab = { # Siqalli in-game; Arab melting pot in Southern Italy
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic
 		tradition_african_tolerance
 		tradition_corsairs
-		tradition_dryland_dwellers
-		tradition_fishermen
+		tradition_mubarizuns
+		#tradition_dryland_dwellers
+		#tradition_fishermen
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
 	}
 	
 	name_list = name_list_maghrebi
@@ -216,6 +239,7 @@ south_arabian = {
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_seafaring
 		tradition_quarrelsome
@@ -246,6 +270,7 @@ soqotri = {
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_seafaring
 		tradition_isolationist
@@ -278,6 +303,7 @@ hijazi = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_dryland_dwellers # Settled and kinda united Arabs
@@ -307,6 +333,7 @@ iraqi = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic # Accepts other cultures within their realm highly
 		tradition_hard_working # Industrious, engineers
@@ -342,6 +369,7 @@ omani = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mubarizuns
 		tradition_maritime_mercantilism
@@ -371,6 +399,7 @@ bahraini = {
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mubarizuns
 		tradition_maritime_mercantilism

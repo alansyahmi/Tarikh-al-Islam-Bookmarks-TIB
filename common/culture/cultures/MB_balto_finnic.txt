@@ -8,6 +8,7 @@ ingrian = { #Not the modern Finns of Ingria
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_seafaring
 	}
@@ -44,6 +45,7 @@ livonian = { #Based on Estonian
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_music_theory
 	}

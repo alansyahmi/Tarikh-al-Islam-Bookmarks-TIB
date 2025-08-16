@@ -9,6 +9,7 @@
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_formation_fighting
 		tradition_republican_legacy
@@ -34,12 +35,14 @@ roman = {
 	heritage = heritage_latin
 	language = language_latin
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_formation_fighting
 		tradition_legalistic
 		tradition_roman_legacy
 		tradition_poetry
 		tradition_hereditary_hierarchy
+		tradition_noble_adoption
 	}
 	
 	name_list = name_list_roman
@@ -66,6 +69,7 @@ cisalpine = { # North Italian, turned into parent culture only
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_mountain_homes
@@ -96,6 +100,7 @@ sardinian = {
 	heritage = heritage_latin
 	language = language_sardinian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
@@ -125,6 +130,7 @@ sicilian = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic
 		tradition_swords_for_hire
@@ -157,6 +163,7 @@ lombard = { # Italo-Lombards, more specifically from North Italy
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_martial_admiration
@@ -183,6 +190,7 @@ langobard = { # Germanic Ancestor culture
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_martial_admiration
@@ -219,6 +227,7 @@ maltese = { # Based on Sicilian (and Maghrebi)
 	heritage = heritage_latin
 	language = language_arabic # Maltese at this point is mutually intelligible with Arabic and only contains minor amounts of Latin influence
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic
 		tradition_loyal_soldiers # There's some sort of seperation between the Sicilian nobility and the Maltese folks
@@ -252,6 +261,7 @@ neapolitan = { # Based on Lombard
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_martial_admiration
@@ -283,6 +293,7 @@ tuscan = { # Based on Italian
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_astute_diplomats
@@ -313,6 +324,7 @@ dalmatian = {
 	heritage = heritage_latin
 	language = language_dalmatian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_formation_fighting
@@ -343,6 +355,7 @@ venetian = {
 	heritage = heritage_latin
 	language = language_venetian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_welcoming
@@ -373,6 +386,7 @@ ligurian = { #Based on Italian
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_city_keepers
 		tradition_republican_legacy
@@ -400,6 +414,7 @@ illyrian = { # Ancestor culture
 	heritage = heritage_byzantine
 	language = language_albanian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
 		tradition_stalwart_defenders
@@ -428,6 +443,7 @@ african_roman = {
 	heritage = heritage_latin
 	language = language_latin # language_african_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_isolationist
@@ -456,6 +472,7 @@ piedmontese = {
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_pastoralists
 		tradition_mountain_homes
@@ -484,6 +501,7 @@ romagnol = {
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_republican_legacy
@@ -513,6 +531,7 @@ emilian = {
 	heritage = heritage_latin
 	language = language_gallo_italic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_philosopher_culture
 		tradition_republican_legacy
@@ -543,6 +562,7 @@ romansh = {
 	heritage = heritage_latin
 	language = language_rhaeto
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic
 		tradition_mountain_homes
@@ -571,6 +591,7 @@ corsican = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
 		tradition_poetry
@@ -602,6 +623,7 @@ friulian = {
 	heritage = heritage_latin
 	language = language_rhaeto
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_culture_blending

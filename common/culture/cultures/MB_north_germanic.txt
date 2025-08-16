@@ -46,6 +46,7 @@ icelandic = { # Based on Norse
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 	}
@@ -95,7 +96,8 @@ scanian = {
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
 	language = language_norse
-	martial_custom = martial_custom_male_only	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 		tradition_runestones

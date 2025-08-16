@@ -12,15 +12,23 @@ crimean = { # Based on Cuman
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
+		tradition_pastoralists
+		tradition_hit_and_run
 	}
 	
 	dlc_tradition = {
 		trait = tradition_malleable_invaders
 		requires_dlc_flag = hybridize_culture
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_cuman
@@ -31,49 +39,9 @@ crimean = { # Based on Cuman
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = asian_turkic_1_western
-		4 = asian_turkic_2_western
-		4 = asian_turkic_3_western
-		4 = asian_turkic_4_western
-		4 = asian_turkic_5_western
-		4 = asian_turkic_6_western
-		4 = asian_turkic_7_western
-		4 = asian_turkic_8_western 
-		4 = asian_turkic_9_western
-		4 = asian_turkic_15_western 
-		4 = asian_turkic_16_western
-		4 = asian_turkic_17_western
-		4 = asian_turkic_19_western
-		4 = asian_turkic_20_western
-		4 = asian_turkic_23_western
-		4 = asian_turkic_1_kipchak
-		4 = asian_turkic_2_kipchak
-		4 = asian_turkic_3_kipchak
-		4 = asian_turkic_4_kipchak
-		4 = asian_turkic_5_kipchak
-		4 = asian_turkic_6_kipchak
-		4 = asian_turkic_7_kipchak
-		4 = asian_turkic_10_kipchak
-		4 = asian_turkic_11_kipchak
-		4 = asian_turkic_12_kipchak
-		4 = asian_turkic_13_kipchak
-		4 = asian_turkic_14_kipchak
-		4 = asian_turkic_20_kipchak
-		4 = asian_turkic_36
-		4 = asian_turkic_37
-		4 = asian_turkic_38
-		4 = asian_turkic_39
-		4 = asian_turkic_40
-		4 = asian_turkic_26
-		4 = asian_turkic_27
-		4 = asian_turkic_28
-		4 = asian_turkic_29
-		4 = asian_turkic_30
-		3 = asian_turkic_46
-		3 = asian_turkic_47
-		3 = asian_turkic_48
-		3 = asian_turkic_49
-		3 = asian_turkic_50
+		4 = turkic_west
+		4 = turkic_western
+		4 = turkic
 	}
 }
 
@@ -87,6 +55,7 @@ kazani = { #Based on Bolghar
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
 		tradition_ruling_caste
@@ -108,49 +77,8 @@ kazani = { #Based on Bolghar
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = asian_turkic_1_western
-		4 = asian_turkic_2_western
-		4 = asian_turkic_3_western
-		4 = asian_turkic_4_western
-		4 = asian_turkic_5_western
-		4 = asian_turkic_6_western
-		4 = asian_turkic_7_western
-		4 = asian_turkic_8_western 
-		4 = asian_turkic_9_western
-		4 = asian_turkic_15_western 
-		4 = asian_turkic_16_western
-		4 = asian_turkic_17_western
-		4 = asian_turkic_19_western
-		4 = asian_turkic_20_western
-		4 = asian_turkic_23_western
-		4 = asian_turkic_1_kipchak
-		4 = asian_turkic_2_kipchak
-		4 = asian_turkic_3_kipchak
-		4 = asian_turkic_4_kipchak
-		4 = asian_turkic_5_kipchak
-		4 = asian_turkic_6_kipchak
-		4 = asian_turkic_7_kipchak
-		4 = asian_turkic_10_kipchak
-		4 = asian_turkic_11_kipchak
-		4 = asian_turkic_12_kipchak
-		4 = asian_turkic_13_kipchak
-		4 = asian_turkic_14_kipchak
-		4 = asian_turkic_20_kipchak
-		4 = asian_turkic_36
-		4 = asian_turkic_37
-		4 = asian_turkic_38
-		4 = asian_turkic_39
-		4 = asian_turkic_40
-		4 = asian_turkic_26
-		4 = asian_turkic_27
-		4 = asian_turkic_28
-		4 = asian_turkic_29
-		4 = asian_turkic_30
-		3 = asian_turkic_46
-		3 = asian_turkic_47
-		3 = asian_turkic_48
-		3 = asian_turkic_49
-		3 = asian_turkic_50
+		10 = turkic_west
+		10 = mediterranean_byzantine
 	}
 }
 
@@ -164,11 +92,17 @@ mishar = { #Based on Kipchak
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_swords_for_hire
 		tradition_horse_lords
 		tradition_hunters
 		tradition_quarrelsome
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_kipchak
@@ -179,49 +113,9 @@ mishar = { #Based on Kipchak
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = asian_turkic_1_western
-		4 = asian_turkic_2_western
-		4 = asian_turkic_3_western
-		4 = asian_turkic_4_western
-		4 = asian_turkic_5_western
-		4 = asian_turkic_6_western
-		4 = asian_turkic_7_western
-		4 = asian_turkic_8_western 
-		4 = asian_turkic_9_western
-		4 = asian_turkic_15_western 
-		4 = asian_turkic_16_western
-		4 = asian_turkic_17_western
-		4 = asian_turkic_19_western
-		4 = asian_turkic_20_western
-		4 = asian_turkic_23_western
-		4 = asian_turkic_1_kipchak
-		4 = asian_turkic_2_kipchak
-		4 = asian_turkic_3_kipchak
-		4 = asian_turkic_4_kipchak
-		4 = asian_turkic_5_kipchak
-		4 = asian_turkic_6_kipchak
-		4 = asian_turkic_7_kipchak
-		4 = asian_turkic_10_kipchak
-		4 = asian_turkic_11_kipchak
-		4 = asian_turkic_12_kipchak
-		4 = asian_turkic_13_kipchak
-		4 = asian_turkic_14_kipchak
-		4 = asian_turkic_20_kipchak
-		4 = asian_turkic_36
-		4 = asian_turkic_37
-		4 = asian_turkic_38
-		4 = asian_turkic_39
-		4 = asian_turkic_40
-		4 = asian_turkic_26
-		4 = asian_turkic_27
-		4 = asian_turkic_28
-		4 = asian_turkic_29
-		4 = asian_turkic_30
-		3 = asian_turkic_46
-		3 = asian_turkic_47
-		3 = asian_turkic_48
-		3 = asian_turkic_49
-		3 = asian_turkic_50
+		10 = turkic_west
+		10 = turkic
+		10 = mediterranean_byzantine
 	}
 }
 
@@ -229,17 +123,29 @@ turkmeni = { # Based on Oghuz - Turks in what would become Turkmenistan
 	color = { 240 240 120 }
 	
 	parents = { turkish }
-	created = 1300.1.1
+	created = 1200.1.1
 	
 	ethos = ethos_bellicose
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
+		tradition_hunters
 		tradition_swords_for_hire
 		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
@@ -250,61 +156,9 @@ turkmeni = { # Based on Oghuz - Turks in what would become Turkmenistan
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = asian_turkic_1_seljuk
-		4 = asian_turkic_2_seljuk
-		4 = asian_turkic_3_seljuk
-		4 = asian_turkic_4_seljuk
-		4 = asian_turkic_5_seljuk
-		1 = asian_turkic_6
-		3 = asian_turkic_6_seljuk
-		3 = asian_turkic_7_seljuk
-		1 = asian_turkic_7
-		4 = asian_turkic_8 
-		2 = asian_turkic_9_seljuk
-		2 = asian_turkic_9
-		4 = asian_turkic_10
-		4 = asian_turkic_11
-		2 = asian_turkic_12_seljuk
-		2 = asian_turkic_12
-		2 = asian_turkic_13_seljuk
-		2 = asian_turkic_13
-		2 = asian_turkic_14_seljuk
-		2 = asian_turkic_14
-		4 = asian_turkic_15 
-		4 = asian_turkic_16
-		4 = asian_turkic_17
-		4 = asian_turkic_18
-		3 = asian_turkic_19_seljuk
-		1 = asian_turkic_19
-		4 = asian_turkic_20_seljuk
-		4 = asian_turkic_21_seljuk
-		2 = asian_turkic_22_seljuk
-		3 = asian_turkic_23_seljuk
-		1 = asian_turkic_23
-		3 = asian_turkic_24_seljuk
-		1 = asian_turkic_24
-		3 = asian_turkic_25_seljuk
-		1 = asian_turkic_25
-		2 = asian_turkic_41
-		2 = asian_turkic_42
-		2 = asian_turkic_43
-		2 = asian_turkic_44
-		2 = asian_turkic_45
-		2 = asian_turkic_46
-		2 = asian_turkic_47
-		2 = asian_turkic_48
-		3 = asian_turkic_49
-		4 = asian_turkic_50
-		4 = asian_turkic_51_oghuz
-		4 = asian_turkic_52_oghuz
-		4 = asian_turkic_53_oghuz
-		4 = asian_turkic_54_oghuz
-		4 = asian_turkic_55_oghuz
-		4 = asian_turkic_56_oghuz
-		4 = asian_turkic_57_oghuz
-		4 = asian_turkic_58_oghuz
-		4 = asian_turkic_59_oghuz
-		4 = asian_turkic_60_oghuz
+		10 = turkic_west
+		4 = turkic
+		10 = turkic_seljuk
 	}
 }
 
@@ -324,11 +178,22 @@ torkil = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
 		tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_loyal_soldiers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_pecheneg
@@ -339,61 +204,9 @@ torkil = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = asian_turkic_1_seljuk
-		4 = asian_turkic_2_seljuk
-		4 = asian_turkic_3_seljuk
-		4 = asian_turkic_4_seljuk
-		4 = asian_turkic_5_seljuk
-		1 = asian_turkic_6
-		3 = asian_turkic_6_seljuk
-		3 = asian_turkic_7_seljuk
-		1 = asian_turkic_7
-		4 = asian_turkic_8 
-		2 = asian_turkic_9_seljuk
-		2 = asian_turkic_9
-		4 = asian_turkic_10
-		4 = asian_turkic_11
-		2 = asian_turkic_12_seljuk
-		2 = asian_turkic_12
-		2 = asian_turkic_13_seljuk
-		2 = asian_turkic_13
-		2 = asian_turkic_14_seljuk
-		2 = asian_turkic_14
-		4 = asian_turkic_15 
-		4 = asian_turkic_16
-		4 = asian_turkic_17
-		4 = asian_turkic_18
-		3 = asian_turkic_19_seljuk
-		1 = asian_turkic_19
-		4 = asian_turkic_20_seljuk
-		4 = asian_turkic_21_seljuk
-		2 = asian_turkic_22_seljuk
-		3 = asian_turkic_23_seljuk
-		1 = asian_turkic_23
-		3 = asian_turkic_24_seljuk
-		1 = asian_turkic_24
-		3 = asian_turkic_25_seljuk
-		1 = asian_turkic_25
-		2 = asian_turkic_41
-		2 = asian_turkic_42
-		2 = asian_turkic_43
-		2 = asian_turkic_44
-		2 = asian_turkic_45
-		2 = asian_turkic_46
-		2 = asian_turkic_47
-		2 = asian_turkic_48
-		3 = asian_turkic_49
-		4 = asian_turkic_50
-		4 = asian_turkic_51_oghuz
-		4 = asian_turkic_52_oghuz
-		4 = asian_turkic_53_oghuz
-		4 = asian_turkic_54_oghuz
-		4 = asian_turkic_55_oghuz
-		4 = asian_turkic_56_oghuz
-		4 = asian_turkic_57_oghuz
-		4 = asian_turkic_58_oghuz
-		4 = asian_turkic_59_oghuz
-		4 = asian_turkic_60_oghuz
+		10 = turkic_west
+		4 = turkic
+		10 = turkic_seljuk
 	}
 }
 
@@ -404,6 +217,7 @@ yakut = {	#AKA Kurykans
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_horse_breeder
 		tradition_pastoralists
@@ -418,44 +232,7 @@ yakut = {	#AKA Kurykans
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		4 = asian_turkic_1
-		4 = asian_turkic_2
-		4 = asian_turkic_3
-		4 = asian_turkic_4
-		4 = asian_turkic_5
-		4 = asian_turkic_6
-		4 = asian_turkic_7
-		4 = asian_turkic_8 
-		4 = asian_turkic_9
-		4 = asian_turkic_10
-		4 = asian_turkic_11
-		4 = asian_turkic_12
-		4 = asian_turkic_13
-		4 = asian_turkic_14
-		4 = asian_turkic_15 
-		2 = asian_turkic_16
-		2 = asian_turkic_16_eastern
-		4 = asian_turkic_17_eastern
-		4 = asian_turkic_18
-		4 = asian_turkic_19
-		4 = asian_turkic_20
-		4 = asian_turkic_21
-		4 = asian_turkic_22
-		4 = asian_turkic_26
-		4 = asian_turkic_27
-		4 = asian_turkic_28
-		4 = asian_turkic_29
-		4 = asian_turkic_30
-		4 = asian_turkic_41
-		4 = asian_turkic_42
-		4 = asian_turkic_43
-		4 = asian_turkic_44
-		4 = asian_turkic_45
-		3 = asian_turkic_46
-		3 = asian_turkic_47
-		3 = asian_turkic_48
-		3 = asian_turkic_49
-		3 = asian_turkic_50
+		4 = turkic
 	}
 }
 

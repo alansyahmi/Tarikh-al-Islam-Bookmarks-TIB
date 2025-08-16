@@ -7,6 +7,7 @@
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_ruling_caste
@@ -34,6 +35,7 @@ franconian = {
 	heritage = heritage_central_germanic
 	language = language_frankish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_astute_diplomats
@@ -62,6 +64,7 @@ swabian = {
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
 		tradition_parochialism
@@ -87,6 +90,7 @@ bavarian = {
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_stand_and_fight
@@ -113,6 +117,7 @@ frisian = {	# Consider this to be "old frisian", in the times of "Frankish" cult
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fishermen
 		tradition_zealous_people
@@ -140,6 +145,7 @@ dutch = {
 	heritage = heritage_central_germanic
 	language = language_dutch
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_parochialism
@@ -166,6 +172,7 @@ german = {	# Obsolete, perhaps representing the Germanic folk of old
 	heritage = heritage_central_germanic
 	language = language_high_german # language_central_german # Extinct language with extinct culture
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_astute_diplomats
@@ -195,6 +202,7 @@ thuringian = {
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_malleable_invaders
@@ -222,6 +230,7 @@ low_frankish = { # Salian Franks
 	heritage = heritage_central_germanic
 	language = language_frankish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_astute_diplomats
@@ -252,6 +261,7 @@ walloon = {
 	heritage = heritage_frankish
 	language = language_french # language_walloon
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_parochialism
 		tradition_city_keepers
@@ -282,6 +292,7 @@ brabantian = { #Area of the Duchy of Brabant. Had a strong influence on the form
 	heritage = heritage_central_germanic
 	language = language_dutch
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_family_entrepreneurship
@@ -311,6 +322,7 @@ flemish = {
 	heritage = heritage_central_germanic
 	language = language_dutch
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_martial_admiration
 		tradition_artisans
@@ -344,6 +356,7 @@ ripuarian = { # Ripuarian Franks
 	heritage = heritage_central_germanic
 	language = language_frankish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_astute_diplomats
@@ -371,6 +384,7 @@ westphalian = {
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_staunch_traditionalists
 		tradition_ruling_caste
@@ -398,6 +412,7 @@ east_elbian = { # or Brandenburgish
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stand_and_fight
 		tradition_ruling_caste
@@ -426,6 +441,7 @@ german_pommeranian = {
 	heritage = heritage_west_slavic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_adaptive_skirmishing
@@ -464,6 +480,7 @@ german_silesian = {
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_castle_keepers
@@ -505,6 +522,7 @@ high_alemannic = {
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_mountain_homes
 		tradition_parochialism
@@ -533,6 +551,7 @@ alsatian = { # Or Low Alemannic
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_metal_craftsmanship

@@ -8,6 +8,7 @@ munda = { #Based on Bengali
 	heritage = heritage_indo_aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_philosopher_culture
 		tradition_religious_patronage
@@ -36,6 +37,7 @@ konkani = { #
 	heritage = heritage_indo_aryan
 	language = language_marathi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_seafaring
 		tradition_modest
@@ -64,6 +66,7 @@ sambalpuri = { # Indo-Aryan #Mainly to represent the region having a more distin
 	heritage = heritage_indo_aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_tribe_unity
 		tradition_hill_dwellers
@@ -89,6 +92,7 @@ nagpuri = {# nagpuri
 	heritage = heritage_indo_aryan
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		
 		tradition_pastoralists
@@ -114,6 +118,7 @@ awadhi = {# Awadhi
 	heritage = heritage_indo_aryan
 	language = language_awadhi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		
 		tradition_agrarian
@@ -143,6 +148,7 @@ hindustani_proper = { # Hindustani
 	heritage = heritage_turkic
 	language = language_hindi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		
 		tradition_court_eunuchs
@@ -173,6 +179,7 @@ gujarati = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		
 		tradition_vegetarianism
@@ -200,6 +207,7 @@ rajput = { # Indo-Aryan - #Renamed to Rajasthani
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
 		tradition_dryland_dwellers
@@ -230,6 +238,7 @@ marwari = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_dryland_dwellers
 		tradition_quarrelsome
@@ -260,6 +269,7 @@ mewari = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {	
 		tradition_hill_dwellers
 		tradition_quarrelsome
@@ -289,6 +299,7 @@ dhundari = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {	
 		tradition_dryland_dwellers
 		tradition_quarrelsome
@@ -318,6 +329,7 @@ harauti = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {	
 		tradition_hill_dwellers
 		tradition_quarrelsome
@@ -347,6 +359,7 @@ ahirwati = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {	
 		tradition_hill_dwellers
 		tradition_quarrelsome
@@ -373,6 +386,7 @@ kathiawari = { # Indo-Aryan #Renamed to Saurashtra which rather than a dialect i
 	heritage = heritage_indo_aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_zealous_people
 		tradition_hereditary_hierarchy
@@ -399,6 +413,7 @@ kumaoni = { # Nepali renamed to Khas
 	heritage = heritage_indo_aryan
 	language = language_pahari
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_music_theory
@@ -425,6 +440,7 @@ muslim_punjabi = { # Indo-Aryan
 	heritage = heritage_indo_aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_city_keepers
@@ -452,6 +468,7 @@ punjabi = { # Indo-Aryan (Panchanadi w/ Muslim Enhancements)
 	heritage = heritage_indo_aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_wedding_ceremonies
 		tradition_religion_blending

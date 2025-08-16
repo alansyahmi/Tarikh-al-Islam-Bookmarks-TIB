@@ -7,6 +7,7 @@
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -40,6 +41,7 @@ west_saxon = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -72,6 +74,7 @@ mercian = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -104,6 +107,7 @@ hwiccians = { #Still existed in 769. Possible that Earl Æthelred in 867 was Hwi
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_castle_keepers
@@ -136,6 +140,7 @@ northumbrian = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -169,6 +174,7 @@ kentish = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -201,6 +207,7 @@ east_anglian = {
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
@@ -231,6 +238,7 @@ angles = { # For culture history to show the Mercian, East Anglian, and Northumb
 	heritage = heritage_north_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 	}

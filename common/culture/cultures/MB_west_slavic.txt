@@ -8,6 +8,7 @@ lutici = { #Lutici. Another of the major tribal confederations
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_hussar
@@ -39,6 +40,7 @@ kashubian = { #For parts of Pommerania that didn't get Germanized yet under the 
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_stalwart_defenders

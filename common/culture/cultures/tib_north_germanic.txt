@@ -6,6 +6,7 @@ jute = { #Becomes Danish 965
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 	}
@@ -54,6 +55,7 @@ dane = { #Becomes Danish 965
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 		tradition_ruling_caste
@@ -98,6 +100,7 @@ geat = {
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 	}
@@ -150,6 +153,7 @@ got = {
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 		tradition_maritime_mercantilism
@@ -194,6 +198,7 @@ svear = { # Becomes Swedish 1066
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
 		tradition_zealous_people
@@ -238,6 +243,7 @@ sitonian = {  # Kvens
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_female_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_female_only_inheritance # Tacitus describes the Sitones as matriarchal
 		tradition_isolationist

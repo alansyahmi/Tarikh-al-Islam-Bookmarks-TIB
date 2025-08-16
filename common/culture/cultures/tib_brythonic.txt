@@ -9,6 +9,7 @@
 	heritage = heritage_brythonic
 	language = language_pictish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_concubines
 		tradition_poetry
@@ -43,6 +44,7 @@ welsh = {
 	heritage = heritage_brythonic
 	language = language_western_brythonic # Brythoneg
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_concubines
@@ -74,6 +76,7 @@ breton = {
 	heritage = heritage_brythonic
 	language = language_southwestern_brythonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fishermen
 		tradition_storytellers
@@ -104,6 +107,7 @@ cornish = {
 	heritage = heritage_brythonic
 	language = language_southwestern_brythonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fishermen
 		tradition_storytellers
@@ -133,6 +137,7 @@ cumbrian = {
 	heritage = heritage_brythonic
 	language = language_western_brythonic # Brythoneg
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_concubines
@@ -166,6 +171,7 @@ dumnonian = {
 	heritage = heritage_brythonic
 	language = language_southwestern_brythonic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_seafaring
 		tradition_storytellers
@@ -194,6 +200,7 @@ old_brythonic = {
 	heritage = heritage_brythonic
 	language = language_brythonic # Brittonika
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_storytellers

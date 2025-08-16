@@ -9,6 +9,7 @@
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_druzhina
 		tradition_mendicant_mystics
@@ -41,6 +42,7 @@ varangian_rus = {
 	heritage = heritage_north_germanic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_druzhina
 		tradition_mendicant_mystics
@@ -87,6 +89,7 @@ novgorodian = { #Old Novgorod. Was a meaningfully different dialect in CKs timef
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_druzhina
 		tradition_mendicant_mystics
@@ -115,6 +118,7 @@ belocroat = { # White Croat
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_highland_warriors
@@ -145,6 +149,7 @@ polyan = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_hard_working
@@ -174,6 +179,7 @@ krivich = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_folk
 		tradition_metal_craftsmanship
@@ -202,6 +208,7 @@ vyatichi = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_collective_lands
 		tradition_hunters
@@ -230,6 +237,7 @@ poloch = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_hit_and_run
@@ -256,6 +264,7 @@ dregovich = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hit_and_run
 		tradition_wetlanders
@@ -286,6 +295,7 @@ drevlian = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_folk
 		tradition_forest_fighters
@@ -317,6 +327,7 @@ tiverian = {
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_pastoralists
@@ -345,6 +356,7 @@ radimichi = { #Not sure why CE left this one out
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_collective_lands
 		tradition_hunters
@@ -374,6 +386,7 @@ buzans = { #
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_collective_lands
 		tradition_hunters
@@ -408,6 +421,7 @@ ulich = { #
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_collective_lands
 		tradition_hunters
@@ -437,6 +451,7 @@ bolokhovens = { #Romanians say they were Vlach based on their ethnonym while arc
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hussar
 		tradition_highland_warriors

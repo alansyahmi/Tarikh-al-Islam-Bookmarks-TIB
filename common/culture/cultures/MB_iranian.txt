@@ -10,6 +10,7 @@ hazara = { #Based on tajik/khorasani. Mongol/Turk/Persian mix. Only in post-1300
 	heritage = heritage_iranian
 	language = language_iranian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_caravaneers
 		tradition_dryland_dwellers
@@ -37,6 +38,7 @@ qufs = { #Based on Baloch
 	heritage = heritage_iranian
 	language = language_iranian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_futuwaa
 		tradition_desert_nomads

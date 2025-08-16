@@ -5,6 +5,7 @@
 	heritage = heritage_central_germanic
 	language = language_frankish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warrior_culture
 		tradition_hereditary_hierarchy
@@ -33,6 +34,7 @@ french = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_chanson_de_geste
 		tradition_hereditary_hierarchy
@@ -63,10 +65,16 @@ norman = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_stand_and_fight
 		tradition_chanson_de_geste
+	}
+
+	dlc_tradition = {
+		trait = tradition_ep3_audacious_cadets
+		requires_dlc_flag = roads_to_power
 	}
 	
 	name_list = name_list_norman
@@ -95,6 +103,7 @@ occitan = {
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_equal_inheritance
 		tradition_chivalry
@@ -128,6 +137,7 @@ bourguignon = { # French Burgundians
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_legalistic
 		tradition_chivalry
@@ -164,6 +174,7 @@ arpitan = { # Based on Occitan
 	heritage = heritage_frankish
 	language = language_arpetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_chanson_de_geste
 		tradition_hereditary_hierarchy
@@ -198,6 +209,7 @@ gascon = { #Based on Occitan
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_poetry
 		tradition_city_keepers
@@ -232,6 +244,7 @@ provencal = {
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fervent_temple_builders
 		tradition_music_theory
@@ -266,6 +279,7 @@ poitevin = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_castle_keepers
 		tradition_culture_blending
@@ -298,6 +312,7 @@ angevin = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_astute_diplomats
 		tradition_legalistic
@@ -331,6 +346,7 @@ lorrainian = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fervent_temple_builders
 		tradition_xenophilic
@@ -364,6 +380,7 @@ picard = {
 	heritage = heritage_frankish
 	language = language_picard
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_swords_for_hire
 		tradition_staunch_traditionalists

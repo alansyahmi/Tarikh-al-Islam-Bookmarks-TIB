@@ -9,6 +9,7 @@ anglo_norse = { # Saxons under the Norse
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hird
 		tradition_the_witenagemot
@@ -45,6 +46,7 @@ northerner = { # Evolution of Anglo-Norse/the northern English dialects like Nor
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_hereditary_hierarchy
 		tradition_chivalry

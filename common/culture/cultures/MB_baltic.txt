@@ -7,6 +7,7 @@ east_galindian = {
 	heritage = heritage_baltic
 	language = language_baltic #Galindian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_wardens
 		tradition_sacred_groves
@@ -35,6 +36,7 @@ sudovian = {
 	heritage = heritage_baltic
 	language = language_baltic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_sacred_groves
 		tradition_forest_wardens
@@ -63,6 +65,7 @@ curonian = {
 	heritage = heritage_baltic
 	language = language_baltic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_sacred_groves
 		tradition_maritime_mercantilism
@@ -90,6 +93,7 @@ zemgalian = {
 	heritage = heritage_baltic
 	language = language_baltic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_sacred_groves
 		tradition_forest_wardens
@@ -118,6 +122,7 @@ selonian = {
 	heritage = heritage_baltic
 	language = language_baltic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_sacred_groves
 		tradition_forest_wardens
@@ -145,6 +150,7 @@ galindian = {
 	heritage = heritage_baltic
 	language = language_baltic #Galindian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_wardens
 		tradition_sacred_groves

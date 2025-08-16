@@ -1,28 +1,39 @@
-﻿turkish = {	# Oghuz
+﻿turkish = {		# Oghuz
 	color = turkish
 	
 	ethos = ethos_bellicose
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		#10 = asian
+		10 = turkic_west
 		4 = turkic
-		4 = turkic_seljuk
+		10 = turkic_seljuk
 	}
 }
 
@@ -33,11 +44,17 @@ pecheneg = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_quarrelsome
 		tradition_warrior_culture
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_pecheneg
@@ -48,8 +65,7 @@ pecheneg = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic_western
-		4 = turkic
+		10 = turkic_west
 	}
 }
 
@@ -58,17 +74,25 @@ cuman = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_turkic
-	language = language_kipchak
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
+		tradition_pastoralists
+		tradition_eye_for_an_eye
 	}
 	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
+	
 	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_cuman
@@ -79,8 +103,7 @@ cuman = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		5 = cuman
-		3 = turkic_western
+		10 = turkic_west
 	}
 }
 
@@ -91,10 +114,18 @@ khazar = {
 	heritage = heritage_turkic
 	language = language_oghur
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_steppe_tolerance
+		tradition_concubines
+		#tradition_steppe_tolerance
 		tradition_stand_and_fight
-		tradition_horse_lords
+		tradition_only_the_strong
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_khazar
@@ -105,9 +136,8 @@ khazar = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = turkic_khazar
-		3 = turkic_western
-		1 = turkic
+		10 = turkic_west
+		10 = turkic_western
 	}
 }
 
@@ -118,16 +148,22 @@ bolghar = {
 	heritage = heritage_turkic
 	language = language_oghur
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_ruling_caste
 		tradition_astute_diplomats
-		tradition_horse_lords
+		#tradition_horse_lords
 	}
 	
 	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	
 	name_list = name_list_bolghar
 
@@ -137,8 +173,8 @@ bolghar = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		5 = turkic_western
-		2 = turkic
+		10 = turkic_west
+		10 = mediterranean_byzantine
 	}
 }
 
@@ -147,18 +183,26 @@ bashkir = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_turkic
-	language = language_kipchak
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_sacred_mountains
-		tradition_horse_lords
+		#tradition_sacred_mountains
+		#tradition_horse_lords
 		tradition_forest_folk
+		tradition_hill_dwellers
+		tradition_storytellers
 	}
 	
 	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
+	
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	
 	name_list = name_list_bashkir
 
@@ -168,8 +212,7 @@ bashkir = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic_western
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -180,10 +223,16 @@ avar = {
 	heritage = heritage_turkic
 	language = language_oghur
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_ruling_caste
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_talent_acquisition
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	dlc_tradition = {
@@ -199,8 +248,7 @@ avar = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = turkic_avar
-		4 = turkic_western
+		10 = turkic_west
 	}
 }
 
@@ -209,18 +257,22 @@ karluk = {
 	
 	ethos = ethos_communal
 	heritage = heritage_turkic
-	language = language_karluk
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_steppe_tolerance
-		tradition_horse_lords
+		#tradition_steppe_tolerance
+		#tradition_horse_lords
+		tradition_horse_breeder
 		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
 	}
 	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	
 	name_list = name_list_karluk
 
@@ -230,7 +282,7 @@ karluk = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -239,13 +291,19 @@ kimek = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_turkic
-	language = language_kipchak
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_hunters
 		tradition_pastoralists
 		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_kimek
@@ -256,9 +314,7 @@ kimek = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic_western
-		4 = kipchak
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -267,13 +323,19 @@ kipchak = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_turkic
-	language = language_kipchak
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_swords_for_hire
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_hunters
 		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_kipchak
@@ -284,8 +346,7 @@ kipchak = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = kipchak
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -294,13 +355,19 @@ laktan = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_turkic
-	language = language_kipchak
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_hunters
 		tradition_forest_folk
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_laktan
@@ -311,7 +378,7 @@ laktan = {
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -320,23 +387,34 @@ kirghiz = {
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_turkic
-	language = language_yeniseian
+	language = language_turkic
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_hunters
 		tradition_quarrelsome
-		tradition_horse_lords
+		#tradition_horse_lords
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_kirghiz
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -345,11 +423,12 @@ uyghur = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_turkic
-	language = language_karluk # language_siberian
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_religious_patronage
-		tradition_steppe_tolerance
+		#tradition_steppe_tolerance
 		tradition_caravaneers
 		tradition_charitable
 		tradition_xenophilic
@@ -359,11 +438,11 @@ uyghur = {
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -374,49 +453,68 @@ yughur = {
 
 	ethos = ethos_communal
 	heritage = heritage_turkic
-	language = language_yeniseian
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_pastoralists
-		tradition_steppe_tolerance
-		tradition_horse_lords
+		tradition_horse_breeder
+		#tradition_steppe_tolerance
+		#tradition_horse_lords
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_yughur
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
-uriankhai = {	# these are western "Uriankhai", in this case specifically the Khakas and the Tuvans
+uriankhai = {	#these are western "Uriankhai", in this case specifically the Khakas and the Tuvans
 	color = { 0.75 0.8 0.50 }
 	
 	ethos = ethos_communal
 	heritage = heritage_turkic
-	language = language_karluk # language_siberian
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_forest_folk
 		tradition_hunters
 		tradition_mendicant_mystics
-		tradition_horse_lords
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_uriankhai
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
@@ -429,11 +527,17 @@ chuvash = {		# Burtas
 	heritage = heritage_turkic
 	language = language_oghur
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_sacred_groves
 		tradition_sacred_hunts
 		tradition_zealous_people
-		tradition_horse_lords
+		#tradition_horse_lords
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_chuvash
@@ -444,66 +548,71 @@ chuvash = {		# Burtas
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
-shatuo = { # Sinicized turks of northern China
+shatuo = { #Sinicized turks of northern China
 	color = { 0.7 0.3 0.2 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_turkic
 	language = language_chinese
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_ruling_caste
 		tradition_court_eunuchs
 	}
 	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	
 	name_list = name_list_shatuo
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
 
-ongud = { # Mongolicized turks of the Ordos region
+ongud = { #Mongolicized turks of the Ordos region
 	color = { 0.65 0.4 0.15 }
 	created = 830.1.1
 	parents = { shatuo }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_mongolic
-	language = language_ongud
+	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_stalwart_defenders
 		tradition_astute_diplomats
-		tradition_steppe_tolerance
+		tradition_hunters
+		#tradition_steppe_tolerance
 	}
 	
 	name_list = name_list_ongud
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
+		10 = turkic
 	}
 }
+
+# MB+
 
 kabars = {
 	color = { 0.60 0.45 0.25 }
@@ -515,11 +624,16 @@ kabars = {
 	heritage = heritage_turkic
 	language = language_oghur
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
 		tradition_horse_breeder
 		tradition_horse_lords
 		tradition_swords_for_hire
+	}
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_khazar
@@ -546,11 +660,22 @@ salar = { # Turkish people marked as Oghuz in vanilla, also from the Oghuz tribe
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_religion_blending
+		#tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
@@ -578,9 +703,12 @@ chagatai = { # Based on Karluk
 	heritage = heritage_turkic
 	language = language_karluk # language_chagatai
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
-		tradition_steppe_tolerance
-		tradition_horse_lords
+		tradition_horse_breeder
+		tradition_sacred_mountains
+		tradition_dryland_dwellers
+		tradition_mountain_homes
 		tradition_poetry
 		tradition_gardening
 	}
@@ -612,12 +740,23 @@ mamluk = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
 		tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_martial_admiration
 		tradition_mubarizuns
+	}
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
@@ -628,8 +767,9 @@ mamluk = {
 	unit_gfx = { mena_unit_gfx }
 
 	ethnicities = {
-		4 = turkic
-		3 = mediterranean_byzantine
+		10 = turkic
+		20 = turkic_west
+		10 = mediterranean_byzantine
 	}
 }
 
@@ -642,12 +782,24 @@ anatolian_turkish = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_philosopher_culture
-		tradition_horse_lords
+		tradition_by_the_sword #tradition_horse_lords
 		tradition_swords_for_hire
-		tradition_martial_admiration
+		tradition_hunters #tradition_martial_admiration
 		tradition_gardening
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
@@ -660,6 +812,7 @@ anatolian_turkish = {
 	ethnicities = {
 		5 = mediterranean_byzantine
 		5 = mediterranean
+		5 = turkic
 		5 = persian
 	}
 }
@@ -673,11 +826,18 @@ tatars = {	# Umbrella term for Turks with Mongol influence. Based on Turkish
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
 		tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_ruling_caste
+		tradition_hit_and_run
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_wolves_of_the_deep_steppe
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_tatar

@@ -7,6 +7,7 @@
 	heritage = heritage_magyar
 	language = language_magyar
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_isolationist
 		tradition_mountaineers
@@ -26,9 +27,11 @@
 	unit_gfx = { mongol_unit_gfx } 	
 
 	ethnicities = {
-		10 = caucasian_blond
+		# 10 = caucasian_blond
 		# 5 = caucasian_ginger
-		65 = caucasian_brown_hair
+		35 = caucasian_brown_hair
 		25 = caucasian_dark_hair
+		25 = turkic
+		25 = turkic_west
 	}
 }
