@@ -148,7 +148,7 @@
 
 20798 = {
 	name = "Ishaq"
-	dynasty = 101671
+	dynasty = house_Sulaym # 101671
 	martial = 6
 	diplomacy = 5
 	intrigue = 5

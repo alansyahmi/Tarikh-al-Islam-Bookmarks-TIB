@@ -16,7 +16,7 @@
 		}
 	}
 	950.1.1 = {
-		religion = asharite
+		religion = muwalladi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -49,15 +49,9 @@
 	culture = greek
 	religion = orthodox
 	holding = castle_holding
-	869.1.1 = {
-		religion = ashari
-	}
-	950.1.1 = {
-		religion = asharite
-	}
 	1160.1.1 = {
 		culture = sicilian_arab
-		#religion = ashari
+		religion = muwalladi
 	}
 
 	1223.1.1 = {
@@ -82,7 +76,7 @@
 		religion = ashari
 	}
 	950.1.1 = {
-		religion = asharite
+		religion = muwalladi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -113,7 +107,7 @@
 		religion = ashari
 	}
 	950.1.1 = {
-		religion = asharite
+		religion = muwalladi
 	}
 	1123.1.1 = {
 		culture = sicilian
@@ -137,7 +131,7 @@
 		religion = ashari
 	}
 	950.1.1 = {
-		religion = asharite
+		religion = ismailite
 	}
 	1260.1.1 = {
 		religion = catholic

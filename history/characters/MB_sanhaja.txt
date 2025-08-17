@@ -2399,17 +2399,18 @@
 	}
 }
 1600578 = {
-	name="'Ali"
+	name="_Ali"
 	dynasty=595
-	religion="ismaili"
+	religion="ashari" #"ismaili"
 	culture = baranis
-	father=20825
+	father=20825 # Tamim Zirid
+	trait = education_martial_2
 	1047.1.1 = { #?
 		birth="1047.1.1"
 	}
-	1049.1.1 = {
-		religion="ashari"
-	}
+	#1049.1.1 = {
+	#	religion="ashari"
+	#
 	1095.1.1 = { #?
 		death="1095.1.1"
 	}

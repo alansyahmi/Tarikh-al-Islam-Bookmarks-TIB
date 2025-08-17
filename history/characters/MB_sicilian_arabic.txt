@@ -31,11 +31,16 @@
 73312 = {
 	name="Ali" #AKA Ibn al-Hawwas
 	dynasty = 12239
-	religion="ashari"
-	culture="sicilian_arab"
-	father=1900502
+	religion = "ashari"
+	culture = "sicilian_arab"
+	father = 1900502
+	trait = brave
+	trait = ambitious
+	trait = wrathful
+	trait = education_martial_3
+	trait = strategist
 	1013.1.1 = {
-		birth="1013.1.1"
+		birth = yes
 	}
 	1068.1.1 = { # Died in a battle against Zirid troops
 		death = {
@@ -910,11 +915,24 @@ later_kalbid_5 = {
 		death=yes
 	}
 }
-1900502 = {
+1900502a = {
 	name= "al-Hawwas" #"Ni'ma"
 	dynasty = 12239
 	religion="ashari"
 	culture="zenata"
+	964.1.1 = { #?
+		birth=yes
+	}
+	1021.1.1 = { #?
+		death=yes
+	}
+}
+1900502 = {
+	name= Ni_ma #"Ni'ma"
+	dynasty = 12239
+	religion="ashari"
+	culture="zenata"
+	father=1900502a
 	990.1.1 = { #?
 		birth=yes
 	}

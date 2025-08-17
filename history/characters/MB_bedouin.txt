@@ -3250,7 +3250,7 @@ rashid1246 = {
 }
 1236169 = {
 	name="Qasim" #Placeholder ruler of the Banu Sulaym Clan of the Banu Qays Confederation in ToG start
-	dynasty=101671
+	dynasty=house_Sulaym # 101671
 	culture="bedouin"
 	religion="ashari"
 	father=bedouin0043
@@ -3263,7 +3263,7 @@ rashid1246 = {
 }
 1236170 = {
 	name="Ahmad" #Placeholder son of the Banu Sulaym Clan of the Banu Qays Confederation in ToG start
-	dynasty=101671
+	dynasty=house_Sulaym # 101671
 	culture="bedouin"
 	religion="ashari"
 	father=1236169
@@ -4113,7 +4113,7 @@ rashid1246 = {
 #}
 1236235 = {
 	name="Yahya" #Placeholder
-	dynasty=101671
+	dynasty=house_Sulaym # 101671
 	culture="bedouin"
 	religion="ashari"
 	father=1236170
@@ -4126,7 +4126,7 @@ rashid1246 = {
 }
 1236236 = {
 	name="Mahmud" #Placeholder
-	dynasty=101671
+	dynasty=house_Sulaym # 101671
 	culture="bedouin"
 	religion="ashari"
 	father=1236235
@@ -4139,7 +4139,7 @@ rashid1246 = {
 }
 1236237 = {
 	name="Ibrahim" #Placeholder
-	dynasty=101671
+	dynasty=house_Sulaym # 101671
 	culture="bedouin"
 	religion="ashari"
 	father=1236236
