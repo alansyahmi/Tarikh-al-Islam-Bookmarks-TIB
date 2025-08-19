@@ -21,6 +21,7 @@
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_turkish
@@ -55,6 +56,7 @@ pecheneg = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_pecheneg
@@ -93,6 +95,7 @@ cuman = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_cuman
@@ -117,7 +120,7 @@ khazar = {
 	head_determination = head_determination_herd
 	traditions = {
 		tradition_concubines
-		#tradition_steppe_tolerance
+		tradition_steppe_tolerance
 		tradition_stand_and_fight
 		tradition_only_the_strong
 		#tradition_horse_lords
@@ -126,6 +129,7 @@ khazar = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_khazar
@@ -158,6 +162,7 @@ bolghar = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	#dlc_tradition = {
@@ -197,6 +202,7 @@ bashkir = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	#dlc_tradition = {
@@ -233,6 +239,7 @@ avar = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	dlc_tradition = {
@@ -304,6 +311,7 @@ kimek = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_kimek
@@ -336,6 +344,7 @@ kipchak = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_kipchak
@@ -368,6 +377,7 @@ laktan = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_laktan
@@ -404,6 +414,7 @@ kirghiz = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_kirghiz
@@ -472,6 +483,7 @@ yughur = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_yughur
@@ -504,6 +516,7 @@ uriankhai = {	#these are western "Uriankhai", in this case specifically the Khak
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_uriankhai
@@ -538,6 +551,7 @@ chuvash = {		# Burtas
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_chuvash
@@ -634,6 +648,7 @@ kabars = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 	
 	name_list = name_list_khazar
@@ -676,6 +691,7 @@ salar = { # Turkish people marked as Oghuz in vanilla, also from the Oghuz tribe
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_turkish
@@ -743,7 +759,7 @@ mamluk = {
 	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_martial_admiration
 		tradition_mubarizuns
@@ -757,6 +773,7 @@ mamluk = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_turkish
@@ -800,6 +817,7 @@ anatolian_turkish = {
 	dlc_tradition = {
 		trait = tradition_devoted_horsemanship
 		requires_dlc_flag = khans_of_the_steppe
+		fallback = tradition_horse_lords
 	}
 
 	name_list = name_list_turkish
