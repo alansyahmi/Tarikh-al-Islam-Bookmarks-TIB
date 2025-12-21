@@ -33,7 +33,11 @@
 	unit_gfx = { norse_unit_gfx }
 	
 	ethnicities = {
-		2 = irish
+		90 = european_caucasian_irish_01
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
 	}
 }
 
@@ -62,6 +66,6 @@ manx = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		2 = irish
+		2 = european_caucasian_irish_01
 	}
 }

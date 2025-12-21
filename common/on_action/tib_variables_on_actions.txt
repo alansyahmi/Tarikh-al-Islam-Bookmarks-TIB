@@ -9,6 +9,7 @@
 yearly_global_pulse = {
 	on_actions = {
 		tib_islamic_schism_early_bookmark
+		tib_zakat_reminder
 	}
 }
 

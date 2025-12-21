@@ -115,7 +115,7 @@ sardinian = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = italian
+		10 = sicilian
 	}
 }
 
@@ -147,8 +147,8 @@ sicilian = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
-		5 = italian
+		15 = sicilian
+		1 = italian
 	}	
 }
 
@@ -243,8 +243,8 @@ maltese = { # Based on Sicilian (and Maghrebi)
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		15 = mediterranean_byzantine
-		10 = italian
+		15 = sicilian
+		5 = italian
 		5 = arab
 		1 = baranis
 	}	
@@ -458,7 +458,7 @@ african_roman = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean
+		10 = sicilian
 	}
 }
 
@@ -609,6 +609,7 @@ corsican = {
 	
 	ethnicities = {
 		10 = italian
+		20 = sicilian
 	}
 }
 

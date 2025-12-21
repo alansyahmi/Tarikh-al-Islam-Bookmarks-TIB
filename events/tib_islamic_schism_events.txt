@@ -42,8 +42,10 @@ tib_islamic_schism.0001 = { # For later Sunnis
             }
             every_realm_county = {
                 limit = {
-                    faith = faith:ashari
-                    faith = faith:mutazila
+                    OR = {
+                        faith = faith:ashari
+                        faith = faith:mutazila
+                    }
                 }
                 set_county_faith = faith:asharite
             }
@@ -68,8 +70,10 @@ tib_islamic_schism.0001 = { # For later Sunnis
             }
             every_realm_county = {
                 limit = {
-                    faith = faith:ashari
-                    faith = faith:mutazila
+                    OR = {
+                        faith = faith:ashari
+                        faith = faith:mutazila
+                    }
                 }
                 set_county_faith = faith:maturidi
             }

@@ -99,7 +99,6 @@ caliphal_contender_declare_war.1 = { # If the HoF is independent
 			casus_belli = caliphal_revolution_war
 			target = scope:old_caliph
 			target_title = faith.religious_head_title
-			target_title = faith.religious_head.primary_title
 			#save_scope_as = caliphal_revolution_war
 		}
 
@@ -133,9 +132,7 @@ caliphal_contender_declare_war.12 = { # If the HoF is a vassal
 		start_war = { # For non-independent Caliphate
 			casus_belli = caliphal_revolution_war
 			target = scope:old_caliph.top_liege
-			target = scope:old_caliph
 			target_title = faith.religious_head_title
-			target_title = faith.religious_head.primary_title
 			#save_scope_as = caliphal_revolution_war
 		}
 		ai_chance = {
@@ -287,7 +284,7 @@ caliphal_contender_declare_war.3 = {
 		scope:ROOT = {
 			if = {
 				limit = {
-					OR = {
+					NOR = {
 						has_trait = sayyid
 						has_trait = sayyid_quraysh
 					}
@@ -336,14 +333,15 @@ caliphal_candidates = {
 		trigger = { exists = scope:ROOT }
 
 		# Set up the new HoF.
-		get_ = {
-			limit = {
-				OR = {
-					has_trait = sayyid
-					has_trait = sayyid_quraysh
-				}
-			}
-		}
+		# COMMENTED OUT - Incomplete command (get_ needs to be completed)
+		#get_ = {
+		#	limit = {
+		#		OR = {
+		#			has_trait = sayyid
+		#			has_trait = sayyid_quraysh
+		#		}
+		#	}
+		#}
 		set_religious_head_title_to_and_gain_hook_effect = { NEW_RELIGIOUS_HEAD_TITLE = scope:ROOT }
 
 		stress_impact = {

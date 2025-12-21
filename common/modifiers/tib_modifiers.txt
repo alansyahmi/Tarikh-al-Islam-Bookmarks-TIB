@@ -122,3 +122,40 @@ asnaf_fisabilillah_massive_modifier = {
 	men_at_arms_recruitment_cost = -0.2
 	knight_effectiveness_mult = 0.30
 }
+
+# Zakat penalty modifiers
+neglected_zakat_modifier = {
+	icon = piety_negative
+	monthly_piety_gain_mult = -0.15
+	monthly_prestige_gain_mult = -0.10
+	monthly_income_mult = -0.05
+	same_faith_opinion = -5
+	zealot_opinion = -15
+}
+
+embezzled_zakat_modifier = {
+	icon = piety_negative
+	monthly_piety_gain_mult = -0.25
+	monthly_prestige_gain_mult = -0.15
+	same_faith_opinion = -15
+	zealot_opinion = -30
+	clergy_opinion = -30
+	monthly_income_mult = -0.10
+}
+
+exposed_embezzler_modifier = {
+	icon = piety_negative
+	monthly_piety_gain_mult = -0.50
+	monthly_prestige_gain_mult = -0.30
+	same_faith_opinion = -30
+	zealot_opinion = -50
+	clergy_opinion = -50
+	monthly_income_mult = -0.20
+	short_reign_duration_mult = 0.50
+}
+
+zakat_overdue_warned = {
+	icon = piety_negative
+	monthly_piety_gain_mult = -0.05
+	same_faith_opinion = -5
+}
