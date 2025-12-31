@@ -1,4 +1,4 @@
-﻿# This ethnic template is specifically designed for a South Italian population,
+# This ethnic template is specifically designed for a South Italian population,
 # with a focus on a high-fidelity representation of the user-provided
 # "avg template" while allowing for natural variation.
 # The 0-255 values provided by the user have been converted to the
@@ -688,7 +688,7 @@ sicilian = {
 		100 = { name = cheek_wrinkles_both_01 range = { 0.0 0.0 } }
 	}
 	complexion = {
-		complexion = {
+
 		1 = {  name = complexion_1	range = { 0.0 0.4 }		}
         1 = {  name = complexion_2  range = { 0.0 0.4 }     }
         1 = {  name = complexion_3  range = { 0.0 0.4 }     }
@@ -696,7 +696,6 @@ sicilian = {
         1 = {  name = complexion_5  range = { 0.0 0.4 }     }
         1 = {  name = complexion_6  range = { 0.0 0.4 }     }
         1 = {  name = complexion_7  range = { 0.0 0.4 }     }
-		}
 	}
 	gene_height = {
         1 = { name = normal_height  range = { 0.4 0.43 }      }

@@ -1,4 +1,4 @@
-﻿32978 = {
+32978 = {
 	name = "Abd-al-Mu_min" # Almohad Founder, the 1st Almohad Caliph 1147-1163
 	dna = 32978_am
 	dynasty = 101875
@@ -64,7 +64,7 @@
 	1163.1.1 = {
 		trait = infirm
 	}
-	1163.5.12 = {
+	1163.1.1 = { # 1163.5.12
 		death = yes
 	}
 }
@@ -88,7 +88,7 @@
 	}
 }
 
-almohad1004 = {
+almohad_12 = {
 	name = "Abu_Zayd_Abd-al-Rahman"
 	dynasty = 101875
 	religion = "masmudi"
@@ -103,22 +103,22 @@ almohad1004 = {
 	}
 }
 
-almohad1005 = {
-	name = "Abu_Zakariya_Abd-al-Rahman"
-	dynasty = 101875
-	religion = "masmudi"
-	culture = masmuda
-	sexuality = heterosexual
-	father = 32978
-	1112.8.14 = {
-		birth= yes
-	}
-	1176.1.1 ={
-		death = yes
-	}
-}
+#almohad1005 = {
+#	name = "Abu_Zakariya_Abd-al-Rahman"
+#	dynasty = 101875
+#	religion = "masmudi"
+#	culture = masmuda
+#	sexuality = heterosexual
+#	father = 32978
+#	1112.8.14 = {
+#		birth= yes
+#	}
+#	1176.1.1 ={
+#		death = yes
+#	}
+#}
 
-almohad1006 = {
+almohad_9 = {
 	name = "Abu_Abd-al-Rahman_Ya_qub"
 	dynasty = 101875
 	religion = "masmudi"
@@ -133,7 +133,7 @@ almohad1006 = {
 	}
 }
 
-almohad1007 = {
+almohad_14 = {
 	name = "Abu_Ibrahim_Ismail"
 	dynasty = 101875
 	religion = "masmudi"
@@ -148,8 +148,8 @@ almohad1007 = {
 	}
 }
 
-almohad1009 = {
-	name = "Abu_Ali_al-Hussayn"
+almohad_15 = {
+	name = "Abu_Ali_al-Husayn"
 	dynasty = 101875
 	religion = "masmudi"
 	culture = masmuda
@@ -163,7 +163,7 @@ almohad1009 = {
 	}
 }
 
-almohad1010 = {
+almohad_16 = {
 	name = "Abu_Muhammad_Abdallah" # Governor of Bejaia/Bijaya during the 2nd Almohad Caliph reign
 	dynasty = 101875
 	religion = "masmudi"
@@ -180,7 +180,7 @@ almohad1010 = {
 	}
 }
 
-almohad1011 = {
+almohad_17 = {
 	name = "Abu_Musa_Isa"
 	dynasty = 101875
 	religion = "masmudi"
@@ -195,7 +195,7 @@ almohad1011 = {
 	}
 }
 
-almohad1012 = {
+almohad_2 = {
 	name = "Abu_Ishaq_Ibrahim"
 	dynasty = 101875
 	religion = "masmudi"
@@ -210,7 +210,7 @@ almohad1012 = {
 	}
 }
 
-almohad1013 = {
+almohad_10 = {
 	name = "Sulayman" # AKA: Abu'l-Rabi' Sulayman
 	dynasty = 101875
 	religion = "masmudi"
@@ -231,7 +231,7 @@ almohad1013 = {
 	}
 }
 
-almohad1014 = {
+almohad_20 = {
 	name = "Abu_Imran_Musa"
 	dna = almohad1014_dna
 	dynasty = 101875
@@ -298,8 +298,21 @@ almohad1014 = {
 		death = "1224.1.1"
 	}
 }
-
 32982 = {
+	name = "Abd-al-Wahid" #1224
+	dynasty = 101875
+	religion = "masmudi"
+	culture = masmuda
+	father = 32981
+	1217.1.1 = {
+		birth = yes
+	}
+	1227.1.1 = {
+		death = yes
+	}
+}
+
+almohad_5 = {
 	name = "Abd-al-Wahid" #1224
 	dynasty = 101875
 	religion = "masmudi"
@@ -671,7 +684,7 @@ almohad0023 = {
 	}
 }
 
-155088 = {
+almohad_8 = {
 	name = "_Ali"
 	dynasty = 101875
 	religion = "masmudi"
@@ -796,7 +809,7 @@ almohad0016 = { #ibn Ishaq al-Tahir
 	}
 }
 
-almohad0010 = { 
+almohad_1 = { 
 	name = "Abu_l-Ula_Idris" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	learning = 15
@@ -818,7 +831,7 @@ almohad0010 = {
 	}
 }
 
-almohad0011 = {
+almohad_7 = {
 	name = "Abu_Yahya" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	religion = "masmudi"
@@ -848,7 +861,7 @@ almohad0012 = {
 	}
 }
 
-almohad0013 = {
+almohad_3 = {
 	name = "Abu_Hafs_Umar" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	trait = brave
@@ -874,7 +887,7 @@ almohad0013 = {
 	}
 }
 
-almohad0014 = { 
+almohad_4 = { 
 	name = "Abu_Zayd_Muhammad" # ibn Yusuf Almohad2ndCaliph, al-Hardani
 	dynasty = 101875
 	religion = "masmudi"
@@ -939,7 +952,7 @@ almohad0022 = {
 	}
 }
 
-almohad0001 = {
+almohad_6 = {
 	name = "Abd-al-Rahman"
 	dynasty = 101875
 	religion = "masmudi"
@@ -1015,7 +1028,7 @@ almohad0005 = {
 	}
 }
 
-almohad0006 = {
+almohad_11 = {
 	name = "Abu_Abdallah_Muhammad" # Governor of Majorca and later Valencia
 	dna = almohad0006_dna
 	dynasty = 101875
@@ -1042,7 +1055,7 @@ almohad0006 = {
 	trait = deceitful
 	trait = arbitrary
 	trait = education_martial_3
-	father = almohad0006
+	father = almohad_11
 	1220.1.1 = {
 		birth = yes
 		give_nickname = nick_wathiq
@@ -1149,7 +1162,7 @@ almohad0007 = {
 	religion = "masmudi"
 	culture = masmuda
 	sexuality = heterosexual
-	father = almohad0006
+	father = almohad_11
 	1222.6.7 = {
 		birth = "1191.6.7"
 	}
@@ -1164,7 +1177,7 @@ almohad0008 = {
 	religion = "masmudi"
 	culture = masmuda
 	sexuality = heterosexual
-	father = almohad0006
+	father = almohad_11
 	trait = diligent
 	trait = ambitious
 	trait = trusting
@@ -1217,7 +1230,7 @@ almohad0009 = {
 	religion = "masmudi"
 	culture = masmuda
 	sexuality = heterosexual
-	father = almohad0006
+	father = almohad_11
 	trait = generous
 	trait = trusting
 	trait = diligent
@@ -1497,7 +1510,7 @@ hababa_amor = {
 		birth = yes
 	}
 	1215.1.1 = {
-		name = "Hababa"
+		name = "Habbaba"
 		religion = "masmudi"
 	}
 	1240.1.1 = {
