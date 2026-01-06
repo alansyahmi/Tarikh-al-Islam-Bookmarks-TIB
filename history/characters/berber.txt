@@ -8670,3 +8670,352 @@ baranis0027 = {
 		death = yes
 	}
 }
+
+tejalire_1 = {
+	name = "Bentago" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	culture = guanches
+	dynasty = 1048014
+	father = 20844
+	1067.1.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_2 = {
+	name = "Tamadaba" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	culture = guanches
+	dynasty = 1048014
+	father = tejalire_1
+	1092.1.1 = {
+		birth = yes
+	}
+	1144.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_3 = {
+	name = "Gararasa" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	culture = guanches
+	dynasty = 1048014
+	father = tejalire_2
+	1124.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_4 = {
+	name = "Belicar" # Fictional placeholder
+	religion = north_african_acham_pagan
+	culture = guanches
+	dynasty = 1048014
+	father = tejalire_3
+	1157.1.1 = {
+		birth = yes
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_5 = {
+	name = "Bentor" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = 210042
+	870.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_6 = {
+	name = "Guanarteme" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_5
+	895.1.1 = {
+		birth = yes
+	}
+	943.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_7 = {
+	name = "Tagooreate" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_6
+	919.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_8 = {
+	name = "Nauzet" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_7
+	939.1.1 = {
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_9 = {
+	name = "Egenenaca" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_8
+	958.1.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_10 = {
+	name = "Anaterve" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_9
+	977.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+
+tejalire_11 = {
+	name = "Alguim" # Fictional placeholder
+	dynasty = 1048014
+	religion = north_african_acham_pagan
+	culture = guanches
+	father = tejalire_10
+	996.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+sicilian_qaid_1 = {
+	name = "Richard" # Qaid Richard
+	religion = catholic
+	culture = sicilian_arab
+	trait = education_stewardship_3
+	trait = beardless_eunuch
+	1136.1.1 = {
+		birth = yes
+	}
+	1178.1.1  = {
+		employer = 211500 # William of Sicily
+		effect = {
+			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:ibadi }
+		} 
+	}
+	1188.1.1 = {
+		death = yes
+	}
+}
+
+sicilian_qaid_2 = {
+	name = "Martin" # Qaid Martin
+	religion = catholic
+	culture = sicilian_arab
+	trait = education_stewardship_3
+	trait = vengeful
+	trait = beardless_eunuch
+	1137.1.1 = {
+		birth = yes
+	}
+	1178.1.1  = {
+		employer = 211500 # William of Sicily
+		effect = {
+			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:ibadi }
+		} 
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_1 = {
+	name = "Abentahar" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = 210041
+	860.1.1 = {
+		birth = yes
+	}
+	918.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_2 = {
+	name = "Adiam" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_1
+	890.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_3 = {
+	name = "Alcoidar" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_2
+	920.1.1 = {
+		birth = yes
+	}
+	978.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_4 = {
+	name = "Acosayda" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_3
+	950.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_5 = {
+	name = "Achurteyga" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_4
+	980.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_6 = {
+	name = "Bentagai" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = 20843
+	1052.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_7 = {
+	name = "Bentago" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_6
+	1072.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_8 = {
+	name = "Bentahor" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_7
+	1092.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_9 = {
+	name = "Bentejui" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_8
+	1112.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_10 = {
+	name = "Caitafa" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_9
+	1132.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+
+tagatemiotise_11 = {
+	name = "Doramas" # Fictional placeholder
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	father = tagatemiotise_10
+	1152.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}

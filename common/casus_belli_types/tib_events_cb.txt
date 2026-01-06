@@ -614,9 +614,7 @@ grand_jihad_cb = {
 	allowed_for_character = {
 		government_has_flag = government_is_islamic
 		has_religion = religion:islam_religion
-		has_realm_law_flag = allows_grand_jihad_cb
-		#has_title = faith.religious_head_title
-		#has_realm_law = tib_caliphal_authority_2
+
 	}
 
 	allowed_against_character = {

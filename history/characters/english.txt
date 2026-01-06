@@ -13264,6 +13264,488 @@ edmund_de_burgh = {
 	}
 }
 
+# update
+vaux_1 = {
+	name = "Robert"
+	dynasty = english_vaux
+	religion = catholic
+	culture = norman
+	1132.1.1 = {
+		birth = yes
+	}
+	1195.1.1 = {
+		death = yes
+	}
+}
+
+vaux_2 = {
+	name = "Hubert"
+	dynasty = english_vaux
+	religion = catholic
+	culture = norman
+	1106.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+
+stuteville_1 = {
+	name = "Robert"
+	dynasty = english_stuteville
+	religion = catholic
+	culture = norman
+	1123.1.1 = {
+		birth = yes
+	}
+	1186.1.1 = {
+		death = yes
+	}
+}
+
+cornhill_1 = {
+	name = "Gervase"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	1110.1.1 = {
+		birth = yes
+	}
+	1184.9.29 = {
+		death = yes
+	}
+}
+
+cornhill_2 = {
+	name = "Henry"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_1
+	1135.1.1 = {
+		birth = yes
+	}
+	1193.1.1 = {
+		death = yes
+	}
+}
+
+cornhill_3 = {
+	name = "Reginald"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_1
+	1140.1.1 = {
+		birth = yes
+	}
+	1210.9.29 = {
+		death = yes
+	}
+}
+
+cornhill_4 = {
+	name = "Ralph"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_1
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.9.29 = {
+		death = yes
+	}
+}
+
+cornhill_5 = {
+	name = "Reginald"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_3
+	1158.1.1 = {
+		birth = yes
+	}
+	1223.1.1 = {
+		death = yes
+	}
+}
+
+cornhill_6 = {
+	name = "William"
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_3
+	1160.1.1 = {
+		birth = yes
+	}
+	1223.8.19 = {
+		death = yes
+	}
+}
+
+cornhill_7 = {
+	name = "Joan"
+	female = yes
+	dynasty = english_cornhill
+	religion = catholic
+	culture = norman
+	father = cornhill_2
+	1173.1.1 = {
+		birth = yes
+	}
+	1225.1.1 = {
+		death = yes
+	}
+}
+
+palmer_1 = {
+	name = "Richard" # Richard Palmer, bishop of Syracuse
+	dynasty = english_palmer
+	religion = catholic
+	culture = norman
+	trait = education_learning_3
+	1117.1.1 = {
+		birth = yes
+	}
+	1189.8.7 = {
+		death = yes
+	}
+}
+
+english_clavering_1 = {
+	name = "Roger"
+	dynasty = english_clavering
+	religion = catholic
+	culture = norman
+	1120.1.1 = {
+		birth = yes
+	}
+	1177.1.1 = {
+		death = yes
+	}
+}
+
+english_clavering_2 = {
+	name = "Robert"
+	dynasty = english_clavering
+	religion = catholic
+	culture = norman
+	father = english_clavering_1 # Roger fitzRichard
+	1170.1.1 = {
+		birth = yes
+	}
+	1214.1.1 = {
+		death = yes
+	}
+}
+
+english_lancaster_1 = {
+	name = "William"
+	dynasty = 100058 # Lancaster
+	religion = catholic
+	culture = norman
+	father = english_lancaster_3
+	1120.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+
+english_lancaster_2 = {
+	name = "William"
+	dynasty = 100058 # Lancaster
+	religion = catholic
+	culture = norman
+	father = english_lancaster_1
+	1155.1.1 = {
+		birth = yes
+	}
+	1184.1.1 = {
+		death = yes
+	}
+}
+
+english_lancaster_3 = {
+	name = "Gilbert"
+	dynasty = 100058 # Lancaster
+	religion = catholic
+	culture = norman
+	father = english_lancaster_4
+	1100.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+
+english_lancaster_4 = {
+	name = "EaldrE_d"
+	dynasty = 100058 # Lancaster
+	religion = catholic
+	culture = norman
+	1070.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+southwark_prior_1 = {
+	name = "William" # William de Oxenford
+	religion = catholic
+	culture = norman
+	trait = devoted
+	1139.1.1 = {
+		birth = yes
+	}
+	1203.11.4 = {
+		death = yes
+	}
+}
+
+mohun_1 = {
+	name = "William" # William de Mohun
+	dynasty = english_mohun
+	religion = catholic
+	culture = norman
+	1156.1.1 = {
+		birth = yes
+	}
+	1193.1.1 = {
+		death = yes
+	}
+}
+
+courcy_1 = {
+	name = "William"
+	dynasty = 101711
+	religion = "catholic"
+	culture = "norman"
+	father = 214003
+	1163.1.1 = {
+		birth = yes
+	}
+	1194.1.1 = {
+		death = yes
+	}
+}
+
+courcy_2 = {
+	name = "Alice"
+	female = yes
+	dynasty = 101711
+	religion = "catholic"
+	culture = "norman"
+	father = 214003
+	1166.1.1 = {
+		birth = yes
+	}
+	1229.1.1 = {
+		death = yes
+	}
+}
+
+courcy_3 = {
+	name = "William"
+	dynasty = 101711
+	religion = "catholic"
+	culture = "norman"
+	father = courcy_4
+	1095.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+courcy_4 = {
+	name = "William"
+	dynasty = 101711
+	religion = "catholic"
+	culture = "norman"
+	father = courcy_5
+	1072.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+
+courcy_5 = {
+	name = "Richard"
+	dynasty = 101711
+	religion = "catholic"
+	culture = "norman"
+	1040.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+bigod_1 = {
+	name = "Hugh"
+	dynasty = 346
+	religion = "catholic"
+	culture = "norman"
+	1045.1.2 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+
+salisbury_1 = {
+	name = "Edward"
+	dynasty = 100023
+	religion = "catholic"
+	culture = "norman"
+	1043.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+
+york_archbishop_1 = {
+	name = "William"
+	religion = "catholic"
+	culture = "norman"
+	1089.1.1 = {
+		birth = yes
+	}
+	1154.6.8 = {
+		death = yes
+	}
+}
+
+york_archbishop_2 = {
+	name = "Turstin"
+	religion = "catholic"
+	culture = "norman"
+	1070.1.1 = {
+		birth = yes
+	}
+	1140.2.6 = {
+		death = yes
+	}
+}
+
+york_archbishop_3 = {
+	name = "Thomas"
+	religion = "catholic"
+	culture = "norman"
+	trait = chaste
+	trait = gluttonous
+	1067.1.1 = {
+		birth = yes
+	}
+	1114.2.24 = {
+		death = yes
+	}
+}
+
+york_archbishop_4 = {
+	name = "Gerard"
+	religion = "catholic"
+	culture = "norman"
+	1043.1.1 = {
+		birth = yes
+	}
+	1108.5.21 = {
+		death = yes
+	}
+}
+
+york_archbishop_5 = {
+	name = "Thomas"
+	religion = "catholic"
+	culture = "norman"
+	1036.1.1 = {
+		birth = yes
+	}
+	1100.11.18 = {
+		death = yes
+	}
+}
+
+york_archbishop_6 = {
+	name = "Henry"
+	religion = "catholic"
+	culture = "norman"
+	trait = zealous
+	trait = humble
+	trait = administrator
+	1099.1.1 = {
+		birth = yes
+	}
+	1153.10.14 = {
+		death = yes
+	}
+}
+
+canterbury_archbishop_1 = {
+	name = "William"
+	religion = "catholic"
+	culture = "norman"
+	1070.1.1 = {
+		birth = yes
+	}
+	1136.11.21 = {
+		death = yes
+	}
+}
+
+canterbury_archbishop_2 = {
+	name = "Ralph"
+	religion = "catholic"
+	culture = "norman"
+	1056.1.1 = {
+		birth = yes
+	}
+	1122.10.20 = {
+		death = yes
+	}
+}
+
+canterbury_archbishop_3 = {
+	name = "Anselmo"
+	religion = "catholic"
+	culture = "italian"
+	1033.1.1 = {
+		birth = yes
+	}
+	1109.4.21 = {
+		death = yes
+	}
+}
+
+canterbury_archbishop_4 = {
+	name = "Lanfranco"
+	religion = "catholic"
+	culture = "italian"
+	1005.1.1 = {
+		birth = yes
+	}
+	1089.5.24 = {
+		death = yes
+	}
+}
+# end update
+
 william_cantilupe = {
 	name = "William"
 	dynasty = cantilupe

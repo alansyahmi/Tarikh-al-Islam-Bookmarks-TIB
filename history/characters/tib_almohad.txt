@@ -118,7 +118,7 @@ almohad_12 = {
 #	}
 #}
 
-almohad_9 = {
+almohad_13 = {
 	name = "Abu_Abd-al-Rahman_Ya_qub"
 	dynasty = 101875
 	religion = "masmudi"
@@ -195,7 +195,7 @@ almohad_17 = {
 	}
 }
 
-almohad_2 = {
+almohad_18 = {
 	name = "Abu_Ishaq_Ibrahim"
 	dynasty = 101875
 	religion = "masmudi"
@@ -210,7 +210,7 @@ almohad_2 = {
 	}
 }
 
-almohad_10 = {
+almohad_19 = {
 	name = "Sulayman" # AKA: Abu'l-Rabi' Sulayman
 	dynasty = 101875
 	religion = "masmudi"
@@ -684,7 +684,7 @@ almohad0023 = {
 	}
 }
 
-almohad_8 = {
+almohad_8000 = {
 	name = "_Ali"
 	dynasty = 101875
 	religion = "masmudi"
@@ -831,7 +831,7 @@ almohad_1 = {
 	}
 }
 
-almohad_7 = {
+almohad_7000 = {
 	name = "Abu_Yahya" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	religion = "masmudi"
@@ -846,7 +846,7 @@ almohad_7 = {
 	}
 }
 
-almohad0012 = { 
+almohad_2 = { # almohad0012
 	name = "Abu_Ishaq_Ibrahim" #ibn Yusuf Almohad2ndCaliph
 	dynasty = 101875
 	religion = "masmudi"
@@ -967,7 +967,7 @@ almohad_6 = {
 	}
 }
 
-almohad0002 = {
+almohad_7 = { # almohad0002
 	name = "Abu_Zakariya_Yahya"
 	dynasty = 101875
 	religion = "masmudi"
@@ -982,7 +982,7 @@ almohad0002 = {
 	}
 }
 
-almohad0003 = {
+almohad_8 = { # almohad0003
 	name = "Abu_l_Hasan_Ali"
 	dynasty = 101875
 	religion = "masmudi"
@@ -997,7 +997,7 @@ almohad0003 = {
 	}
 }
 
-almohad0004 = {
+almohad_9 = { # almohad0004
 	name = "Abu_Yusuf_Ya_qub" # ibn 'Umar ibn Abd-al-Mu'min
 	dna = almohad0004_yaqub_ibn_umar
 	dynasty = 101875
@@ -1013,7 +1013,7 @@ almohad0004 = {
 	}
 }
 
-almohad0005 = {
+almohad_10 = { # almohad0005
 	name = "Abu_l-Rabi__Sulayman"
 	dynasty = 101875
 	religion = "masmudi"

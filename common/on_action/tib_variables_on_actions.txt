@@ -9,7 +9,6 @@
 yearly_global_pulse = {
 	on_actions = {
 		tib_islamic_schism_early_bookmark
-		tib_zakat_reminder
 	}
 }
 
@@ -219,24 +218,3 @@ tib_islamic_schism_post_mihna = {
 	}
 }
 
-on_islamic_start = {
-	effect = {
-		every_ruler = {
-			limit = { 
-				# Initialize Islamic rulers with zakat resources
-				OR = {
-					has_government = clan_government
-					has_government = islamic_government
-					faith = {
-						religion_tag = islam_religion
-					}
-				}
-			}
-			# Initialize zakat resource tracking
-			set_variable = {
-				name = zakat_resource
-				value = 0
-			}
-        }
-    }
-}

@@ -1,0 +1,22 @@
+
+maghrebi0002 = {
+name = "Muhammad"
+dynasty = salimid
+religion = "ashari"
+culture = "maghrebi"
+trait = education_diplomacy_3
+father = maghrebi0001
+832.1.1 = { birth = yes }
+871.1.1 = { death = yes }
+}
+
+maghrebi0009 = {
+name = "Ahmad"
+dynasty = salimid
+religion = "ashari"
+culture = "maghrebi"
+trait = education_stewardship_4
+father = maghrebi0008
+832.1.1 = { birth = yes }
+872.5.1 = { death = yes }
+}
