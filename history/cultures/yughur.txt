@@ -21,6 +21,10 @@
 	discover_innovation = innovation_ledger
 }
 
+1070.1.1 = {
+	join_era = culture_era_early_medieval
+}
+
 1080.1.1 = {
 	discover_innovation = innovation_burhs
 	discover_innovation = innovation_mangonel

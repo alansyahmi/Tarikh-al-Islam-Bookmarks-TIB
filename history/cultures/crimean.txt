@@ -45,6 +45,11 @@
 1124.1.1 = {
 	discover_innovation = innovation_trebuchet # 1124
 }
+
+1070.1.1 = {
+	join_era = culture_era_early_medieval
+}
+
 1180.1.1 = {
 	discover_innovation = innovation_castle_baileys
 	discover_innovation = innovation_hoardings

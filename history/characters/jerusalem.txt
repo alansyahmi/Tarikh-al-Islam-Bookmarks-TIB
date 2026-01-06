@@ -14,7 +14,7 @@ nathan1187 = {
 	1147.4.14={
 		birth=yes
 	}
-	1187.1.1 = {
+	1178.1.1 = {
 		employer = 226000 #Saladin
 		give_nickname = nick_the_wise
 	}
