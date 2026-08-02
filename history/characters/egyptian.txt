@@ -1,4 +1,4 @@
-﻿144092 = {
+144092 = {
 	name = "Al-Mu_izz_Ismail"
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
@@ -558,7 +558,7 @@
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
-	father = 226000
+	father = 161539
 	1172.1.1 = {
 		birth = "1172.1.1"
 	}
@@ -572,7 +572,7 @@
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
-	father = 226000
+	father = 161539
 	1177.1.1 = {
 		birth = "1177.1.1"
 	}
@@ -586,7 +586,7 @@
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
-	father = 226000
+	father = 161539
 	1180.1.1 = {
 		birth = "1180.1.1"
 	}
@@ -600,7 +600,7 @@
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
-	father = 226000
+	father = 161539
 	1181.1.1 = {
 		birth = "1181.1.1"
 	}
@@ -614,7 +614,7 @@
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "egyptian"
-	father = 226000
+	father = 161539
 	1182.1.1 = {
 		birth = "1182.1.1"
 	}
@@ -1641,7 +1641,7 @@
 	}
 }
 
-161521 = {
+1615211 = {
 	name="Athanasios" #II
 	religion="coptic"
 	culture = egyptian_coptic

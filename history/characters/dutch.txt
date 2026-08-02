@@ -1,4 +1,4 @@
-﻿10066 = {
+10066 = {
 	name = "Mathilda"
 	female = yes
 	dynasty = 7198
@@ -868,7 +868,7 @@
 	}
 }
 
-205520 = {
+2055201 = {
 	name = "Boudewijn" #Boudewijn VIII
 	# AKA: Baudouin
 	dynasty = 724
@@ -927,7 +927,7 @@
 	stewardship = 6
 	religion = "catholic"
 	culture = dutch
-	father = 205520
+	father = 2055201
 	mother = 212589
 	1171.7.1 = {
 		birth = "1171.7.1"
@@ -4373,7 +4373,7 @@ set_realm_capital = title:c_nedersticht
 	religion = "catholic"
 	culture = walloon
 	trait = ill
-	father = 205520
+	father = 2055201
 	mother = 212589
 	1182.1.1 = {
 		birth = "1182.1.1"
@@ -4389,7 +4389,7 @@ set_realm_capital = title:c_nedersticht
 	religion = "catholic"
 	culture = dutch
 	trait = bastard
-	father = 205520
+	father = 2055201
 	1170.1.1 = {
 		birth = "1170.1.1"
 	}

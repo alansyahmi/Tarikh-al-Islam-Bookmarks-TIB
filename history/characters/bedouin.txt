@@ -1,4 +1,4 @@
-ï»¿45108 = {
+45108 = {
 	name = "Hasan" # ibn Zayd (great-great-grandson of Hasan ibn Zayd, governor of Medina)
 	dynasty_house = house_Alavid # Alavids of Tabaristan
 	religion = "zayidi"
@@ -5102,7 +5102,7 @@
 		birth = yes
 	}
 	865.1.1 = {
-		add_spouse = 70294 # Ã“neca Ortiz, known as Durr (basque.txt)
+		add_spouse = 70294 # Óneca Ortiz, known as Durr (basque.txt)
 	}
 	870.1.1 = {
 		add_concubine = levantine0049 # Tamem
@@ -5147,7 +5147,7 @@
 	trait = sayyid_quraysh
 
 	father = 73685 # Sultan Abdallah I of Andalusia
-	mother = 70294 # Ã“neca Ortiz, known as Durr (basque.txt)
+	mother = 70294 # Óneca Ortiz, known as Durr (basque.txt)
 
 	866.1.1 = {
 		birth = yes
@@ -5706,7 +5706,7 @@
 	}
 	715.2.20 = {
 		set_relation_friend = character:210002 # Sulayman's "al-Hajjaj"
-		trait = infirm # Gets ill pretty quick
+		trait = faltering_heart # Gets ill pretty quick
 	}
 	717.10.1 = {
 		death = {
@@ -10211,7 +10211,7 @@ bedouin0015 = {
 
 ##################
 1229650 = {
-	name = "_AdI_" #semi-historical placeholder for 'AdÃ­ branch of Banu HilÃ¡l
+	name = "_AdI_" #semi-historical placeholder for 'Adí branch of Banu Hilál
 	dynasty_house = house_adid
 	religion = "ashari"
 	culture = "bedouin"
@@ -10224,7 +10224,7 @@ bedouin0015 = {
 	}
 }
 1229651 = {
-	name = "Ziyad" #placeholder for 'AdÃ­ branch of Banu HilÃ¡l
+	name = "Ziyad" #placeholder for 'Adí branch of Banu Hilál
 	dynasty_house = house_adid
 	religion = "ashari"
 	culture = "bedouin"
@@ -12481,8 +12481,8 @@ bedouin00162 = { #fictional governor of Hijaz
 }
 
 bedouin0180 = {
-	name = "Aysun" # Aysun ibn Suelyman al-ArabÃ­
-	dynasty = 1046005 # Suleyman al-ArabÃ­ Dynasty
+	name = "Aysun" # Aysun ibn Suelyman al-Arabí
+	dynasty = 1046005 # Suleyman al-Arabí Dynasty
 	religion = ashari
 	culture = bedouin
 	trait = education_martial_2
@@ -12810,7 +12810,7 @@ bedouin0197 = {
 	trait = education_stewardship_1
 
 	father = 73214 # Sheik al-Fath of Cordoba
-	mother = 71373 # Sheikess ZaÃ¯da
+	mother = 71373 # Sheikess Zaïda
 
 	1090.1.1 = {
 		birth = yes
@@ -12862,7 +12862,7 @@ bedouin0200 = {
 	trait = education_diplomacy_1
 
 	father = 168729 # Umar ibn Sa'id al-Lajmi
-	mother = 168721 # Sara AlamÃºndez (visigothic.txt)
+	mother = 168721 # Sara Alamúndez (visigothic.txt)
 
 	761.1.1 = {
 		birth = yes
@@ -13531,7 +13531,7 @@ bedouin0210 = {
 		birth = yes
 	}
 	736.1.1 = {
-		add_spouse = 168721 # Sara AlamÃºndez (visigothic.txt)
+		add_spouse = 168721 # Sara Alamúndez (visigothic.txt)
 	}
 	760.1.1 = {
 		death = yes
@@ -13549,7 +13549,7 @@ bedouin0210 = {
 		birth = yes
 	}
 	760.1.1 = {
-		add_spouse = 168721 # Sara AlamÃºndez (visigothic.txt)
+		add_spouse = 168721 # Sara Alamúndez (visigothic.txt)
 	}
 	785.1.1 = {
 		death = yes
@@ -13564,7 +13564,7 @@ bedouin0210 = {
 	trait = education_stewardship_1
 
 	father = 168728 # Isa ibn Muzahim
-	mother = 168721 # Sara AlamÃºndez (visigothic.txt)
+	mother = 168721 # Sara Alamúndez (visigothic.txt)
 
 	737.1.1 = {
 		birth = yes
@@ -13582,7 +13582,7 @@ bedouin0210 = {
 	trait = education_martial_1
 
 	father = 168728 # Isa ibn Muzahim
-	mother = 168721 # Sara AlamÃºndez (visigothic.txt)
+	mother = 168721 # Sara Alamúndez (visigothic.txt)
 
 	740.1.1 = {
 		birth = yes
@@ -13769,8 +13769,8 @@ bedouin0210 = {
 }
 
 200049 = {
-	name = "Suleyman" # Suleyman al-ArabÃ­, Walih of Barcelona (769-780) & Sheik of Barcelona, CerdaÃ±a, Empuries, Girona, Lleida & Tarragona
-	dynasty = 1046005 # Suleyman al-ArabÃ­ Dynasty
+	name = "Suleyman" # Suleyman al-Arabí, Walih of Barcelona (769-780) & Sheik of Barcelona, Cerdaña, Empuries, Girona, Lleida & Tarragona
+	dynasty = 1046005 # Suleyman al-Arabí Dynasty
 	religion = ashari
 	culture = bedouin
 	trait = education_diplomacy_2
@@ -13787,13 +13787,13 @@ bedouin0210 = {
 }
 
 200051 = {
-	name = "Matruh" # Matruh ibn Suleyman al-ArabÃ­, Walih of Barcelona (780-792) & Zaragoza (789-792) & Sheik of Barcelona, CerdaÃ±a, Empuries, Girona, Lleida & Tarragona (780-792), AlbarracÃ­n, Calatayud, Fraga & Zaragoza (789-792)
-	dynasty = 1046005 # Suleyman al-ArabÃ­ Dynasty
+	name = "Matruh" # Matruh ibn Suleyman al-Arabí, Walih of Barcelona (780-792) & Zaragoza (789-792) & Sheik of Barcelona, Cerdaña, Empuries, Girona, Lleida & Tarragona (780-792), Albarracín, Calatayud, Fraga & Zaragoza (789-792)
+	dynasty = 1046005 # Suleyman al-Arabí Dynasty
 	religion = ashari
 	culture = bedouin
 	trait = education_martial_3
 
-	father = 200049 # Walih Suleyman al-ArabÃ­ of Barcelona
+	father = 200049 # Walih Suleyman al-Arabí of Barcelona
 	mother = 200050 # Waliha Nadira (visigothic.txt)
 
 	764.1.1 = {
@@ -13808,7 +13808,7 @@ bedouin0210 = {
 }
 
 200052 = {
-	name = "Sadun" # Sadun ibn Ruayn, Walih of Barcelona (792-800) & Sheik of Barcelona, CerdaÃ±a, Empuries, Girona, Lleida & Tarragona (792-800)
+	name = "Sadun" # Sadun ibn Ruayn, Walih of Barcelona (792-800) & Sheik of Barcelona, Cerdaña, Empuries, Girona, Lleida & Tarragona (792-800)
 	dynasty = 1046006 # Sadun ibn Ruayn Dynasty
 	religion = ashari
 	culture = bedouin

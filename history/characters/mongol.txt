@@ -1,4 +1,4 @@
-ï»¿#Temujin's ancestors
+#Temujin's ancestors
 #Mother of Bodonchar Munkhag
 303250 = {
 	name="Alan_Gua" #Alan Gua
@@ -120,7 +120,7 @@
 	}
 }
 166843 = {
-	name="Yehe NidÃ¼n"
+	name="Yehe Nidün"
 	dynasty=1040071 # Quralas
 	religion="tengri_pagan"
 	culture="mongol"
@@ -199,7 +199,7 @@ quralas1 = {
 	}
 }
 166849 = {
-	name="BÃ¶rte Chino"
+	name="Börte Chino"
 	dynasty=1040071 # Quralas
 	religion="tengri_pagan"
 	culture="mongol"
@@ -495,7 +495,7 @@ Suldus2 = {
 }
 
 Suldus3 = {
-	name="TÃ¶da'a" 
+	name="Töda'a" 
 	dynasty_house = house_solusclan # Suldus
 	religion="tengri_pagan"
 	culture="mongol"
@@ -777,7 +777,7 @@ Suldus10 = {
 }
 #Borjigin Gen21 (children of Bartan)
 303281 = {
-	name="MengitÃ¼ Hiyan" # Uncle of Genghis Khan
+	name="Mengitü Hiyan" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -815,7 +815,7 @@ Suldus10 = {
 		death = yes
 	}
 }
-#YesÃ¼gei and his sons (except Temujin)
+#Yesügei and his sons (except Temujin)
 93055 = {
 	name = "YesU_gei" # Father of Genghis Khan
 	dynasty = 11100
@@ -874,7 +874,7 @@ Suldus10 = {
 #	}
 #}
 93056 = {
-	name = "Hasar"	#YesÃ¼gei's 2nd son
+	name = "Hasar"	#Yesügei's 2nd son
 	dynasty = 11100
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -903,7 +903,7 @@ Suldus10 = {
 	}
 }
 #303284 = {
-#	name="BelgÃ¼tei"
+#	name="Belgütei"
 #	dynasty=11100
 #	religion="tengri_pagan"
 #	culture="mongol"
@@ -932,7 +932,7 @@ Suldus10 = {
 #	}
 #}
 #303286 = {
-#	name="TemÃ¼ge"
+#	name="Temüge"
 #	dynasty=11100
 #	religion="tengri_pagan"
 #	culture="mongol"
@@ -946,7 +946,7 @@ Suldus10 = {
 #	}
 #}
 #303287 = {
-#	name="TemÃ¼len"
+#	name="Temülen"
 #	female=yes
 #	dynasty=11100
 #	religion="tengri_pagan"
@@ -1257,7 +1257,7 @@ Suldus10 = {
 	1181.1.1={
 		add_concubine = 166864
 
-	}#recaptures BÃ¶rte and marries Khulan Khatun
+	}#recaptures Börte and marries Khulan Khatun
 	1202.1.1={
 		add_concubine = 166869
 		add_concubine = 166870
@@ -1520,8 +1520,8 @@ set_realm_capital = title:c_itil
 	}
 }
 125508 = {
-	name="MÃ¶ngke TemÃ¼r"
-	# AKA: Mongke TemÃ¼r
+	name="Möngke Temür"
+	# AKA: Mongke Temür
 	dynasty_house = house_Jochid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -1537,7 +1537,7 @@ set_realm_capital = title:c_itil
 	}
 }
 125509 = {
-	name="Tode MÃ¶ngke"
+	name="Tode Möngke"
 	# AKA: Tode Mongke
 	dynasty_house = house_Jochid
 	religion="tengri_pagan"
@@ -1770,7 +1770,7 @@ set_realm_capital = title:c_itil
 	}
 	1201.1.1 = {
 		effect = {
-			set_relation_friend = { reason = friend_generic_history target = character:172005 } #close bond with Ã–gedei 
+			set_relation_friend = { reason = friend_generic_history target = character:172005 } #close bond with Ögedei 
 		}
     }
 	1208.1.1={
@@ -1887,7 +1887,7 @@ IlkhanateFemale2 = {
 }
 
 IlkhanateFemale3 = {
-	name="Ã–ljetey"
+	name="Öljetey"
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -2016,7 +2016,7 @@ IlkhanateFemale4 = {
    }
 }
 125526 = {
-	name="Ariq BÃ¶ke"
+	name="Ariq Böke"
 	# AKA: Arig Bokha
 	dynasty=11100
 	religion="tengri_pagan"
@@ -2092,7 +2092,7 @@ IlkhanateFemale4 = {
 	}
 }
 125530 = {
-	name="MÃ¶ngke TemÃ¼r"
+	name="Möngke Temür"
 	# AKA: Hyaxemet
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
@@ -2120,7 +2120,7 @@ IlkhanateFemale4 = {
 	}
 }
 125532 = {
-	name="TemÃ¼r"
+	name="Temür"
 	dynasty_house = house_Toluid
 	religion="asharite"
 	culture="mongol"
@@ -2364,7 +2364,7 @@ IlkhanateFemale4 = {
 	trait="child_of_concubine_male"
 	1280.1.2={
 		birth="1280.1.2"
-		name="Ã–ljeitÃ¼" # so that Nicholas shows up as birth name
+		name="Öljeitü" # so that Nicholas shows up as birth name
 	}
 	1290.1.2={
 		religion="vajrayana" #Buddhism
@@ -2965,7 +2965,7 @@ Injuid1 = {
 }
 
 480000 = {
-	name="Ã–zbeg"
+	name="Özbeg"
 	dynasty_house = house_Jochid
 
 	religion="tengri_pagan"
@@ -4634,7 +4634,7 @@ sons_of_orda_003 = {
 	}
 }
 93063 = {
-	name="MÃ¶'etÃ¼ken" 
+	name="Mö'etüken" 
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4665,7 +4665,7 @@ sons_of_mutukan_001 = {
 	}
 }
 93064 = {
-	name="Qara-HÃ¼lÃ¶gÃ¼" 
+	name="Qara-Hülögü" 
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4689,7 +4689,7 @@ sons_of_mutukan_001 = {
 	}
 }
 93065 = {
-	name="YesÃ¼ MÃ¶ngke" 
+	name="Yesü Möngke" 
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4761,7 +4761,7 @@ ChagataiFemale2 = {
 }
 
 ChagataiFemale3 = {
-	name="Ã–ljetey" 
+	name="Öljetey" 
 	dynasty_house = house_Chagatayid
 	religion="asharite"
 	culture="mongol"
@@ -4834,7 +4834,7 @@ ChagataiFemale4 = {
 	}
 }
 93069 = {
-	name="YesÃ¼nto'a" 
+	name="Yesünto'a" 
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4912,7 +4912,7 @@ sons_of_sarban_001 = {
 	}
 }
 93072 = {
-	name="NegÃ¼bei" 
+	name="Negübei" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4928,7 +4928,7 @@ sons_of_sarban_001 = {
 	}
 }
 93073 = {
-	name="BÃ¼ri" 
+	name="Büri" 
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4951,7 +4951,7 @@ sons_of_sarban_001 = {
 	}
 }
 93074 = {
-	name="Buqa TemÃ¼r" 
+	name="Buqa Temür" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -4982,7 +4982,7 @@ sons_of_sarban_001 = {
 	}
 }
 93076 = {
-	name="KÃ¶nchek" 
+	name="Könchek" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -5075,7 +5075,7 @@ sons_of_sarban_001 = {
 	}
 }
 93082 = {
-	name="D'ua TemÃ¼r" 
+	name="D'ua Temür" 
 	dynasty_house = house_Chagatayid
 	religion="tengri_pagan"
 	culture="chagatai"
@@ -5436,7 +5436,7 @@ mongol_placeholder_001 = {
 		birth="1195.1.1"
 	}
 	1241.1.1={
-		add_trait="infirm"
+		add_trait = faltering_heart
 	}
 	1242.1.1={
 		death="1242.1.1"
@@ -5487,7 +5487,7 @@ mongol_placeholder_001 = {
 	}
 }
 93308 = {
-	name="Ã–ljetey"
+	name="Öljetey"
 	female=yes
 	dynasty_house = house_Toluid
 	religion="asharite"
@@ -5515,7 +5515,7 @@ mongol_placeholder_001 = {
 	}
 }
 93310 = {
-	name="Jahan TemÃ¼r"
+	name="Jahan Temür"
 	dynasty_house = house_Toluid
 	religion="asharite"
 	culture="mongol"
@@ -5632,7 +5632,7 @@ mongol_placeholder_001 = {
 }
 
 172005 = {
-	name = "Ogodei" # Ã–gedei Khan
+	name = "Ogodei" # Ögedei Khan
 	dynasty = 11100
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -5696,7 +5696,7 @@ mongol_placeholder_001 = {
 	}
 }
 172007 = {
-	name="Guyug" # GÃ¼yÃ¼k Khan
+	name="Guyug" # Güyük Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -5858,7 +5858,7 @@ mongol_placeholder_001 = {
 	}
 }
 217265 = {
-	name = MO_ngke # MÃ¶ngke Khan
+	name = MO_ngke # Möngke Khan
 	dynasty = 11100
 	religion = tengri_pagan
 	culture = mongol
@@ -5904,7 +5904,7 @@ mongol_placeholder_001 = {
 	}
 	1253.1.1={
 		religion = lamaism
-	} #Initiated by DrogÃ¶n ChÃ¶gyal Phagpa
+	} #Initiated by Drogön Chögyal Phagpa
 	1255.8.21 = {
 		#dynasty_house = house_Kublaid
 		spawn_mongol_troops_effect = yes
@@ -5953,7 +5953,7 @@ mongol_placeholder_001 = {
 	}
 }
 217269 = {
-	name = "TemÃ¼r Ã–ljeytÃ¼" # TemÃ¼r Khan
+	name = "Temür Öljeytü" # Temür Khan
 	dynasty_house = house_Kublaid
 	religion = lamaism
 	culture = mongol
@@ -5983,7 +5983,7 @@ mongol_placeholder_001 = {
 	}
 }
 217271 = {
-	name = KU_lU_g # KÃ¼lÃ¼g Khan
+	name = KU_lU_g # Külüg Khan
 	dynasty_house = house_Kublaid
 	religion = lamaism
 	culture = mongol
@@ -6095,7 +6095,7 @@ mongol_placeholder_001 = {
   }
 }
 217279 = {
-	name = "YesU_n_TemU_r" # YesÃ¼n TemÃ¼r Khan
+	name = "YesU_n_TemU_r" # Yesün Temür Khan
 	dynasty_house = house_Kublaid
 	religion = lamaism
 	culture = mongol
@@ -6163,7 +6163,7 @@ mongol_placeholder_001 = {
 	}
 }
 217284 = {
-	name = "Toghon_TemU_r" # Toghon TemÃ¼r Khan
+	name = "Toghon_TemU_r" # Toghon Temür Khan
 	dynasty_house = house_Kublaid
 	trait = education_learning_2						 
 	religion = lamaism
@@ -8719,7 +8719,7 @@ yedid0008 = {
 }
 
 125534 = {
-	name="Tuq-TemÃ¼r"
+	name="Tuq-Temür"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -8743,7 +8743,7 @@ yedid0008 = {
 	}
 }
 125535 = {
-	name="Ulun-TemÃ¼r"
+	name="Ulun-Temür"
 	dynasty_house = house_Jochid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9062,7 +9062,7 @@ yedid0008 = {
 	}
 }
 166927 = {
-	name="Oghul Khoimish" #concubine of Tolui and second wife of MÃ¶ngke Khan
+	name="Oghul Khoimish" #concubine of Tolui and second wife of Möngke Khan
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -9078,7 +9078,7 @@ yedid0008 = {
 	}
 }
 166928 = {
-	name = "Shirin" # daughter of MÃ¶ngke
+	name = "Shirin" # daughter of Möngke
 	female=yes
 	dynasty_house = house_Toluid
 	religion = "tengri_pagan"
@@ -9093,7 +9093,7 @@ yedid0008 = {
 	}
 }
 166929 = {
-	name = "Bichike" # daughter of MÃ¶ngke
+	name = "Bichike" # daughter of Möngke
 	female=yes
 	dynasty_house = house_Toluid
 	religion = "tengri_pagan"
@@ -9108,7 +9108,7 @@ yedid0008 = {
 	}
 }
 166930 = {
-	name="Qutuqui" #first wife of MÃ¶ngke Khan
+	name="Qutuqui" #first wife of Möngke Khan
 	female=yes
 	dynasty=1040076
 	religion="tengri_pagan"
@@ -9121,7 +9121,7 @@ yedid0008 = {
 	}
 }
 166931 ={
-	name="Baltu" # son of MÃ¶ngke
+	name="Baltu" # son of Möngke
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9139,7 +9139,7 @@ yedid0008 = {
 	}
 }
 166932 ={
-	name="Urendash" # son of MÃ¶ngke
+	name="Urendash" # son of Möngke
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9153,7 +9153,7 @@ yedid0008 = {
 	}
 }
 166933 ={
-	name="Baylun" # daughter of MÃ¶ngke
+	name="Baylun" # daughter of Möngke
 	female=yes
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
@@ -9168,7 +9168,7 @@ yedid0008 = {
 	}
 }
 166934 = {
-	name="Chubei" #third wife of MÃ¶ngke Khan
+	name="Chubei" #third wife of Möngke Khan
 	female=yes
 	dynasty=1051140
 	religion="tengri_pagan"
@@ -9181,7 +9181,7 @@ yedid0008 = {
 	}
 }
 166935 = {
-	name="Bayavchin" #concubine of MÃ¶ngke Khan
+	name="Bayavchin" #concubine of Möngke Khan
 	female=yes
 	dynasty=1051138 #Bayid
 	religion="tengri_pagan"
@@ -9194,7 +9194,7 @@ yedid0008 = {
 	}
 }
 166936 ={
-	name="Shiregi" # son of MÃ¶ngke
+	name="Shiregi" # son of Möngke
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9209,7 +9209,7 @@ yedid0008 = {
 	}
 }
 166937 ={
-	name="Asutai" # son of MÃ¶ngke
+	name="Asutai" # son of Möngke
 	dynasty_house = house_Toluid
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9224,7 +9224,7 @@ yedid0008 = {
 	}
 }
 166938 = {
-	name="Quitani" #concubine of MÃ¶ngke Khan
+	name="Quitani" #concubine of Möngke Khan
 	female=yes
 	dynasty=1051138 #Bayid
 	religion="tengri_pagan"
@@ -9299,8 +9299,8 @@ yedid0008 = {
 	}
 }
 166948 = {
-	name="KÃ¶kÃ¶chin"
-	# AKA: KÃ¶kÃ¶chin, wife of Ghazan
+	name="Kököchin"
+	# AKA: Kököchin, wife of Ghazan
 	female = yes
 	dynasty=1051138
 	religion="tengri_pagan"
@@ -9353,9 +9353,9 @@ yedid0008 = {
 	}
 }
 
-#descendants of TemÃ¼ge
+#descendants of Temüge
 166953 = {
-	name="JibÃ¼gan"
+	name="Jibügan"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -9465,7 +9465,7 @@ yedid0008 = {
 	}
 }
 188999 = {
-	name="KÃ¼l-Bolat"
+	name="Kül-Bolat"
 	religion="tengri_pagan"
 	culture="mongol"
 	1205.1.1 = { #?
@@ -9490,7 +9490,7 @@ yedid0008 = {
 	}
 }
 166969 = {
-	name="Khulan TemÃ¼r" # Son of Kublai Khan
+	name="Khulan Temür" # Son of Kublai Khan
 	dynasty_house = house_Kublaid
 	religion="lamaism"
 	culture="mongol"
@@ -9518,7 +9518,7 @@ yedid0008 = {
 	}
 }
 166971 = {
-	name="KÃ¶kejin" # wife of Jingim Zhenjin
+	name="Kökejin" # wife of Jingim Zhenjin
 	female=yes
 	dynasty=1040080
 	religion="lamaism"
@@ -9557,7 +9557,7 @@ yedid0008 = {
 	}
 }
 166981 = {
-	name="Babukhan" # wife of YesÃ¼n TemÃ¼r
+	name="Babukhan" # wife of Yesün Temür
 	female=yes
 	dynasty=1051125
 	religion="vajrayana"
@@ -9716,7 +9716,7 @@ sons_of_mochi_yebe_004 = {
 	}
 }
 sons_of_mochi_yebe_005 = {
-	name = "BÃ¼k-Buqa"
+	name = "Bük-Buqa"
 	dynasty_house = house_Chagatayid
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -9730,7 +9730,7 @@ sons_of_mochi_yebe_005 = {
 	}
 }
 sons_of_mochi_yebe_006 = {
-	name = "TemÃ¼der" # THE MURDERER XD
+	name = "Temüder" # THE MURDERER XD
 	dynasty_house = house_Chagatayid
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -9775,7 +9775,7 @@ sons_of_mochi_yebe_008 = {
 	}
 }
 sons_of_mochi_yebe_009 = {
-	name = "ChichektÃ¼"
+	name = "Chichektü"
 	dynasty_house = house_Chagatayid
 	religion = "tengri_pagan"
 	culture = "mongol"
@@ -9978,7 +9978,7 @@ sons_of_baiju_001 = {
 	}
 }
 166853 = {
-	name = "BelgÃ¼tei"
+	name = "Belgütei"
 	dynasty = 11100
 	martial=7
 	stewardship=6
@@ -10012,7 +10012,7 @@ sons_of_baiju_001 = {
 	}
 }
 166855 = {
-	name = "TemÃ¼ge"
+	name = "Temüge"
 	dynasty = 11100
 	martial=6
 	stewardship=7
@@ -10031,7 +10031,7 @@ sons_of_baiju_001 = {
 	}
 }
 166856 = {
-	name="TemÃ¼len"
+	name="Temülen"
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -10061,7 +10061,7 @@ sons_of_baiju_001 = {
 	}
 }
 166865 = {
-	name="KÃ¶lgen"
+	name="Kölgen"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -10135,7 +10135,7 @@ sons_of_baiju_001 = {
 	}
 }
 166873 = {
-	name="TÃ¼melÃ¼n"
+	name="Tümelün"
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -10180,7 +10180,7 @@ sons_of_baiju_001 = {
 	}
 }
 166876 = {
-	name="AltalÃ¼n"
+	name="Altalün"
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -10356,7 +10356,7 @@ sons_of_baiju_001 = {
 	}
 }
 #188988 = {
-#	name="TuqtemÃ¼r" #ancestor of the Great Horde Khans; duplicate
+#	name="Tuqtemür" #ancestor of the Great Horde Khans; duplicate
 #	dynasty=11100
 #	religion="tengri_pagan"
 #	culture="mongol"
@@ -10519,7 +10519,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 166904 = {
-	name="Orghana" #wife of Qara HÃ¼lÃ¶gÃ¼ and Alghu
+	name="Orghana" #wife of Qara Hülögü and Alghu
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -10536,7 +10536,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 166908 = {
-	name="Oghul Qaimish" #wife of GÃ¼yÃ¼k Khan
+	name="Oghul Qaimish" #wife of Güyük Khan
 	female=yes
 	dynasty=1051139 #Merkit
 	religion="tengri_pagan"
@@ -10550,7 +10550,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 166909 = {
-	name="Borakchin" #first wife of Ã–gedei
+	name="Borakchin" #first wife of Ögedei
 	female=yes
 	dynasty=1040066 # Jadaran
 	religion="tengri_pagan"
@@ -11114,7 +11114,7 @@ sons_of_tuqa_timur_004 = {
 
 
 125540 = {
-	name="Kin-TemÃ¼r"
+	name="Kin-Temür"
 	dynasty_house = house_TuqTemur
 	religion="tengri_pagan"
 	culture="mongol"
@@ -11168,7 +11168,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 125543 = {
-	name="Kutluk TemÃ¼r"
+	name="Kutluk Temür"
 	dynasty_house = house_TuqTemur
 	religion="asharite"
 	culture="turkmeni"
@@ -11181,7 +11181,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 125544 = {
-	name="Turek TemÃ¼r"
+	name="Turek Temür"
 	dynasty_house = house_UlunTemur
 	religion="tengri_pagan"
 	culture="crimean"
@@ -11274,7 +11274,7 @@ sons_of_tuqa_timur_004 = {
 	}
 }
 125550 = {
-	name="Mengu-TemÃ¼r"
+	name="Mengu-Temür"
 	dynasty_house = house_Shibanid
 	religion="tengri_pagan"
 	culture="tatars"

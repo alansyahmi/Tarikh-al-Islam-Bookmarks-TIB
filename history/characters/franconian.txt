@@ -1,4 +1,4 @@
-﻿##Ludwig the German and his sons
+##Ludwig the German and his sons
 #Ludwig the German
 90107 = {
 	name = "Ludwig"
@@ -10960,7 +10960,7 @@
 	}
 }
 
-161539 = {
+1615391 = {
 	name = "Wigfried"
 	dynasty = 667
 	religion = "catholic"

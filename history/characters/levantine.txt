@@ -1,4 +1,4 @@
-ï»¿144016 = {
+144016 = {
 	name = "Ibrahim"
 	dynasty = 101862
 	religion = "ashari"
@@ -2654,10 +2654,11 @@
 	}
 }
 
-226000 = {
-	name = "Salahuddin" #Egypt
-	# AKA: Salah-al-Din
-	dynasty_house = house_Ayyubid #24000
+161539 = {
+	name = "Yusuf" #Egypt
+	dna = "226000_Salah_ad_din_saladin" # "bookmark_saladin_226000"
+	# AKA: Salah ad-Din al-Ayyubi
+	dynasty_house = house_Ayyubid
 	martial = 7
 	diplomacy = 5
 	intrigue = 7
@@ -2665,13 +2666,41 @@
 	religion = "ashari"
 	culture = "levantine"
 	trait = diligent
-	trait = calm
 	trait = generous
 	trait = just
-	trait = education_diplomacy_4
+	trait = education_martial_4
+	trait = faith_warrior
+	trait = shrewd
+	sexuality = heterosexual
 	father = 226053
 	1138.1.1 = {
 		birth = "1138.1.1"
+	}
+	
+	1171.1.1 = {
+		effect = {
+			rightfully_imprison_character_effect = {
+				TARGET = character:extra_fatimids_1
+				IMPRISONER = character:161539
+			}
+		}
+	}
+	1178.1.1 = {
+		give_nickname = nick_salah_al_din
+		add_prestige = 2000
+		add_piety = 1000
+		add_prestige_level = 2
+		add_piety_level = 2
+		add_gold = 400
+		effect = {
+			learn_language_of_culture = culture:kurdish
+			learn_language_of_culture = culture:turkish
+
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
 	}
 	1193.3.4 = {
 		death = "1193.3.4"
@@ -2688,7 +2717,7 @@
 	religion = "ashari"
 	culture = "levantine"
 	trait = education_martial_1
-	father = 226000
+	father = 161539
 	1172.1.1 = {
 		birth = "1172.1.1"
 	}
@@ -2708,7 +2737,7 @@
 	religion = "ashari"
 	culture = "levantine"
 	trait = education_stewardship_2
-	father = 226000
+	father = 161539
 	1170.1.1 = {
 		birth = "1170.1.1"
 	}
@@ -6866,7 +6895,7 @@
 	religion = "nestorian"
 	culture = "assyrian"
 	trait = education_learning_3
-	trait = infirm
+	trait = faltering_heart
 	966.1.1 = {
 		birth = "966.1.1"
 	}
@@ -7860,7 +7889,7 @@ levantine000012 = { #Ayyub's son
 
 extra_taghlibs_1 = {
 	name = "Al-Khattab"
-	dynasty_house = house_al_adawiyya #Banu Taghlib al-Ê¿AdawÄ«yya
+	dynasty_house = house_al_adawiyya #Banu Taghlib al-?Adawiyya
 	religion = nestorian 
 	culture = bedouin
 	father = extra_taghlibs_10 #this connection is completely wrong, but there was no time to delve deeper into the history of this branch of the dynasty for FP3. 
@@ -7874,7 +7903,7 @@ extra_taghlibs_1 = {
 
 extra_taghlibs_2 = {
 	name = "Umar"
-	dynasty_house = house_al_adawiyya #Banu Taghlib al-Ê¿AdawÄ«yya
+	dynasty_house = house_al_adawiyya #Banu Taghlib al-?Adawiyya
 	religion = nestorian
 	culture = levantine
 	father = extra_taghlibs_1
@@ -7888,7 +7917,7 @@ extra_taghlibs_2 = {
 
 extra_taghlibs_3 = { #appointed ruler of Mosul in 813
 	name = "al-Hasan"
-	dynasty_house = house_al_adawiyya #Banu Taghlib al-Ê¿AdawÄ«yya
+	dynasty_house = house_al_adawiyya #Banu Taghlib al-?Adawiyya
 	religion = nestorian 
 	culture = levantine
 	father = extra_taghlibs_2
@@ -9292,7 +9321,7 @@ levantine0007 = {
 }
 
 levantine0008 = {
-	name = "Muhammad" # Muhammad ibn Wuhayd, Walih of Zaragoza (860-872), Sheik of Albarracin, AlcaÃ±iz, Fraga, Lleida & Zaragoza (860-872)
+	name = "Muhammad" # Muhammad ibn Wuhayd, Walih of Zaragoza (860-872), Sheik of Albarracin, Alcañiz, Fraga, Lleida & Zaragoza (860-872)
 	dynasty = banu_mughit # Banu Mughit Dynasty
 	religion = ashari
 	culture = levantine
@@ -12694,7 +12723,7 @@ patriarch_in_the_east_76 = {
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "levantine"
-	father = 226000
+	father = 161539
 	1172.1.1 = {
 		birth = "1172.1.1"
 	}
@@ -12708,7 +12737,7 @@ patriarch_in_the_east_76 = {
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "levantine"
-	father = 226000
+	father = 161539
 	1177.1.1 = {
 		birth = "1177.1.1"
 	}
@@ -12722,7 +12751,7 @@ patriarch_in_the_east_76 = {
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "levantine"
-	father = 226000
+	father = 161539
 	1180.1.1 = {
 		birth = "1180.1.1"
 	}
@@ -12736,7 +12765,7 @@ patriarch_in_the_east_76 = {
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "levantine"
-	father = 226000
+	father = 161539
 	1181.1.1 = {
 		birth = "1181.1.1"
 	}
@@ -12750,7 +12779,7 @@ patriarch_in_the_east_76 = {
 	dynasty_house = house_Ayyubid
 	religion = "ashari"
 	culture = "levantine"
-	father = 226000
+	father = 161539
 	1182.1.1 = {
 		birth = "1182.1.1"
 	}
@@ -12872,7 +12901,7 @@ patriarch_in_the_east_76 = {
 	religion = "ashari"
 	culture = levantine
 	trait = education_martial_1
-	father = 226000
+	father = 161539
 	1171.1.1 = {
 		birth = yes
 	}
@@ -12937,7 +12966,7 @@ asqalani_1 = {
 	1178.1.1 = {
 		give_nickname = nick_muhyi_al_din
 		give_council_position = councillor_chancellor
-		employer = 226000
+		employer = 161539
 	}
 	1200.1.26 = {
 		death = yes
@@ -13920,7 +13949,7 @@ al-farghani_1 = {
 	}
 }
 1234905 = {
-	name="'AmmÃ¡r"
+	name="'Ammár"
 	dynasty=1000103582
 	religion="ismaili"
 	culture="maghrebi" #North African and Sicilian heritage
@@ -14043,7 +14072,7 @@ al-farghani_1 = {
 		add_spouse = 144031
 	}
 	1175.1.1 = {
-		add_spouse = 226000
+		add_spouse = 161539
 	}
 	1185.4.1 = {
 		death=yes
@@ -14431,7 +14460,7 @@ al-farghani_1 = {
 	}
 }
 1234941 = {
-	name="JahÃ®r"
+	name="Jahîr"
 	dynasty=1000103577
 	religion="ashari"
 	culture="levantine"
@@ -14696,7 +14725,7 @@ al-farghani_1 = {
 	}
 }
 1234958 = {
-	name="YÃ¡rjÃºkh"
+	name="Yárjúkh"
 	dynasty=1000111006
 	religion="ashari"
 	culture="turkish"
@@ -14709,7 +14738,7 @@ al-farghani_1 = {
 	}
 }
 1234959 = {
-	name="KhÃ¡tÃºn"
+	name="Khátún"
 	female=yes
 	dynasty=1000111006
 	religion="ashari"
@@ -14727,7 +14756,7 @@ al-farghani_1 = {
 	}
 }
 1234960 = {
-	name="al-'AlÃ¡" #b. Ahmad al-AzdÃ­, governor of Arminiyah by 866; also governor of Azerbaijan ?-874
+	name="al-'Alá" #b. Ahmad al-Azdí, governor of Arminiyah by 866; also governor of Azerbaijan ?-874
 	dynasty=12277
 	religion="ashari"
 	culture="bedouin"
@@ -14903,7 +14932,7 @@ al-farghani_1 = {
 	}
 }
 1900806 = {
-	name = "OubeÃ¯dallah" #Local Christian, appointed as Governor/Basilikos of Antioch. Unknown whether he was a Melkite or a Jacobite, making him Jacobite for gameplay opportunities
+	name = "Oubeïdallah" #Local Christian, appointed as Governor/Basilikos of Antioch. Unknown whether he was a Melkite or a Jacobite, making him Jacobite for gameplay opportunities
 	dynasty=1000111008 #id taken from our file#		
 	religion = "catholic"
 	culture = "levantine"
@@ -14916,7 +14945,7 @@ al-farghani_1 = {
 	}
 }
 1900807 = {
-	name = "KouleÃ¯b" #Local Arab Christian, appointed as Governor/Basilikos of Antioch. Specifically described as a local catholic, meaning Jacobite when he is a local. Was the Governor of Saoune and Barzouyah for the Hamdanids before 975, and he surrendered these forts to the Byzantines in 975. Was rewarded by the Emperor by being made Basilikos of Antioch. Still held authority in Melitene in 987 when Skleros returned from Baghdad
+	name = "Kouleïb" #Local Arab Christian, appointed as Governor/Basilikos of Antioch. Specifically described as a local catholic, meaning Jacobite when he is a local. Was the Governor of Saoune and Barzouyah for the Hamdanids before 975, and he surrendered these forts to the Byzantines in 975. Was rewarded by the Emperor by being made Basilikos of Antioch. Still held authority in Melitene in 987 when Skleros returned from Baghdad
 	dynasty=1000111007 #id taken from our file#		
 	religion = "catholic"
 	culture = "levantine"
@@ -14929,7 +14958,7 @@ al-farghani_1 = {
 	}
 }
 1900808 = {
-	name = "Bardas" #The Zacos collection contains a seal referencing Bardas, the son of KouleÃ¯b, whether he survived the second phase of the Skleros insurrection is unknown
+	name = "Bardas" #The Zacos collection contains a seal referencing Bardas, the son of Kouleïb, whether he survived the second phase of the Skleros insurrection is unknown
 	dynasty=1000111007 #id taken from our file#		
 	religion = "catholic"
 	culture = "levantine"
@@ -15084,7 +15113,7 @@ al-farghani_1 = {
 	}
 }
 1900820 = {
-	name="ShÃ¡hÃ­n"
+	name="Sháhín"
 	dynasty=1000111001
 	religion="ismaili" #?
 	culture="iraqi"
@@ -16262,7 +16291,7 @@ al-farghani_1 = {
 	}
 }
 261005 = {
-	name = "RÃ¡'iq" #father of Muhammad, served as Hajib and Sahib-al-Shurta in the 900's and 910's
+	name = "Rá'iq" #father of Muhammad, served as Hajib and Sahib-al-Shurta in the 900's and 910's
 	dynasty = 1062487
 	religion = ashari
 	culture = khazar
@@ -16313,7 +16342,7 @@ al-farghani_1 = {
 	}
 }
 261008 = {
-	name = "TÃºzÃºn Abu'l-Wafa" # Tuzun, former Ghulam of the Ziyarids like Bajkam, entered Abbasid service in late 935/early 936 too
+	name = "Túzún Abu'l-Wafa" # Tuzun, former Ghulam of the Ziyarids like Bajkam, entered Abbasid service in late 935/early 936 too
 	dynasty = 1062489
 	religion = ashari
 	culture = turkish
@@ -16400,7 +16429,7 @@ al-farghani_1 = {
 }
 #Imran the Swamp King
 261336 = {
-	name="'ImrÃ¡n" # historical
+	name="'Imrán" # historical
 	dynasty=1000111001
 	religion=ismaili
 	culture=iraqi

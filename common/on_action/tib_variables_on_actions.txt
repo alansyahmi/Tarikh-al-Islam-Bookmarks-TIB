@@ -1,6 +1,6 @@
 ﻿on_game_start = {
 	on_actions = {
-		on_islamic_start
+		#on_islamic_start
 		tib_islamic_schism
 		tib_islamic_schism_post_mihna
 	}

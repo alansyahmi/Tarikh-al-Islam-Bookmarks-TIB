@@ -1,5 +1,5 @@
-Ôªø106000 = {
-	name = "Antso" # Sancho (IV) Garc√©s 'el de Pe√±al√©n', King of Navarra (1054-1076), Count of Navarra (1054-1076) & Baron of Tafalla (1054-1076)
+106000 = {
+	name = "Antso" # Sancho (IV) GarcÈs 'el de PeÒalÈn', King of Navarra (1054-1076), Count of Navarra (1054-1076) & Baron of Tafalla (1054-1076)
 	dna = 106000_king_antso
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
@@ -11,8 +11,8 @@
 	trait = education_stewardship_1
 	sexuality = heterosexual
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1039.1.1 = {
 		birth = yes
@@ -33,13 +33,13 @@
 	1076.6.4 = {
 		death = {
 			death_reason = death_murder_known
-			killer = 106013 # His brother Raimundo Garc√©s 'el Fraticida'
+			killer = 106013 # His brother Raimundo GarcÈs 'el Fraticida'
 		}
 	}
 }
 
 106010 = {
-	name = "Gartzia" # Garc√≠a IV S√°nchez 'el de N√°jera', King of Navarra (1035-1054), Count of Navarra (1035-1054) & Viscaya (1035-1040) & Baron of Tafalla (1035-1054)
+	name = "Gartzia" # GarcÌa IV S·nchez 'el de N·jera', King of Navarra (1035-1054), Count of Navarra (1035-1054) & Viscaya (1035-1040) & Baron of Tafalla (1035-1054)
 	dynasty = 442 # Jimena Dynasty
 	martial = 4
 	diplomacy = 6
@@ -52,24 +52,24 @@
 	trait = education_diplomacy_2
 
 	father = 106030 # King Sancho III of Navarra
-	mother = 107650 # Queen Muniadona S√°nchez (castilian.txt)
+	mother = 107650 # Queen Muniadona S·nchez (castilian.txt)
 
 	1012.4.1 = {
 		birth = yes
 	}
 	1038.1.1 = {
-		add_spouse = 1079 # Estefan√≠a de Foix (occitan.txt)
+		add_spouse = 1079 # EstefanÌa de Foix (occitan.txt)
 	}
 	1054.9.1 = {
 		death = {
 			death_reason = death_battle
-			killer = 107500 # King Fernando I of Le√≥n
+			killer = 107500 # King Fernando I of LeÛn
 		}
 	}
 }
 
 106012 = {
-	name = "Fernando" # Fernando Garc√©s
+	name = "Fernando" # Fernando GarcÈs
 	dynasty = 442 # Jimena Dynasty
 	martial = 7
 	diplomacy = 8
@@ -83,8 +83,8 @@
 	trait = ill
 	trait = education_diplomacy_2
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1043.1.1 = {
 		birth = yes
@@ -98,7 +98,7 @@
 }
 
 106013 = {
-	name = "Erramun" # Raimundo Garc√©s 'el Fraticida', Baron of Logro√±o (1071-1076)
+	name = "Erramun" # Raimundo GarcÈs 'el Fraticida', Baron of LogroÒo (1071-1076)
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
 	diplomacy = 5
@@ -109,8 +109,8 @@
 	trait = cynical
 	trait = education_intrigue_4
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1044.1.1 = {
 		birth = yes
@@ -119,7 +119,7 @@
 		employer = 106000 # King Sancho IV of Navarra
 	}
 	1066.1.1 = {
-		effect = { #Murdered his brother Sancho in Pe√±al√©n
+		effect = { #Murdered his brother Sancho in PeÒalÈn
 			if = {
 				limit = {
 					is_ai = yes
@@ -144,7 +144,7 @@
 }
 
 106014 = {
-	name = "Ermesinda" # Ermesinda Garc√©s, wife of Fort√∫n S√°nchez de Yarnoz (71552)
+	name = "Ermesinda" # Ermesinda GarcÈs, wife of Fort˙n S·nchez de Yarnoz (71552)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 7
@@ -155,8 +155,8 @@
 	culture = basque
 	trait = education_intrigue_1
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1041.1.1 = {
 		birth = yes
@@ -167,7 +167,7 @@
 }
 
 106015 = {
-	name = "Maior" # Mayor Garc√©s, wife of Count Guy II of Ma√ßon (288 - french.txt)
+	name = "Maior" # Mayor GarcÈs, wife of Count Guy II of MaÁon (288 - french.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 6
@@ -180,8 +180,8 @@
 	trait = calm
 	trait = education_stewardship_1
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1046.1.1 = {
 		birth = yes
@@ -192,7 +192,7 @@
 }
 
 106016 = {
-	name = "Urraka" # Urraca Garc√©s, wife of Garc√≠a Ord√≥√±ez (106050 - castilian.txt)
+	name = "Urraka" # Urraca GarcÈs, wife of GarcÌa OrdÛÒez (106050 - castilian.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
@@ -218,7 +218,7 @@
 }
 
 106017 = {
-	name = "Ximena" # Jimena Garc√©s
+	name = "Ximena" # Jimena GarcÈs
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 6
@@ -231,8 +231,8 @@
 	trait = gluttonous
 	trait = education_stewardship_1
 
-	father = 106010 # King Garc√≠a IV of Navarra
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	father = 106010 # King GarcÌa IV of Navarra
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1045.1.1 = {
 		birth = yes
@@ -246,7 +246,7 @@
 }
 
 106018 = {
-	name = "Antso" # Sancho Garc√©s de Navarra
+	name = "Antso" # Sancho GarcÈs de Navarra
 	dynasty_house = house_jimena_navarra # House of Navarra
 	martial = 4
 	diplomacy = 8
@@ -257,17 +257,17 @@
 	trait = lustful
 	trait = education_stewardship_2
 
-	father = 106010 # King Garc√≠a IV of Navarra
+	father = 106010 # King GarcÌa IV of Navarra
 	trait = bastard_founder
 
 	1035.1.1 = {
 		birth = yes
 	}
 	1071.1.1 = {
-		add_spouse = 106019 # Constancia S√°nchez
+		add_spouse = 106019 # Constancia S·nchez
 	}
 	1059.6.19 = {
-		employer = 106011 # Count Ramiro Garc√©s of N√°jera
+		employer = 106011 # Count Ramiro GarcÈs of N·jera
 	}
 	1074.11.29 = {
 		death = yes
@@ -275,7 +275,7 @@
 }
 
 106019 = {
-	name = "Konstantzia" # Constancia S√°nchez, wife of Sancho Garc√©s de Navarra (106018)
+	name = "Konstantzia" # Constancia S·nchez, wife of Sancho GarcÈs de Navarra (106018)
 	female = yes
 	dynasty = 100152 # Estella Dynasty
 	martial = 8
@@ -288,7 +288,7 @@
 	trait = brave
 
 	father = 70136 # Sancho de Estella
-	mother = 1079 # Queen Estefan√≠a de Foix (occitan.txt)
+	mother = 1079 # Queen EstefanÌa de Foix (occitan.txt)
 
 	1055.1.1 = {
 		birth = yes
@@ -302,7 +302,7 @@
 }
 
 106021 = {
-	name = "Ramiro" # Ramiro S√°nchez de Navarra, Baron of Tafalla (1076-1116)
+	name = "Ramiro" # Ramiro S·nchez de Navarra, Baron of Tafalla (1076-1116)
 	dynasty_house = house_jimena_navarra # House of Navarra
 	martial = 8
 	diplomacy = 4
@@ -313,14 +313,14 @@
 	trait = gluttonous
 	trait = education_diplomacy_2
 
-	father = 106018 # Sancho Garc√©s de Navarra
-	mother = 106019 # Constancia S√°nchez
+	father = 106018 # Sancho GarcÈs de Navarra
+	mother = 106019 # Constancia S·nchez
 
 	1073.1.1 = {
 		birth = yes
 	}
 	1098.1.1 = {
-		add_spouse = 71542 # Cristina Rodr√≠guez de Vivar (castilian.txt)
+		add_spouse = 71542 # Cristina RodrÌguez de Vivar (castilian.txt)
 	}
 	1116.1.1 = {
 		death = yes
@@ -328,8 +328,8 @@
 }
 
 106022 = {
-	name = "Antso" # Sancho S√°nchez de Erro, Count of Navarra (1087-1113)
-	dynasty = maceratiz # Macer√°tiz Dynasty
+	name = "Antso" # Sancho S·nchez de Erro, Count of Navarra (1087-1113)
+	dynasty = maceratiz # Macer·tiz Dynasty
 	martial = 5
 	diplomacy = 4
 	intrigue = 4
@@ -339,8 +339,8 @@
 	trait = diligent
 	trait = education_stewardship_3
 
-	father = basque0096 # Sancho Macer√°tiz
-	mother = 106020 # Andregoto Gal√≠ndez de Estigi
+	father = basque0096 # Sancho Macer·tiz
+	mother = 106020 # Andregoto GalÌndez de Estigi
 
 	1050.1.1 = {
 		birth = yes
@@ -351,7 +351,7 @@
 }
 
 106023 = {
-	name = "Mentzia" # Menc√≠a Garc√©s, wife of Count Fort√∫n Ochoa of Asturias de Santilla (70129)
+	name = "Mentzia" # MencÌa GarcÈs, wife of Count Fort˙n Ochoa of Asturias de Santilla (70129)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 4
@@ -362,14 +362,14 @@
 	culture = basque
 	trait = education_diplomacy_2
 
-	father = 106010 # King Garc√≠a IV of Navarra
+	father = 106010 # King GarcÌa IV of Navarra
 	trait = disinherited
 
 	1030.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
-		employer = 70130 # Baron Aznar Fort√∫nez of Logro√±o
+		employer = 70130 # Baron Aznar Fort˙nez of LogroÒo
 	}
 	1073.1.1 = {
 		death = yes
@@ -377,7 +377,7 @@
 }
 
 106030 = {
-	name = "Antso" # Sancho (III) Garc√©s 'el Mayor', King of Navarra (999-1035), Duke of Aragon (999-1035), Count of Alto Arag√≥n & Navarra (999-1035), Ipuskoa (999-1025), Viscaya (1029-1035), Asturias de Oviedo, Benavente, Le√≥n & Zamora (1032-1035) & Baron of Tafalla (999-1035)
+	name = "Antso" # Sancho (III) GarcÈs 'el Mayor', King of Navarra (999-1035), Duke of Aragon (999-1035), Count of Alto AragÛn & Navarra (999-1035), Ipuskoa (999-1025), Viscaya (1029-1035), Asturias de Oviedo, Benavente, LeÛn & Zamora (1032-1035) & Baron of Tafalla (999-1035)
 	dynasty = 442 # Jimena Dynasty
 	martial = 6
 	diplomacy = 6
@@ -389,14 +389,14 @@
 	trait = humble
 	trait = education_martial_4
 
-	father = 106040 # King Garc√≠a III of Navarra
-	mother = 106041 # Queen Jimena Fern√°ndez de Cea (asturleonese.txt)
+	father = 106040 # King GarcÌa III of Navarra
+	mother = 106041 # Queen Jimena Fern·ndez de Cea (asturleonese.txt)
 
 	992.1.1 = {
 		birth = yes
 	}
 	1011.6.27 = {
-		add_spouse = 107650 # Muniadona S√°nchez (castilian.txt)
+		add_spouse = 107650 # Muniadona S·nchez (castilian.txt)
 	}
 	1027.1.1 = {
 		give_nickname = nick_the_great
@@ -423,7 +423,7 @@
 		birth = yes
 	}
 	1063.5.8 = {
-		employer = 110500 # King Sancho Ram√≠rez of Arag√≥n
+		employer = 110500 # King Sancho RamÌrez of AragÛn
 	}
 	1070.10.27 = {
 		death = yes
@@ -431,7 +431,7 @@
 }
 
 106040 = {
-	name = "Gartzia"  # Garc√≠a (III) S√°nchez 'el Tembl√≥n', King of Navarra (994-999), Duke of Aragon (994-999), Count of Alto Arag√≥n, Ipuskoa & Navarra (994-999) & Baron of Tafalla (994-999)
+	name = "Gartzia"  # GarcÌa (III) S·nchez 'el TemblÛn', King of Navarra (994-999), Duke of Aragon (994-999), Count of Alto AragÛn, Ipuskoa & Navarra (994-999) & Baron of Tafalla (994-999)
 	dynasty = 442 # Jimena Dynasty
 	martial = 7
 	diplomacy = 8
@@ -442,13 +442,13 @@
 	trait = education_martial_2
 
 	father = 70124 # King Sancho II of Navarra
-	mother = 107682 # Queen Urraca Fern√°ndez (castilian.txt)
+	mother = 107682 # Queen Urraca Fern·ndez (castilian.txt)
 
 	964.1.1 = {
 		birth = yes
 	}
 	991.1.1 = {
-		add_spouse = 106041 # Jimena Fern√°ndez de Cea (asturleonese.txt)
+		add_spouse = 106041 # Jimena Fern·ndez de Cea (asturleonese.txt)
 	}
 	999.12.8 = {
 		death = yes
@@ -475,7 +475,7 @@
 }
 
 106042 = {
-	name = "Urraka" # Urraca Garc√©s, wife of King Alfonso V of Le√≥n(108570 - asturleonese.txt)
+	name = "Urraka" # Urraca GarcÈs, wife of King Alfonso V of LeÛn(108570 - asturleonese.txt)
 	female = yes
 	dynasty = 442
 	martial = 8
@@ -488,8 +488,8 @@
 	trait = lazy
 	trait = education_stewardship_3
 
-	father = 106040 # King Garc√≠a III of Navarra
-	mother = 106041 # Queen Jimena Fern√°ndez de Cea (asturleonese.txt)
+	father = 106040 # King GarcÌa III of Navarra
+	mother = 106041 # Queen Jimena Fern·ndez de Cea (asturleonese.txt)
 
 	996.1.1 = {
 		birth = yes
@@ -500,7 +500,7 @@
 }
 
 107520 = {
-	name = "Eneko" # √ç√±igo L√≥pez de Haro, Count of Viscaya (1040-1076) & N√°jera (1063-1076)
+	name = "Eneko" # ÕÒigo LÛpez de Haro, Count of Viscaya (1040-1076) & N·jera (1063-1076)
 	dynasty = 778 # Haro Dynasty
 	martial = 4
 	diplomacy = 5
@@ -513,7 +513,7 @@
 	trait = stuttering
 	trait = education_stewardship_3
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1028.1.1 = {
 		birth = yes
@@ -527,14 +527,14 @@
 }
 
 107521 = {
-	name = "Toda" # Toda Ortiz, wife of Count √ç√±igo L√≥pez of Viscaya (107520)
+	name = "Toda" # Toda Ortiz, wife of Count ÕÒigo LÛpez of Viscaya (107520)
 	female = yes
 	dynasty = 8615 # Ochoa Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
 
 	1030.1.1 = {
 		birth = yes
@@ -545,7 +545,7 @@
 }
 
 107523 = {
-	name = "Lope" # Lope √ç√±iguez de Haro, Count of Ipuskoa & Viscaya (1076-1093) & N√°jera (1076)
+	name = "Lope" # Lope ÕÒiguez de Haro, Count of Ipuskoa & Viscaya (1076-1093) & N·jera (1076)
 	dynasty = 778 # Haro Dynasty
 	martial = 7
 	diplomacy = 6
@@ -554,7 +554,7 @@
 	religion = catholic
 	culture = basque
 
-	father = 107520 # Count √ç√±igo L√≥pez of Viscaya
+	father = 107520 # Count ÕÒigo LÛpez of Viscaya
 	mother = 107521 # Countess Toda Ortiz
 
 	1052.1.1 = {
@@ -564,7 +564,7 @@
 		trait = education_stewardship_2
 	}
 	1079.3.4 = {
-		add_spouse = 71925 # Tecla D√≠az de Oca
+		add_spouse = 71925 # Tecla DÌaz de Oca
 	}
 	1093.1.1 = {
 		death = yes
@@ -572,7 +572,7 @@
 }
 
 107530 = {
-	name = "Lope" # Lope Vel√°zquez
+	name = "Lope" # Lope Vel·zquez
 	dynasty = 778 # Haro Dynasty
 	martial = 8
 	diplomacy = 5
@@ -593,7 +593,7 @@
 }
 
 107550 = {
-	name = "Lope" # Lope S√°nchez
+	name = "Lope" # Lope S·nchez
 	dynasty = 778 # Haro Dynasty
 	martial = 8
 	diplomacy = 8
@@ -602,7 +602,7 @@
 	religion = catholic
 	culture = basque
 
-	father = 70220 # Sancho L√≥pez de Haro
+	father = 70220 # Sancho LÛpez de Haro
 
 	1057.1.1 = {
 		birth = yes
@@ -723,7 +723,7 @@
 	1148.1.1 = {
 		birth = "1148.1.1"
 	}
-	#1166 maried Gaston V de B√©arn
+	#1166 maried Gaston V de BÈarn
 	1176.3.7 = {
 		death = "1176.3.7"
 	}
@@ -880,7 +880,7 @@
 }
 
 70056 = {
-	name = "Sancha" # Sancha, wife of Suero Mu√±oz (70055)
+	name = "Sancha" # Sancha, wife of Suero MuÒoz (70055)
 	female = yes
 	religion = catholic
 	culture = galician
@@ -895,7 +895,7 @@
 }
 
 70069 = {
-	name = "A_lvar" # √Ålvar D√≠az de Oca
+	name = "A_lvar" # ¡lvar DÌaz de Oca
 	dynasty_house = house_oca # House of Oca
 	martial = 6
 	diplomacy = 5
@@ -907,14 +907,14 @@
 	trait = gregarious
 	trait = education_martial_2
 
-	father = 71923 # Diego √Ålvarez de Oca
+	father = 71923 # Diego ¡lvarez de Oca
 	mother = castilian0183 # Toda
 
 	1040.1.1 = {
 		birth = yes
 	}
 	1060.1.1 = {
-		add_spouse = 106062 # Teresa Ord√≥√±ez
+		add_spouse = 106062 # Teresa OrdÛÒez
 	}
 	1108.1.1 = {
 		death = yes
@@ -922,7 +922,7 @@
 }
 
 70070 = {
-	name = "Pedro" # Pedro √Ålvarez de Oca
+	name = "Pedro" # Pedro ¡lvarez de Oca
 	dynasty_house = house_oca # House of Oca
 	martial = 5
 	diplomacy = 7
@@ -932,8 +932,8 @@
 	culture = castilian
 	trait = diligent
 
-	father = 70069 # √Ålvar D√≠az de Oca
-	mother = 106062 # Teresa Ord√≥√±ez
+	father = 70069 # ¡lvar DÌaz de Oca
+	mother = 106062 # Teresa OrdÛÒez
 
 	1061.1.1 = {
 		birth = yes
@@ -951,7 +951,7 @@
 }
 
 70071 = {
-	name = "GarcI_a" # Garc√≠a √Ålvarez de Oca
+	name = "GarcI_a" # GarcÌa ¡lvarez de Oca
 	dynasty_house = house_oca # House of Oca
 	martial = 5
 	diplomacy = 6
@@ -961,8 +961,8 @@
 	culture = castilian
 	sexuality = homosexual
 
-	father = 70069 # √Ålvar D√≠az de Oca
-	mother = 106062 # Teresa Ord√≥√±ez
+	father = 70069 # ¡lvar DÌaz de Oca
+	mother = 106062 # Teresa OrdÛÒez
  
 	1063.1.1 = {
 		birth = yes
@@ -979,7 +979,7 @@
 }
 
 70072 = {
-	name = "OrdoN_o" # Ordo√±o √Ålvarez de Oca
+	name = "OrdoN_o" # OrdoÒo ¡lvarez de Oca
 	dynasty_house = house_oca # House of Oca
 	martial = 6
 	diplomacy = 7
@@ -989,8 +989,8 @@
 	culture = castilian
 	trait = gluttonous
 
-	father = 70069 # √Ålvar D√≠az de Oca
-	mother = 106062 # Teresa Ord√≥√±ez
+	father = 70069 # ¡lvar DÌaz de Oca
+	mother = 106062 # Teresa OrdÛÒez
  
 	1065.1.1 = {
 		birth = yes
@@ -1025,7 +1025,7 @@
 		employer = 106000 # King Sancho IV of Navarra
 	}
 	1060.1.1 = {
-		add_spouse = 106064 # Urraca Ord√≥√±ez (castilian.txt)
+		add_spouse = 106064 # Urraca OrdÛÒez (castilian.txt)
 	}
 	1127.1.1 = {
 		death = yes
@@ -1033,7 +1033,7 @@
 }
 
 70074 = {
-	name = "Maria" # Mar√≠a S√°nchez
+	name = "Maria" # MarÌa S·nchez
 	female = yes
 	dynasty = 8614 # Tafalla Dynasty
 	martial = 4
@@ -1045,7 +1045,7 @@
 	trait = shy
 
 	father = 70073 # Sancho de Tafalla
-	mother = 106064 # Urraca Ord√≥√±ez (castilian.txt)
+	mother = 106064 # Urraca OrdÛÒez (castilian.txt)
 
 	1063.1.1 = {
 		birth = yes
@@ -1083,7 +1083,7 @@
 }
 
 70121 = {
-	name = "Gartzia" # Garc√≠a Jim√©nez, Baron of Tafalla (860-886)
+	name = "Gartzia" # GarcÌa JimÈnez, Baron of Tafalla (860-886)
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
 	diplomacy = 6
@@ -1101,7 +1101,7 @@
 		birth = yes
 	}
 	859.1.1 = {
-		add_spouse = basque0047 # √ìneca de Sang√ºesa
+		add_spouse = basque0047 # ”neca de Sang¸esa
 	}
 	879.1.1 = {
 		add_spouse = occitan0074 # Dadilda de Pallars
@@ -1112,7 +1112,7 @@
 }
 
 70122 = {
-	name = "Antso" # Sancho (I) Garc√©s, King of Navarra (905-925) & Count of Ipuskoa & Navarra (905-925) & N√°jera (923-925) & Baron of Tafalla (866-905)
+	name = "Antso" # Sancho (I) GarcÈs, King of Navarra (905-925) & Count of Ipuskoa & Navarra (905-925) & N·jera (923-925) & Baron of Tafalla (866-905)
 	dynasty = 442 # Jimena Dynasty
 	martial = 6
 	diplomacy = 4
@@ -1124,14 +1124,14 @@
 	trait = brave
 	trait = education_martial_4
 
-	father = 70121 # Baron Garc√≠a Jim√©nez of Tafalla
+	father = 70121 # Baron GarcÌa JimÈnez of Tafalla
 	mother = occitan0074 # Baroness Dadilda de Pallars
 
 	880.1.1 = {
 		birth = yes
 	}
 	906.1.1 = {
-		add_spouse = 70297 # Toda Azn√°rez
+		add_spouse = 70297 # Toda Azn·rez
 	}
 	925.12.10 = {
 		death = yes
@@ -1139,7 +1139,7 @@
 }
 
 70123 = {
-	name = "Gartzia" # Garc√≠a (II) S√°nchez, King of Navarra (925-970), Count of Ipuskoa & Navarra (925-970) & N√°jera (925-950) & Baron of Tafalla (933-970)
+	name = "Gartzia" # GarcÌa (II) S·nchez, King of Navarra (925-970), Count of Ipuskoa & Navarra (925-970) & N·jera (925-950) & Baron of Tafalla (933-970)
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
 	diplomacy = 4
@@ -1152,17 +1152,17 @@
 	trait = education_diplomacy_2
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	919.1.1 = {
 		birth = yes
 	}
 	933.3.9 = {
-		add_spouse = 70275 # Duchess Andregoto Gal√≠ndez of Aragon
+		add_spouse = 70275 # Duchess Andregoto GalÌndez of Aragon
 	}
 	943.1.1 = {
 		remove_spouse = 70275
-		add_spouse = asturleonese0015 # Teresa Ram√≠rez
+		add_spouse = asturleonese0015 # Teresa RamÌrez
 	}
 	970.2.22 = {
 		death = yes
@@ -1170,7 +1170,7 @@
 }
 
 70124 = {
-	name = "Antso" # Sancho (II) Garc√©s 'Abarca', King of Navarra (970-994), Duke of Arag√≥n (943-994), Count of Alto Arag√≥n (943-994), Ipuskoa & Navarra (970-994) & Baron of Tafalla (970-994)
+	name = "Antso" # Sancho (II) GarcÈs 'Abarca', King of Navarra (970-994), Duke of AragÛn (943-994), Count of Alto AragÛn (943-994), Ipuskoa & Navarra (970-994) & Baron of Tafalla (970-994)
 	dynasty = 442 # Jimena Dynasty
 	martial = 5
 	diplomacy = 6
@@ -1182,14 +1182,14 @@
 	trait = calm
 	trait = education_diplomacy_4
 
-	father = 70123 # King Garc√≠a II of Navarra
-	mother = 70275 # Queen Andregoto Gal√≠ndez, Duchess of Arag√≥n
+	father = 70123 # King GarcÌa II of Navarra
+	mother = 70275 # Queen Andregoto GalÌndez, Duchess of AragÛn
 
 	938.1.1 = {
 		birth = yes
 	}
 	962.1.1 = {
-		add_spouse = 107682 # Urraca Fern√°ndez (castilian.txt)
+		add_spouse = 107682 # Urraca Fern·ndez (castilian.txt)
 	}
 	994.12.1 = {
 		death = yes
@@ -1197,7 +1197,7 @@
 }
 
 70125 = {
-	name = "Urraka" # Urraca S√°nchez, kwon as Abda 'la Vascona', wife of Muhammad ibn Abu Amir 'al-Mansur' (3206 - bedouin.txt)
+	name = "Urraka" # Urraca S·nchez, kwon as Abda 'la Vascona', wife of Muhammad ibn Abu Amir 'al-Mansur' (3206 - bedouin.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = muwalladi
@@ -1205,7 +1205,7 @@
 	trait = education_diplomacy_2
 
 	father = 70124 # King Sancho II of Navarra
-	mother = 107682 # Urraca Fern√°ndez (castilian.txt)
+	mother = 107682 # Urraca Fern·ndez (castilian.txt)
 
 	965.1.1 = {
 		birth = yes
@@ -1219,7 +1219,7 @@
 }
 
 70126 = {
-	name = "Oneka" # √ìneca S√°nchez, wife of King Alfonso IV of Le√≥n (70023 - asturleonese.txt)
+	name = "Oneka" # ”neca S·nchez, wife of King Alfonso IV of LeÛn (70023 - asturleonese.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 4
@@ -1233,7 +1233,7 @@
 	trait = education_stewardship_2
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	907.1.1 = {
 		birth = yes
@@ -1244,7 +1244,7 @@
 }
 
 70127 = {
-	name = "Urraka" # Urraca S√°nchez, wife of King Ramiro II of Le√≥n (70024 - asturleonese.txt)
+	name = "Urraka" # Urraca S·nchez, wife of King Ramiro II of LeÛn (70024 - asturleonese.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	martial = 4
@@ -1256,7 +1256,7 @@
 	trait = education_diplomacy_2
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	913.1.1 = {
 		birth = yes
@@ -1267,7 +1267,7 @@
 }
 
 70128 = {
-	name = "Semeno" # Jimeno Garc√©s I
+	name = "Semeno" # Jimeno GarcÈs I
 	dynasty = 442 # Jimena Dynasty
 	martial = 3
 	diplomacy = 4
@@ -1279,14 +1279,14 @@
 	trait = fickle
 	trait = education_stewardship_3 # Regent of Navarra
 
-	father = 70121 # Baron Garc√≠a Jim√©nez of Tafalla
+	father = 70121 # Baron GarcÌa JimÈnez of Tafalla
 	mother = occitan0074  # Baroness Dadildis de Pallars
 
 	882.1.1 = {
 		birth = yes
 	}
 	915.1.1 = {
-		add_spouse = 70298 # Sancha Azn√°rez
+		add_spouse = 70298 # Sancha Azn·rez
 	}
 	931.5.29 = {
 		death = yes
@@ -1294,7 +1294,7 @@
 }
 
 70129 = {
-	name = "Orti" # Fort√∫n Ochoa, Count of Asturias de Santillana (1029-1037) & Baron of Logro√±o (1037-1057)
+	name = "Orti" # Fort˙n Ochoa, Count of Asturias de Santillana (1029-1037) & Baron of LogroÒo (1037-1057)
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 5
 	diplomacy = 5
@@ -1306,13 +1306,13 @@
 	trait = lustful
 	trait = education_stewardship_3
 
-	father = basque0091 # Lope √ç√±iguez de Mara√±√≥n
+	father = basque0091 # Lope ÕÒiguez de MaraÒÛn
 
 	1005.1.1 = {
 		birth = yes
 	}
 	1044.1.1 = {
-		add_spouse = 106023 # Menc√≠a Garc√©s
+		add_spouse = 106023 # MencÌa GarcÈs
 	}
 	1057.1.1 = {
 		death = yes
@@ -1320,7 +1320,7 @@
 }
 
 70130 = {
-	name = "Azeari" # Aznar Fort√∫nez, Baron of Logro√±o (1057-1070)
+	name = "Azeari" # Aznar Fort˙nez, Baron of LogroÒo (1057-1070)
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 6
 	diplomacy = 5
@@ -1332,7 +1332,7 @@
 	trait = lifestyle_hunter
 	trait = education_stewardship_1
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
 
 	1030.1.1 = {
 		birth = yes
@@ -1343,7 +1343,7 @@
 }
 
 70131 = {
-	name = "Eneko" # √ç√±igo Fort√∫nez
+	name = "Eneko" # ÕÒigo Fort˙nez
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 5
 	diplomacy = 7
@@ -1354,13 +1354,13 @@
 	trait = calm
 	trait = education_diplomacy_1
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
  
 	1032.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
-		employer = 70130 # Baron Aznar Fort√∫nez of Logro√±o
+		employer = 70130 # Baron Aznar Fort˙nez of LogroÒo
 	}
 	1082.1.1 = {
 		death = yes
@@ -1368,7 +1368,7 @@
 }
 
 70132 = {
-	name = "Antso" # Sancho Fort√∫nez
+	name = "Antso" # Sancho Fort˙nez
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 6
 	diplomacy = 4
@@ -1380,13 +1380,13 @@
 	trait = brave
 	trait = education_martial_1
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
  
 	1034.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
-		employer = 70130 # Baron Aznar Fort√∫nez of Logro√±o
+		employer = 70130 # Baron Aznar Fort˙nez of LogroÒo
 	}
 	1084.1.1 = {
 		death = yes
@@ -1394,7 +1394,7 @@
 }
 
 70133 = {
-	name = "Lope" # Lope Fort√∫nez
+	name = "Lope" # Lope Fort˙nez
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 8
 	diplomacy = 5
@@ -1405,13 +1405,13 @@
 	trait = beauty_bad_2
 	trait = education_martial_1
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
 
 	1036.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
-		employer = 70130 # Baron Aznar Fort√∫nez of Logro√±o
+		employer = 70130 # Baron Aznar Fort˙nez of LogroÒo
 	}
 	1082.1.1 = {
 		death = yes
@@ -1419,7 +1419,7 @@
 }
 
 70134 = {
-	name = "Semeno" # Jimeno Fort√∫nez, Baron of Logro√±o (1070-1071 & 1076-1106)
+	name = "Semeno" # Jimeno Fort˙nez, Baron of LogroÒo (1070-1071 & 1076-1106)
 	dynasty = 8615 # Ochoa Dynasty
 	martial = 3
 	diplomacy = 4
@@ -1428,16 +1428,16 @@
 	religion = catholic
 	culture = basque
 	trait = shy
-	trait = infirm
+	trait = faltering_heart
 	trait = education_intrigue_2
 
-	father = 70129 # Count Fort√∫n Ochoa of Asturias de Santillana
+	father = 70129 # Count Fort˙n Ochoa of Asturias de Santillana
 
 	1038.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
-		employer = 70130 # Baron Aznar Fort√∫nez of Logro√±o
+		employer = 70130 # Baron Aznar Fort˙nez of LogroÒo
 	}
 	1075.1.1 = {
 		add_spouse = basque0094 # Andregoto
@@ -1448,7 +1448,7 @@
 }
 
 70135 = {
-	name = "Estefania" # Estefan√≠a S√°nchez, wife of Baron Fruela D√≠az of Guadalajara (asturleonese0191 - asturleonese.txt)
+	name = "Estefania" # EstefanÌa S·nchez, wife of Baron Fruela DÌaz of Guadalajara (asturleonese0191 - asturleonese.txt)
 	female = yes
 	dynasty_house = house_jimena_navarra
 	martial = 4
@@ -1460,8 +1460,8 @@
 	trait = shy
 	trait = education_stewardship_2
 
-	father = 106018 # Sancho Garc√©s
-	mother = 106019 # Constancia S√°nchez
+	father = 106018 # Sancho GarcÈs
+	mother = 106019 # Constancia S·nchez
 
 	1071.9.1 = {
 		birth = yes
@@ -1472,7 +1472,7 @@
 }
 
 70220 = {
-	name = "Antso" # Sancho L√≥pez de Haro
+	name = "Antso" # Sancho LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 5
 	diplomacy = 6
@@ -1484,13 +1484,13 @@
 	trait = beauty_bad_2
 	trait = education_stewardship_2
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1029.1.1 = {
 		birth = yes
 	}
 	1040.1.1 = {
-		employer = 107520 # Count √ç√±igo L√≥pez of Viscaya
+		employer = 107520 # Count ÕÒigo LÛpez of Viscaya
 	}
 	1079.1.1 = {
 		death = yes
@@ -1498,7 +1498,7 @@
 }
 
 70221 = {
-	name = "Eneko" # √ç√±igo S√°nchez de Haro
+	name = "Eneko" # ÕÒigo S·nchez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 5
 	diplomacy = 6
@@ -1510,7 +1510,7 @@
 	trait = arrogant
 	trait = education_diplomacy_1
 
-	father = 70220 # Sancho L√≥pez de Haro
+	father = 70220 # Sancho LÛpez de Haro
 
 	1053.1.1 = {
 		birth = yes
@@ -1521,7 +1521,7 @@
 }
 
 70222 = {
-	name = "Diego" # Diego S√°nchez de Haro
+	name = "Diego" # Diego S·nchez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 7
 	diplomacy = 6
@@ -1532,7 +1532,7 @@
 	trait = calm
 	trait = education_stewardship_1
 
-	father = 70220 # Sancho L√≥pez de Haro
+	father = 70220 # Sancho LÛpez de Haro
 
 	1055.1.1 = {
 		birth = yes
@@ -1543,7 +1543,7 @@
 }
 
 70223 = {
-	name = "Orti" # Fort√∫n L√≥pez de Haro
+	name = "Orti" # Fort˙n LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 5
 	diplomacy = 6
@@ -1555,7 +1555,7 @@
 	trait = brave
 	trait = education_stewardship_1
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1031.1.1 = {
 		birth = yes
@@ -1566,7 +1566,7 @@
 }
 
 70224 = {
-	name = "Garindo" # Galindo L√≥pez de Haro
+	name = "Garindo" # Galindo LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 5
 	diplomacy = 7
@@ -1578,13 +1578,13 @@
 	trait = gluttonous
 	trait = education_martial_1
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1032.1.1 = {
 		birth = yes
 	}
 	1040.1.1 = {
-		employer = 107520 # Count √ç√±igo L√≥pez of Viscaya
+		employer = 107520 # Count ÕÒigo LÛpez of Viscaya
 	}
 	1076.1.1 = {
 		death = yes
@@ -1592,7 +1592,7 @@
 }
 
 70225 = {
-	name = "Gartzia" # Garc√≠a L√≥pez de Haro
+	name = "Gartzia" # GarcÌa LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 4
 	diplomacy = 4
@@ -1603,13 +1603,13 @@
 	trait = wrathful
 	trait = education_diplomacy_1
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1034.1.1 = {
 		birth = yes
 	}
 	1040.1.1 = {
-		employer = 107520 # Count √ç√±igo L√≥pez of Viscaya
+		employer = 107520 # Count ÕÒigo LÛpez of Viscaya
 	}
 	1076.1.1 = {
 		death = yes
@@ -1617,7 +1617,7 @@
 }
 
 70226 = {
-	name = "Mentzia" # Mencia L√≥pez de Haro
+	name = "Mentzia" # Mencia LÛpez de Haro
 	female = yes
 	dynasty = 778 # Haro Dynasty
 	martial = 4
@@ -1630,13 +1630,13 @@
 	trait = intellect_good_1
 	trait = education_diplomacy_1
 
-	father = 107530 # Lope Vel√°zquez
+	father = 107530 # Lope Vel·zquez
 
 	1035.1.1 = {
 		birth = yes
 	}
 	1040.1.1 = {
-		employer = 107520 # Count Lope √ç√±iguez of Viscaya
+		employer = 107520 # Count Lope ÕÒiguez of Viscaya
 	}
 	1076.1.1 = {
 		death = yes
@@ -1645,7 +1645,7 @@
 
 
 70227 = {
-	name = "Gartzia" # Garc√≠a L√≥pez de Haro
+	name = "Gartzia" # GarcÌa LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 6
 	diplomacy = 6
@@ -1655,8 +1655,8 @@
 	culture = basque
 	trait = beauty_bad_2
 
-	father = 107520 # Count Lope √ç√±iguez of Viscaya
-	mother = 107521 # Countess Toda Ort√≠z
+	father = 107520 # Count Lope ÕÒiguez of Viscaya
+	mother = 107521 # Countess Toda OrtÌz
 
 	1056.1.1 = {
 		birth = yes
@@ -1670,7 +1670,7 @@
 }
 
 70228 = {
-	name = "Garindo" # Galindo L√≥pez de Haro
+	name = "Garindo" # Galindo LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 4
 	diplomacy = 6
@@ -1680,8 +1680,8 @@
 	culture = basque
 	trait = temperate
 
-	father = 107520 # Count Lope √ç√±iguez of Viscaya
-	mother = 107521 # Countess Toda Ort√≠z
+	father = 107520 # Count Lope ÕÒiguez of Viscaya
+	mother = 107521 # Countess Toda OrtÌz
  
 	1058.1.1 = {
 		birth = yes
@@ -1695,7 +1695,7 @@
 }
 
 70229 = {
-	name = "Antso" # Sancho L√≥pez de Haro
+	name = "Antso" # Sancho LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	martial = 6
 	diplomacy = 7
@@ -1706,8 +1706,8 @@
 	trait = incapable
 	trait = ill
 
-	father = 107520 # Count Lope √ç√±iguez of Viscaya
-	mother = 107521 # Countess Toda Ort√≠z
+	father = 107520 # Count Lope ÕÒiguez of Viscaya
+	mother = 107521 # Countess Toda OrtÌz
 
 	1054.1.1 = {
 		birth = yes
@@ -1718,7 +1718,7 @@
 }
 
 70290 = {
-	name = "Eneko" # √ç√±igo Jim√©nez
+	name = "Eneko" # ÕÒigo JimÈnez
 	dynasty_house = house_iniga
 	martial = 6
 	diplomacy = 5
@@ -1734,7 +1734,7 @@
 		birth = yes
 	}
 	787.1.1 = {
-		add_spouse = 73811 # √ìneca
+		add_spouse = 73811 # ”neca
 	}
 	796.1.1 = {
 		death = yes
@@ -1742,7 +1742,7 @@
 }
 
 70291 = {
-	name = "Eneko" # √ç√±igo 'Arista', King of Navarra (816-851) & Count of Ipuskoa & Navarra (816-851)
+	name = "Eneko" # ÕÒigo 'Arista', King of Navarra (816-851) & Count of Ipuskoa & Navarra (816-851)
 	dynasty_house = house_iniga
 	martial = 7
 	diplomacy = 7
@@ -1754,14 +1754,14 @@
 	trait = diligent
 	trait = education_martial_3
 
-	father = 70290 # √ç√±igo Jim√©nez
-	mother = 73811 # √ìneca
+	father = 70290 # ÕÒigo JimÈnez
+	mother = 73811 # ”neca
 
 	788.1.1 = {
 		birth = yes
 	}
 	808.1.1 = {
-		add_spouse = basque0027 # √ìneca Gal√≠ndez
+		add_spouse = basque0027 # ”neca GalÌndez
 	}
 	851.6.22 = {
 		death = yes
@@ -1769,7 +1769,7 @@
 }
 
 70292 = {
-	name = "Gartzia" # Garc√≠a (I) √ç√±iguez, King of Navarra (851-882), Count of Ipuskoa & Navarra (851-882)
+	name = "Gartzia" # GarcÌa (I) ÕÒiguez, King of Navarra (851-882), Count of Ipuskoa & Navarra (851-882)
 	dynasty_house = house_iniga
 	martial = 5
 	diplomacy = 8
@@ -1781,8 +1781,8 @@
 	trait = deceitful
 	trait = education_martial_1
 
-	father = 70291 # King √ç√±igo 'Arista' of Navarra
-	mother = basque0027 # Queen √ìneca Gal√≠ndez
+	father = 70291 # King ÕÒigo 'Arista' of Navarra
+	mother = basque0027 # Queen ”neca GalÌndez
 
 	810.1.1 = {
 		birth = yes
@@ -1792,11 +1792,11 @@
 	}
 	851.7.1 = {
 		effect = {
-			set_relation_rival = { reason = rival_historical target = character:73818 } # Musa ibn Musa and Garc√≠a √ç√±iguez raided the others land constantly
+			set_relation_rival = { reason = rival_historical target = character:73818 } # Musa ibn Musa and GarcÌa ÕÒiguez raided the others land constantly
 		}
 	}
 	876.1.1 = {
-		add_spouse = 73754 # Leodegundia Ord√≥√±ez
+		add_spouse = 73754 # Leodegundia OrdÛÒez
 	}
 	882.1.1 = {
 		death = {
@@ -1806,7 +1806,7 @@
 }
 
 70293 = {
-	name = "Orti" # Fort√∫n Garc√©s, King of Navarra (882-905) & Count of Ipuskoa & Navarra (882-905)
+	name = "Orti" # Fort˙n GarcÈs, King of Navarra (882-905) & Count of Ipuskoa & Navarra (882-905)
 	dynasty_house = house_iniga
 	martial = 6
 	diplomacy = 5
@@ -1817,7 +1817,7 @@
 	trait = disfigured
 	trait = education_diplomacy_4
 
-	father = 70292 # King Garc√≠a I of Navarra
+	father = 70292 # King GarcÌa I of Navarra
 	mother = basque0029 # Queen Urraca ibn Mutarrif
 
 	827.1.1 = {
@@ -1838,7 +1838,7 @@
 }
 
 70294 = {
-	name = "Oneka" # √ìneca Fort√∫nez, also known as Durr, wife of Emir Abdallah of Andalusia (73865 - bedouin) & Aznar S√°nchez (70296)
+	name = "Oneka" # ”neca Fort˙nez, also known as Durr, wife of Emir Abdallah of Andalusia (73865 - bedouin) & Aznar S·nchez (70296)
 	female = yes
 	dynasty_house = house_iniga
 	martial = 4
@@ -1850,7 +1850,7 @@
 	trait = arrogant
 	trait = education_diplomacy_2
 
-	father = 70293 # King Fort√∫n Garc√©s of Navarra
+	father = 70293 # King Fort˙n GarcÈs of Navarra
 
 	848.1.1 = {
 		birth = yes
@@ -1869,7 +1869,7 @@
 }
 
 70295 = {
-	name = "Antso" # Sancho Garc√©s
+	name = "Antso" # Sancho GarcÈs
 	dynasty_house = house_iniga
 	martial = 6
 	diplomacy = 5
@@ -1881,14 +1881,14 @@
 	trait = brave
 	trait = education_martial_1
 
-	father = 70292 # King Garc√≠a I of Navarra
+	father = 70292 # King GarcÌa I of Navarra
 	mother = basque0029 # Queen Urraca ibn Mutarrif
 
 	833.1.1 = {
 		birth = yes
 	}
 	851.7.1 = {
-		employer = 70292 # King Garc√≠a I of Navarra
+		employer = 70292 # King GarcÌa I of Navarra
 	}
 	854.1.1 = {
 		add_spouse = basque0030 # Toda
@@ -1899,7 +1899,7 @@
 }
 
 70296 = {
-	name = "Azeari" # Aznar S√°nchez
+	name = "Azeari" # Aznar S·nchez
 	dynasty_house = house_iniga
 	martial = 5
 	diplomacy = 4
@@ -1910,7 +1910,7 @@
 	trait = ambitious
 	trait = arbitrary
 
-	father = 70295 # Sancho Garc√©s
+	father = 70295 # Sancho GarcÈs
 	mother = basque0030 # Toda
 
 	858.1.1 = {
@@ -1920,7 +1920,7 @@
 		trait = education_diplomacy_2
 	}
 	880.1.1 = {
-		add_spouse = 70294 # Emiress √ìneca Fort√∫nez
+		add_spouse = 70294 # Emiress ”neca Fort˙nez
 	}
 	904.1.1 = {
 		death = yes
@@ -1928,7 +1928,7 @@
 }
 
 70297 = {
-	name = "Tota" # Toda Azn√°rez, wife of King Sancho I of Navarra (70122)
+	name = "Tota" # Toda Azn·rez, wife of King Sancho I of Navarra (70122)
 	female = yes
 	dynasty_house = house_iniga
 	martial = 4
@@ -1941,8 +1941,8 @@
 	trait = gregarious
 	trait = education_stewardship_2
 
-	father = 70296 # Aznar S√°nchez
-	mother = 70294 # Emiress √ìneca Fort√∫nez
+	father = 70296 # Aznar S·nchez
+	mother = 70294 # Emiress ”neca Fort˙nez
 
 	885.1.1 = {
 		birth = yes
@@ -1953,7 +1953,7 @@
 }
 
 70298 = {
-	name = "Antsa" # Sancha Azn√°rez, wife of Jimeno Garc√©s I (70128)
+	name = "Antsa" # Sancha Azn·rez, wife of Jimeno GarcÈs I (70128)
 	female = yes
 	dynasty_house = house_iniga
 	martial = 3
@@ -1966,8 +1966,8 @@
 	trait = content
 	trait = education_stewardship_1
 
-	father = 70296 # Aznar S√°nchez
-	mother = 70294 # Emiress √ìneca Fort√∫nez
+	father = 70296 # Aznar S·nchez
+	mother = 70294 # Emiress ”neca Fort˙nez
 
 	887.1.1 = {
 		birth = yes
@@ -1978,7 +1978,7 @@
 }
 
 70299 = {
-	name = "Oneka" # √ìneca Garc√©s, wife of Duke Aznar II of Arag√≥n (70276)
+	name = "Oneka" # ”neca GarcÈs, wife of Duke Aznar II of AragÛn (70276)
 	female = yes
 	dynasty_house = house_iniga
 	martial = 3
@@ -1991,7 +1991,7 @@
 	trait = greedy
 	trait = education_stewardship_2
 
-	father = 70292 # King Garc√≠a I of Navarra
+	father = 70292 # King GarcÌa I of Navarra
 	mother = basque0029 # Queen Urraca ibn Mutarrif
 
 	838.1.1 = {
@@ -2003,8 +2003,8 @@
 }
 
 71335 = {
-	name = "Pedro" # Pedro Mu√±oz
-	dynasty = 8742 # Pedro Mu√±oz Dynasty
+	name = "Pedro" # Pedro MuÒoz
+	dynasty = 8742 # Pedro MuÒoz Dynasty
 	religion = catholic
 	culture = galician
 
@@ -2012,13 +2012,13 @@
 		birth = yes
 	}
 	1065.12.27 = {
-		employer = 109500 # King Garc√≠a II Fern√°ndez of Galicia
+		employer = 109500 # King GarcÌa II Fern·ndez of Galicia
 	}
 	1075.1.1 = {
 		trait = education_stewardship_2
 	}
 	1086.1.1 = {
-		add_spouse = 71334 # Fronilde Pel√°ez
+		add_spouse = 71334 # Fronilde Pel·ez
 	}
 	1115.1.1 = {
 		death = yes
@@ -2026,15 +2026,15 @@
 }
 
 71336 = {
-	name = "Aurea" # Aurea P√©rez
+	name = "Aurea" # Aurea PÈrez
 	female = yes
-	dynasty = 8742 # Pedro Mu√±oz Dynasty
+	dynasty = 8742 # Pedro MuÒoz Dynasty
 	religion = catholic
 	culture = galician
 	trait = education_stewardship_1
 
-	father = 71335 # Pedro Mu√±oz
-	mother = 71334 # Fronilde Pel√°ez
+	father = 71335 # Pedro MuÒoz
+	mother = 71334 # Fronilde Pel·ez
 
 	1088.1.1 = {
 		birth = yes
@@ -2045,14 +2045,14 @@
 }
 
 71337 = {
-	name = "Munio" # Munio P√©rez
-	dynasty = 8742 # Pedro Mu√±oz Dynasty
+	name = "Munio" # Munio PÈrez
+	dynasty = 8742 # Pedro MuÒoz Dynasty
 	religion = catholic
 	culture = galician
 	trait = education_martial_1
 
-	father = 71335 # Pedro Mu√±oz
-	mother = 71334 # Fronilde Pel√°ez
+	father = 71335 # Pedro MuÒoz
+	mother = 71334 # Fronilde Pel·ez
 
 	1090.1.1 = {
 		birth = yes
@@ -2729,13 +2729,13 @@
 }
 
 71920 = {
-	name = "Orti" # Fort√∫n L√≥pez de Haro
+	name = "Orti" # Fort˙n LÛpez de Haro
 	dynasty = 778 # Haro Dynasty
 	religion = catholic
 	culture = basque
 
-	father = 107520 # Count Lope √ç√±iguez of Viscaya
-	mother = 107521 # Countess Toda Ort√≠z
+	father = 107520 # Count Lope ÕÒiguez of Viscaya
+	mother = 107521 # Countess Toda OrtÌz
 
 	1060.1.1 = {
 		birth = yes
@@ -2785,13 +2785,13 @@
 }
 
 71923 = {
-	name = "Diego" # Diego √Ålvarez de Oca
+	name = "Diego" # Diego ¡lvarez de Oca
 	dynasty_house = house_oca # House of Oca
 	religion = catholic
 	culture = castilian
 	trait = education_stewardship_2
 
-	father = castilian0156 # √Ålvar Mu√±oz
+	father = castilian0156 # ¡lvar MuÒoz
 	mother = castilian0157 # Munia
 
 	1013.1.1 = {
@@ -2806,13 +2806,13 @@
 }
 
 71924 = {
-	name = "Gonzalo" # Gonzalo D√≠az de Oca
+	name = "Gonzalo" # Gonzalo DÌaz de Oca
 	dynasty_house = house_oca # House of Oca
 	religion = catholic
 	culture = castilian
 	trait = education_martial_1
 
-	father = 71923 # Diego √Ålvarez de Oca
+	father = 71923 # Diego ¡lvarez de Oca
 	mother = castilian0183 # Toda
 
 	1046.1.1 = {
@@ -2824,13 +2824,13 @@
 }
 
 71925 = {
-	name = "Tecla" # Tecla D√≠az de Oca, wife of Count Lope √ç√±iguez of Viscaya (107523)
+	name = "Tecla" # Tecla DÌaz de Oca, wife of Count Lope ÕÒiguez of Viscaya (107523)
 	dynasty_house = house_oca # House of Oca
 	female = yes
 	religion = catholic
 	culture = castilian
 
-	father = 71923 # Diego √Ålvarez de Oca
+	father = 71923 # Diego ¡lvarez de Oca
 	mother = castilian0183 # Toda
 
 	1060.1.1 = {
@@ -3886,20 +3886,20 @@
 }
 
 72005 = {
-	name = "Eneko" # √ç√±igo Jim√©nez de los Cameros, Baron of Logro√±o (1106-1134)
+	name = "Eneko" # ÕÒigo JimÈnez de los Cameros, Baron of LogroÒo (1106-1134)
 	dynasty_house = house_cameros # House of los Cameros
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_2
 
-	father = 70134 # Baron Jimeno Fort√∫nez of Logro√±o
+	father = 70134 # Baron Jimeno Fort˙nez of LogroÒo
 	mother = basque0094 # Andregoto
 
 	1077.1.1 = {
 		birth = yes
 	}
 	1105.1.1 = {
-		add_spouse = 72423 # Mar√≠a Gonz√°lez (castilian.txt)
+		add_spouse = 72423 # MarÌa Gonz·lez (castilian.txt)
 	}
 	1134.1.1 = {
 		death = yes
@@ -5351,15 +5351,15 @@
 }
 
 73770 = {
-	name = "Antsa" # Sancha Garc√©s, wife of √ç√±igo Fort√∫nez I (73779) & Duke Galindo III of Arag√≥n (70274)
+	name = "Antsa" # Sancha GarcÈs, wife of ÕÒigo Fort˙nez I (73779) & Duke Galindo III of AragÛn (70274)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_2
 
-	father = 70121 # Baron Garc√≠a Jim√©nez de Tafalla
-	mother = basque0047 # √ìneca de Sang√ºesa
+	father = 70121 # Baron GarcÌa JimÈnez de Tafalla
+	mother = basque0047 # ”neca de Sang¸esa
 
 	875.1.1 = {
 		birth = yes
@@ -5370,14 +5370,14 @@
 }
 
 73771 = {
-	name = "Gartzia" # Garc√≠a
+	name = "Gartzia" # GarcÌa
 	dynasty = galinda
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70276 # Duke Aznar II of Arag√≥n
-	mother = 70299 # Duchess √ìneca Garc√©s
+	father = 70276 # Duke Aznar II of AragÛn
+	mother = 70299 # Duchess ”neca GarcÈs
 
 	864.1.1 = {
 		birth = yes
@@ -5388,21 +5388,21 @@
 }
 
 73772 = {
-	name = "Ximena" # Jimena Garc√©s, wife of King Alfonso III of Asturias (70019 - asturleonese.txt)
+	name = "Ximena" # Jimena GarcÈs, wife of King Alfonso III of Asturias (70019 - asturleonese.txt)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_2
 
-	father = 70292 # King Garc√≠a I of Navarra
+	father = 70292 # King GarcÌa I of Navarra
 	mother = basque0029 # Queen Urraca ibn Mutarrif
 
 	844.1.1 = {
 		birth = yes
 	}
 	851.7.1 = {
-		employer = 70292 # King Garc√≠a I of Navarra
+		employer = 70292 # King GarcÌa I of Navarra
 	}
 	912.6.1 = {
 		death = yes
@@ -5410,15 +5410,15 @@
 }
 
 73776 = {
-	name = "Assona" # Asona √ç√±iguez, wife of Sultan Musa ibn Musa of Valencia (73812)
+	name = "Assona" # Asona ÕÒiguez, wife of Sultan Musa ibn Musa of Valencia (73812)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 70291 # King √ç√±igo 'Arista' of Navarra
-	mother = basque0027 # Queen √ìneca Gal√≠ndez
+	father = 70291 # King ÕÒigo 'Arista' of Navarra
+	mother = basque0027 # Queen ”neca GalÌndez
 
 	814.1.1 = {
 		birth = yes
@@ -5432,21 +5432,21 @@
 }
 
 73777 = {
-	name = "Nunila" # Nunila, name given in some sources, √ç√±iguez, wife of Duke Garc√≠a Gal√≠ndez of Arag√≥n (70302)
+	name = "Nunila" # Nunila, name given in some sources, ÕÒiguez, wife of Duke GarcÌa GalÌndez of AragÛn (70302)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 70291 # King √çligo 'Arista' of Navarra
-	mother = basque0027 # Queen √ìneca Gal√≠ndez
+	father = 70291 # King Õligo 'Arista' of Navarra
+	mother = basque0027 # Queen ”neca GalÌndez
 
 	809.1.1 = {
 		birth = yes
 	}
 	851.7.1 = {
-		employer = 70292 # King Garc√≠a I of Navarra
+		employer = 70292 # King GarcÌa I of Navarra
 	}
 	868.1.1 = {
 		death = yes
@@ -5454,14 +5454,14 @@
 }
 
 73778 = {
-	name = "Belaskita" # Velasquita S√°nchez, wife of Sheik Mutarrif ibn Musa of Huesca (73824)
+	name = "Belaskita" # Velasquita S·nchez, wife of Sheik Mutarrif ibn Musa of Huesca (73824)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70295 # Sancho Garc√©s
+	father = 70295 # Sancho GarcÈs
 	mother = basque0030 # Toda
 
 	854.1.1 = {
@@ -5473,20 +5473,20 @@
 }
 
 73779 = {
-	name = "Eneko" # √ç√±igo Fort√∫nez I
+	name = "Eneko" # ÕÒigo Fort˙nez I
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 70293 # King Fort√∫n Garc√©s of Navarra
+	father = 70293 # King Fort˙n GarcÈs of Navarra
 	mother = 73783 # Queen Awriyah ibn Lubb
 
 	868.1.1 = {
 		birth = yes
 	}
 	902.1.1 = {
-		add_spouse = 73770 # Sancha Garc√©s
+		add_spouse = 73770 # Sancha GarcÈs
 	}
 	905.1.1 = {
 		death = yes
@@ -5494,13 +5494,13 @@
 }
 
 73780 = {
-	name = "Azeari" # Aznar Fort√∫nez
+	name = "Azeari" # Aznar Fort˙nez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 70293 # King Fort√∫n Garc√©s of Navarra
+	father = 70293 # King Fort˙n GarcÈs of Navarra
 	mother = 73783 # Queen Awriyah ibn Lubb
 
 	870.1.1 = {
@@ -5512,13 +5512,13 @@
 }
 
 73781 = {
-	name = "Belasko" # Velasco Fort√∫nez
+	name = "Belasko" # Velasco Fort˙nez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 70293 # King Fort√∫n Garc√©s of Navarra
+	father = 70293 # King Fort˙n GarcÈs of Navarra
 	mother = 73783 # Queen Awriyah ibn Lubb
 
 	872.1.1 = {
@@ -5530,13 +5530,13 @@
 }
 
 73782 = {
-	name = "Lope" # Lope Fort√∫nez
+	name = "Lope" # Lope Fort˙nez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70293 # King Fort√∫n Garc√©s of Navarra
+	father = 70293 # King Fort˙n GarcÈs of Navarra
 	mother = 73783 # Queen Awriyah ibn Lubb
 
 	874.1.1 = {
@@ -5548,7 +5548,7 @@
 }
 
 73783 = {
-	name = "Oria" # Awriyah ibn Lubb, wife of King Fort√∫n Garc√©s of Navarra (70293)
+	name = "Oria" # Awriyah ibn Lubb, wife of King Fort˙n GarcÈs of Navarra (70293)
 	dna = 73783_oria
 	female = yes
 	dynasty_house = house_musa  # Banu Qasi Dynasty
@@ -5677,7 +5677,7 @@ qasi0006 = {
 }
 
 73811 = {
-	name = "Oneka" # Oneca de Gascogne, wife of √ç√±igo Jim√©nez (70290) & Emir Musa ibn Furtun of Zaragoza (73810)
+	name = "Oneka" # Oneca de Gascogne, wife of ÕÒigo JimÈnez (70290) & Emir Musa ibn Furtun of Zaragoza (73810)
 	female = yes
 	dynasty = 388
 	religion = muwalladi
@@ -5696,7 +5696,7 @@ qasi0006 = {
 }
 
 70273 = {
-	name = "Tota" # Toda Gal√≠ndez, wife of Bernardo de Ribagorza (70271)
+	name = "Tota" # Toda GalÌndez, wife of Bernardo de Ribagorza (70271)
 	female = yes
 	dynasty = galinda
 	martial = 5
@@ -5709,7 +5709,7 @@ qasi0006 = {
 	trait = just
 	trait = education_diplomacy_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	mother = 54001 # Duchess Acibella de Gascogne
  
 	901.1.1 = {
@@ -5721,7 +5721,7 @@ qasi0006 = {
 }
 
 70274 = {
-	name = "Garindo" # Galindo (III) Azn√°rez, Duke of Arag√≥n (893-922) & Count of Alto Arag√≥n (893-922)
+	name = "Garindo" # Galindo (III) Azn·rez, Duke of AragÛn (893-922) & Count of Alto AragÛn (893-922)
 	dynasty = galinda
 	martial = 4
 	diplomacy = 6
@@ -5733,8 +5733,8 @@ qasi0006 = {
 	trait = diligent
 	trait = education_intrigue_3
 
-	father = 70276 # Duke Aznar II of Arag√≥n
-	mother = 70299 # Duchess √ìneca Garc√©s
+	father = 70276 # Duke Aznar II of AragÛn
+	mother = 70299 # Duchess ”neca GarcÈs
  
 	860.1.1 = {
 		birth = yes
@@ -5743,7 +5743,7 @@ qasi0006 = {
 		add_spouse = 54001 # Acibella de Gascogne
 	}
 	910.1.1 = {
-		add_spouse = 73770 # Sancha Garc√©s
+		add_spouse = 73770 # Sancha GarcÈs
 	}
 	922.1.1 = {
 		death = yes
@@ -5751,15 +5751,15 @@ qasi0006 = {
 }
 
 70275 = {
-	name = "Andregoto" # Andregoto Gal√≠ndez, Duchess of Arag√≥n (922-943) & Countess of Alto Arag√≥n (922-943). Spouse of King Garc√≠a II of Navarra (70271)
+	name = "Andregoto" # Andregoto GalÌndez, Duchess of AragÛn (922-943) & Countess of Alto AragÛn (922-943). Spouse of King GarcÌa II of Navarra (70271)
 	female = yes
 	dynasty = galinda
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
-	mother = 73770 # Duchess Sancha Garc√©s
+	father = 70274 # Duke Galindo III of AragÛn
+	mother = 73770 # Duchess Sancha GarcÈs
 
 	917.1.1 = {
 		birth = yes
@@ -5770,7 +5770,7 @@ qasi0006 = {
 }
 
 70276 = {
-	name = "Azeari" # Aznar (II) Gal√≠ndez, Duke of Arag√≥n (867-893) & Count of Alto Arag√≥n (867-893)
+	name = "Azeari" # Aznar (II) GalÌndez, Duke of AragÛn (867-893) & Count of Alto AragÛn (867-893)
 	dynasty = galinda
 	martial = 4
 	diplomacy = 4
@@ -5782,13 +5782,13 @@ qasi0006 = {
 	trait = brave
 	trait = education_stewardship_1
 
-	father = 70277 # Duke Galindo II of Arag√≥n
+	father = 70277 # Duke Galindo II of AragÛn
  
 	838.1.1 = {
 		birth = yes
 	}
 	858.1.1 = {
-		add_spouse = 70299 # √ìneca Garc√©s
+		add_spouse = 70299 # ”neca GarcÈs
 	}
 	893.1.1 = {
 		death = yes
@@ -5796,7 +5796,7 @@ qasi0006 = {
 }
 
 70277 = {
-	name = "Garindo" # Galindo (II) Azn√°rez, Duke of Arag√≥n (844-867) & Count of Cerda√±a (832-835), Urgell (832-838) & Alto Arag√≥n (844-867)
+	name = "Garindo" # Galindo (II) Azn·rez, Duke of AragÛn (844-867) & Count of CerdaÒa (832-835), Urgell (832-838) & Alto AragÛn (844-867)
 	dynasty = galinda
 	martial = 4
 	diplomacy = 4
@@ -5808,7 +5808,7 @@ qasi0006 = {
 	trait = content
 	trait = education_stewardship_1
 
-	father = 70300 # Duke Aznar I of Arag√≥n
+	father = 70300 # Duke Aznar I of AragÛn
 	mother = 168115 # Duchess Toda de Gascogne
 
 	805.1.1 = {
@@ -5820,7 +5820,7 @@ qasi0006 = {
 }
 
 70300 = {
-	name = "Azeari" # Aznar (I) Gal√≠ndez, Duke of Arag√≥n (806-820) & Count of Alto Arag√≥n (806-820), Cerda√±a & Urgell (820-832)
+	name = "Azeari" # Aznar (I) GalÌndez, Duke of AragÛn (806-820) & Count of Alto AragÛn (806-820), CerdaÒa & Urgell (820-832)
 	dynasty = galinda
 	martial = 5
 	diplomacy = 6
@@ -5845,7 +5845,7 @@ qasi0006 = {
 }
 
 70301 = {
-	name = "Matrona" # Matrona Azn√°rez, wife of Duke Garc√≠a I of Arag√≥n (70302)
+	name = "Matrona" # Matrona Azn·rez, wife of Duke GarcÌa I of AragÛn (70302)
 	female = yes
 	dynasty = galinda
 	martial = 4
@@ -5857,7 +5857,7 @@ qasi0006 = {
 	trait = depressed_1
 	trait = education_diplomacy_1
 
-	father = 70300 # Duke Aznar I of Arag√≥n
+	father = 70300 # Duke Aznar I of AragÛn
 	mother = 168115 # Duchess Toda de Gascogne
  
 	802.1.1 = {
@@ -5869,7 +5869,7 @@ qasi0006 = {
 }
 
 70302 = {
-	name = "Gartzia" # Garc√≠a Gal√≠ndez 'el Malo', Duke of Aragon (820-833) & Count of Alto Arag√≥n (820-833)
+	name = "Gartzia" # GarcÌa GalÌndez 'el Malo', Duke of Aragon (820-833) & Count of Alto AragÛn (820-833)
 	dynasty = 12285 # Belascotenes Dynasty
 	religion = catholic
 	culture = basque
@@ -5881,13 +5881,13 @@ qasi0006 = {
 		birth = yes
 	}
 	818.1.1 = {
-		add_spouse = 70301 # Matrona Azn√°rez
+		add_spouse = 70301 # Matrona Azn·rez
 	}
 	820.1.1 = {
 		remove_spouse = 70301
 	}
 	824.1.1 = {
-		add_spouse = 73777 # Nunila √ç√±iguez
+		add_spouse = 73777 # Nunila ÕÒiguez
 	}
 	833.1.1 = {
 		death = yes
@@ -5895,7 +5895,7 @@ qasi0006 = {
 }
 
 70303 = {
-	name = "Garindo" # Galindo (I) Garc√©s, Duke of Arag√≥n (833-844) & Count of Alto Arag√≥n (833-844)
+	name = "Garindo" # Galindo (I) GarcÈs, Duke of AragÛn (833-844) & Count of Alto AragÛn (833-844)
 	dynasty = 12285 # Belascotenes Dynasty
 	martial = 6
 	diplomacy = 5
@@ -5906,8 +5906,8 @@ qasi0006 = {
 	trait = ill
 	trait = education_stewardship_1
 
-	father = 70302 # Duke Garc√≠a Gal√≠ndez of Arag√≥n
-	mother = 70301 # Matrona Azn√°rez
+	father = 70302 # Duke GarcÌa GalÌndez of AragÛn
+	mother = 70301 # Matrona Azn·rez
  
 	819.1.1 = {
 		birth = yes
@@ -5962,7 +5962,7 @@ qasi0006 = {
 }
 
 40011 = {
-	name = "Adalais" # Adalais de Gascogne, wife of Count G√©raud I of Armagnac (40010) & Baron Arnaud II de Lomagne
+	name = "Adalais" # Adalais de Gascogne, wife of Count GÈraud I of Armagnac (40010) & Baron Arnaud II de Lomagne
 	female = yes
 	dynasty = 388
 	religion = catholic
@@ -5970,7 +5970,7 @@ qasi0006 = {
 	trait = education_diplomacy_3
 
 	father = 127049 # Duke Guillaume II of Gascogne
-	mother = 107683 # Duchess Urraca Garc√©s
+	mother = 107683 # Duchess Urraca GarcÈs
 
 	985.1.1 = {
 		birth = yes
@@ -5989,7 +5989,7 @@ qasi0006 = {
 	trait = education_stewardship_1
 
 	father = 127049 # Duke Guillaume II of Gascogne
-	mother = 107683 # Duchess Urraca Garc√©s
+	mother = 107683 # Duchess Urraca GarcÈs
  
 	974.1.1 = {
 		birth = yes
@@ -6030,7 +6030,7 @@ qasi0006 = {
 	trait = education_diplomacy_2
 
 	father = 127049 # Duke Guillaume II of Gascogne
-	mother = 107683 # Duchess Urraca Garc√©s
+	mother = 107683 # Duchess Urraca GarcÈs
 
 	980.1.1 = {
 		birth = yes
@@ -6053,7 +6053,7 @@ qasi0006 = {
 		birth = yes
 	}
 	972.7.14 = {
-		add_spouse = 107683 # Urraca Garc√©s
+		add_spouse = 107683 # Urraca GarcÈs
 	}
 	996.12.23 = {
 		death = yes
@@ -6068,7 +6068,7 @@ qasi0006 = {
 	trait = education_stewardship_3
 
 	father = 127049 # Duke Guillaume II of Gascogne
-	mother = 107683 # Urraca Garc√©s
+	mother = 107683 # Urraca GarcÈs
 
 	975.1.1 = {
 		birth = yes
@@ -6088,13 +6088,13 @@ qasi0006 = {
 	trait = education_stewardship_1
 
 	father = 127049 # Duke Guillaume II of Gascogne
-	mother = 107683 # Duchess Urraca Garc√©s
+	mother = 107683 # Duchess Urraca GarcÈs
 
 	977.1.1 = {
 		birth = yes
 	}
 	1016.1.1 = {
-		add_spouse = castilian0148 # Urraca S√°nchez (castilian.txt)
+		add_spouse = castilian0148 # Urraca S·nchez (castilian.txt)
 	}
 	1032.10.4 = {
 		death = yes
@@ -6108,7 +6108,7 @@ qasi0006 = {
 	culture = basque
 
 	father = 127051 # Duke Sancho VI of Gascogne
-	mother = castilian0148 # Urraca S√°nchez (castilian.txt)
+	mother = castilian0148 # Urraca S·nchez (castilian.txt)
 
 	1017.1.1 = {
 		birth = yes
@@ -6267,7 +6267,7 @@ qasi0006 = {
 		birth = yes
 	}
 	800.1.1 = {
-		add_spouse = basque0097 # Andregoto Gal√≠ndez
+		add_spouse = basque0097 # Andregoto GalÌndez
 	}
 	812.1.1 = {
 		death = {
@@ -6377,7 +6377,7 @@ qasi0006 = {
 	trait = education_stewardship_2
 
 	father = 168106 # Duke Sanche I of Gascogne
-	mother = basque0097 # Duchess Andregoto Gal√≠ndez
+	mother = basque0097 # Duchess Andregoto GalÌndez
 
 	809.1.1 = {
 		birth = yes
@@ -6390,13 +6390,13 @@ qasi0006 = {
 
 
 168113 = {
-	name = "Azeari" # Aznar Gal√≠ndez
+	name = "Azeari" # Aznar GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 
-	father = 70274 # Duke Galindo III of Arag√≥n
-	mother = 73770 # Duchess Sancha Garc√©s
+	father = 70274 # Duke Galindo III of AragÛn
+	mother = 73770 # Duchess Sancha GarcÈs
 
 	915.1.1 = {
 		birth = yes
@@ -6407,14 +6407,14 @@ qasi0006 = {
 }
 
 168114 = {
-	name = "Antsa" # Sancha Azn√°rez, wife of Sheik Muhammad al-Tawil of Huesca (andalusian0082)
+	name = "Antsa" # Sancha Azn·rez, wife of Sheik Muhammad al-Tawil of Huesca (andalusian0082)
 	dynasty = galinda # Galinda Dynasty
 	female = yes
 	religion = catholic
 	culture = basque
 
-	father = 70276 # Duke Aznar II of Arag√≥n
-	mother = 70299 # Duchess √ìneca Garc√©s
+	father = 70276 # Duke Aznar II of AragÛn
+	mother = 70299 # Duchess ”neca GarcÈs
 
 	862.1.1 = {
 		birth = yes
@@ -6429,7 +6429,7 @@ qasi0006 = {
 }
 
 168115 = {
-	name = "Tota" # Toda, real name unknown, de Gascogne, wife of Duke Aznar I of Arag√≥n (70300)
+	name = "Tota" # Toda, real name unknown, de Gascogne, wife of Duke Aznar I of AragÛn (70300)
 	female = yes
 	dynasty = 388
 	religion = catholic
@@ -6510,7 +6510,7 @@ qasi0006 = {
 	trait = education_stewardship_3
 
 	father = 168106 # Duke Sanche I of Gascogne
-	mother = basque0097 # Duchess Andregoto Gal√≠ndez
+	mother = basque0097 # Duchess Andregoto GalÌndez
 
 	803.1.1 = {
 		birth = yes
@@ -6541,7 +6541,7 @@ qasi0006 = {
 }
 
 71543 = {
-	name = "Antsa" # Sancha S√°nchez, wife of Count Dat Donat of Bigorre (168125 - occitan.txt)
+	name = "Antsa" # Sancha S·nchez, wife of Count Dat Donat of Bigorre (168125 - occitan.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -6682,7 +6682,7 @@ qasi0006 = {
 }
 
 73813 = {
-	name = "Lubb" # Lubb ibn Musa, Walih of Toledo (859-862), Sheik of N√°jera (862-875), Cuenca, Madrid, Molina & Toledo (859-862) & Walih of Logro√±o (862-875)
+	name = "Lubb" # Lubb ibn Musa, Walih of Toledo (859-862), Sheik of N·jera (862-875), Cuenca, Madrid, Molina & Toledo (859-862) & Walih of LogroÒo (862-875)
 	dna = 73813_lupp_ibn_musa
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
@@ -6699,7 +6699,7 @@ qasi0006 = {
 	disallow_random_traits = yes
 
 	father = 73812 # Sultan Musa ibn Musa of Valencia
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	831.1.1 = {
 		birth = yes
@@ -6756,7 +6756,7 @@ qasi0006 = {
 }
 
 73815 = {
-	name = "Mohamed" # Muhammad ibn Lubb, Walih of Zaragoza (882-884) & Sheik of N√°jera (875-898), Tudela (882-898), Alca√±iz & Zaragoza (882-884), Lleida (889-898) & Fraga (889-896)
+	name = "Mohamed" # Muhammad ibn Lubb, Walih of Zaragoza (882-884) & Sheik of N·jera (875-898), Tudela (882-898), AlcaÒiz & Zaragoza (882-884), Lleida (889-898) & Fraga (889-896)
 	dna = 73815_mohamed 
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
@@ -6828,7 +6828,7 @@ qasi0006 = {
 }
 
 73818 = {
-	name = "Ismail" # Isma'il ibn Musa, Walih of Zaragoza (872-882), Sheik of Alca√±iz & Zaragoza (872-882), Fraga & Lleida (872-898) & & Walih of Barbastro (874-889)
+	name = "Ismail" # Isma'il ibn Musa, Walih of Zaragoza (872-882), Sheik of AlcaÒiz & Zaragoza (872-882), Fraga & Lleida (872-898) & & Walih of Barbastro (874-889)
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
 	culture = basque
@@ -6836,7 +6836,7 @@ qasi0006 = {
 	trait = education_martial_3
 
 	father = 73812 # Sultan Musa ibn Musa of Valencia
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	833.1.1 = {
 		birth = yes
@@ -6946,13 +6946,13 @@ qasi0006 = {
 	trait = arrogant
 
 	father = 73812 # Sultan Musa ibn Musa of Valencia
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	835.1.1 = {
 		birth = yes
 	}
 	870.1.1 = {
-		add_spouse = 73778 # Velasquita S√°nchez
+		add_spouse = 73778 # Velasquita S·nchez
 	}
 	873.9.5 = {
 		death = {
@@ -7028,7 +7028,7 @@ qasi0006 = {
 	culture = basque
 
 	father = 73824 # Sheik Mutarrif ibn Musa of Huesca
-	mother = 73778 # Sheikah Velasquita S√°nchez
+	mother = 73778 # Sheikah Velasquita S·nchez
 
 	871.1.1 = {
 		birth = yes
@@ -7047,7 +7047,7 @@ qasi0006 = {
 	trait = deceitful
 
 	father = 73812 # Sultan Musa ibn Musa of Zaragoza
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	837.1.1 = {
 		birth = yes
@@ -7154,7 +7154,7 @@ qasi0006 = {
 	trait = education_diplomacy_1
 
 	father = 73812 # Sultan Musa ibn Musa of Valencia
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	839.1.1 = {
 		birth = yes
@@ -7210,7 +7210,7 @@ qasi0006 = {
 	trait = education_diplomacy_1
 
 	father = 73812 # Sulta Musa ibn Musa of Valencia
-	mother = 73776 # Sultana Asona √ç√±iguez
+	mother = 73776 # Sultana Asona ÕÒiguez
 
 	843.1.1 = {
 		birth = yes
@@ -7817,13 +7817,13 @@ qasi0006 = {
 }
 
 200168 = {
-	name = "Gartzia" # Garc√≠a Azn√°rez, Count of Ipuskoa (1025-1048)
+	name = "Gartzia" # GarcÌa Azn·rez, Count of Ipuskoa (1025-1048)
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_3
 
-	father = 200169 # Aznar Azn√°rez
+	father = 200169 # Aznar Azn·rez
 
 	977.1.1 = {
 		birth = yes
@@ -7837,13 +7837,13 @@ qasi0006 = {
 }
 
 200169 = {
-	name = "Azeari" # Aznar Azn√°rez
+	name = "Azeari" # Aznar Azn·rez
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0021 # Aznar Mu√±oz
+	father = basque0021 # Aznar MuÒoz
 
 	949.1.1 = {
 		birth = yes
@@ -7854,7 +7854,7 @@ qasi0006 = {
 }
 
 200170 = {
-	name = "Oria" # Auro D√≠az, wife of Vela Berm√∫dez (73037 - asturleonese.txt)
+	name = "Oria" # Auro DÌaz, wife of Vela Berm˙dez (73037 - asturleonese.txt)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -7864,7 +7864,7 @@ qasi0006 = {
 		birth = yes
 	}
 	1065.12.27 = {
-		employer = 108500 # King Alfonso VI of Le√≥n
+		employer = 108500 # King Alfonso VI of LeÛn
 	}
 	1098.1.1 = {
 		death = yes
@@ -8160,14 +8160,14 @@ qasi0006 = {
 }
 
 200189 = {
-	name = "Belasko" # Velasco Garc√©s
+	name = "Belasko" # Velasco GarcÈs
 	dynasty = 12285 # Belascotenes Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
  
-	father = 70302 # Duke Garc√≠a Gal√≠ndez of Arag√≥n
-	mother = 70301 # Duchess Nunila √ç√±iguez
+	father = 70302 # Duke GarcÌa GalÌndez of AragÛn
+	mother = 70301 # Duchess Nunila ÕÒiguez
 
 	820.1.1 = {
 		birth = yes
@@ -8432,7 +8432,7 @@ qasi0006 = {
 }
 
 basque0001 = {
-	name = "Nunila" # Nunila Jimena, wife of King Fruela II of Le√≥n (70030 - asturleonese.txt)
+	name = "Nunila" # Nunila Jimena, wife of King Fruela II of LeÛn (70030 - asturleonese.txt)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -8447,7 +8447,7 @@ basque0001 = {
 }
 
 basque0002 = {
-	name = "Urraka" # Urraca ibn Abdallah, wife of King Fruela II of Le√≥n (70030 - asturleonese.txt)
+	name = "Urraka" # Urraca ibn Abdallah, wife of King Fruela II of LeÛn (70030 - asturleonese.txt)
 	female = yes
 	dynasty_house = house_musa # Banu Musa
 	religion = mozarabic_church
@@ -8465,8 +8465,8 @@ basque0002 = {
 }
 
 basque0003 = {
-	name = "Bermudo" # Bermudo L√≥pez, Count of Viscaya (768-793)
-	dynasty = 8750 # √Ålava Dynasty
+	name = "Bermudo" # Bermudo LÛpez, Count of Viscaya (768-793)
+	dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -8483,9 +8483,9 @@ basque0003 = {
 }
 
 basque0004 = {
-	name = "Hermesenda" # Ermesinda L√≥pez, wife of Lope de Arrosta (200061)
+	name = "Hermesenda" # Ermesinda LÛpez, wife of Lope de Arrosta (200061)
 	female = yes
-	dynasty = 8750 # √Ålava Dynasty
+	dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
@@ -8502,8 +8502,8 @@ basque0004 = {
 }
 
 basque0005 = {
-	name = "Nepociano" # Nepociano L√≥pez
-	dynasty = 8750 # √Ålava Dynasty
+	name = "Nepociano" # Nepociano LÛpez
+	dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -8520,13 +8520,13 @@ basque0005 = {
 }
 
 basque0006 = {
-	name = "Diego" # Diego Nepoci√°niz
-	dynasty = 8750 # √Ålava Dynasty
+	name = "Diego" # Diego Nepoci·niz
+	dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0005 # Nepociano L√≥pez
+	father = basque0005 # Nepociano LÛpez
 
 	775.1.1 = {
 		birth = yes
@@ -8537,8 +8537,8 @@ basque0006 = {
 }
 
 basque0007 = {
-	name = "Nepociano" # Nepociano D√≠az, King of Asturias (842-843) & Count of Amaya, Asturias de Oviedo, Asturias de Santillana, Benavente, Le√≥n, Pravia & Zamora (842-843)
-	dynasty = 8750 # √Ålava Dynasty
+	name = "Nepociano" # Nepociano DÌaz, King of Asturias (842-843) & Count of Amaya, Asturias de Oviedo, Asturias de Santillana, Benavente, LeÛn, Pravia & Zamora (842-843)
+	dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -8560,8 +8560,8 @@ basque0007 = {
 }
 
 basque0008 = {
-	name = "Egilo_n" # Egil√≥n de √Ålava, Count of Viscaya (862-867)
-	#dynasty = 8750 # √Ålava Dynasty
+	name = "Egilo_n" # EgilÛn de ¡lava, Count of Viscaya (862-867)
+	#dynasty = 8750 # ¡lava Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_2
@@ -8570,7 +8570,7 @@ basque0008 = {
 		birth = yes
 	}
 	851.7.1 = {
-		employer = 70292 # King Garc√≠a I of Navarra
+		employer = 70292 # King GarcÌa I of Navarra
 	}
 	880.1.1 = {
 		death = yes
@@ -8578,7 +8578,7 @@ basque0008 = {
 }
 
 basque0009 = {
-	name = "Gartzia" # Garc√≠a Ennecones
+	name = "Gartzia" # GarcÌa Ennecones
 	dynasty = ennecones # Ennecones Dynasty
 	religion = catholic
 	culture = basque
@@ -8588,7 +8588,7 @@ basque0009 = {
 		birth = yes
 	}
 	938.1.1 = {
-		add_spouse = galician0042 # Elvira Men√©ndez (galician.txt)
+		add_spouse = galician0042 # Elvira MenÈndez (galician.txt)
 	}
 	968.1.1 = {
 		death = yes
@@ -8596,15 +8596,15 @@ basque0009 = {
 }
 
 basque0010 = {
-	name = "Ximena" # Jimena Garc√©s
+	name = "Ximena" # Jimena GarcÈs
 	female = yes
 	dynasty = ennecones # Ennecones Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0009 # Garc√≠a Ennecones
-	mother = galician0042 # Elvira Men√©ndez (galician.txt)
+	father = basque0009 # GarcÌa Ennecones
+	mother = galician0042 # Elvira MenÈndez (galician.txt)
 
 	939.1.1 = {
 		birth = yes
@@ -8615,7 +8615,7 @@ basque0010 = {
 }
 
 basque0011 = {
-	name = "Gudigeva" # Gudigeva N√∫√±ez, wife of Pedro Mu√±oz (castilian0084 - castilian.txt)
+	name = "Gudigeva" # Gudigeva N˙Òez, wife of Pedro MuÒoz (castilian0084 - castilian.txt)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -8636,7 +8636,7 @@ basque0012 = {
 	culture = basque
 	trait = education_intrigue_1
 
-	father = basque0023 # Sancho Mu√±oz, not sure, was a son of Count Munio Velaz
+	father = basque0023 # Sancho MuÒoz, not sure, was a son of Count Munio Velaz
 
 	956.1.1 = {
 		birth = yes
@@ -8698,7 +8698,7 @@ basque0015 = {
 }
 
 basque0016 = {
-	name = "Ximena" # Jimena, wife of Munio Fern√°ndez (asturleonese0184 - asturleonese.txt)
+	name = "Ximena" # Jimena, wife of Munio Fern·ndez (asturleonese0184 - asturleonese.txt)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -8713,8 +8713,8 @@ basque0016 = {
 }
 
 basque0017 = {
-	name = "Piarres" # Pedro Mu√±oz de Mara√±√≥n
-	dynasty = 7026 # Mara√±√≥n Dynasty
+	name = "Piarres" # Pedro MuÒoz de MaraÒÛn
+	dynasty = 7026 # MaraÒÛn Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
@@ -8729,13 +8729,13 @@ basque0017 = {
 }
 
 basque0018 = {
-	name = "Errodrigo" # Rodrigo P√©rez de Mara√±√≥n
-	dynasty = 7026 # Mara√±√≥n Dynasty
+	name = "Errodrigo" # Rodrigo PÈrez de MaraÒÛn
+	dynasty = 7026 # MaraÒÛn Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = basque0017 # Pedro Mu√±oz de Mara√±√≥n
+	father = basque0017 # Pedro MuÒoz de MaraÒÛn
 
 	1100.1.1 = {
 		birth = yes
@@ -8746,14 +8746,14 @@ basque0018 = {
 }
 
 basque0019 = {
-	name = "Orti" # Fort√∫n √Ålvarez
-	dynasty = 8741 # Herram√©liz Dynasty
+	name = "Orti" # Fort˙n ¡lvarez
+	dynasty = 8741 # HerramÈliz Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 200093 # Count √Ålvaro Herram√©liz of Viscaya
-	mother = 107681 # Countess Sancha S√°nchez
+	father = 200093 # Count ¡lvaro HerramÈliz of Viscaya
+	mother = 107681 # Countess Sancha S·nchez
 
 	933.1.1 = {
 		birth = yes
@@ -8764,14 +8764,14 @@ basque0019 = {
 }
 
 basque0020 = {
-	name = "Beila" # Vela √Ålvarez
-	dynasty = 8741 # Herram√©liz Dynasty
+	name = "Beila" # Vela ¡lvarez
+	dynasty = 8741 # HerramÈliz Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 200093 # Count √Ålvaro Herram√©liz of Viscaya
-	mother = 107681 # Countess Sancha S√°nchez
+	father = 200093 # Count ¡lvaro HerramÈliz of Viscaya
+	mother = 107681 # Countess Sancha S·nchez
 
 	935.1.1 = {
 		birth = yes
@@ -8782,14 +8782,14 @@ basque0020 = {
 }
 
 basque0021 = {
-	name = "Azeari" # Aznar Mu√±oz
+	name = "Azeari" # Aznar MuÒoz
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
 	father = 200160 # Count Munio Velaz of Burgos
-	mother = basque0055 # Countes Velasquita S√°nchez
+	mother = basque0055 # Countes Velasquita S·nchez
 
 	927.1.1 = {
 		birth = yes
@@ -8800,14 +8800,14 @@ basque0021 = {
 }
 
 basque0022 = {
-	name = "Lope" # Lope Mu√±oz
+	name = "Lope" # Lope MuÒoz
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
 	father = 200160 # Count Munio Velaz of Burgos
-	mother = basque0055 # Countes Velasquita S√°nchez
+	mother = basque0055 # Countes Velasquita S·nchez
 
 	928.1.1 = {
 		birth = yes
@@ -8818,14 +8818,14 @@ basque0022 = {
 }
 
 basque0023 = {
-	name = "Antso" # Sancho Mu√±oz
+	name = "Antso" # Sancho MuÒoz
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_intrigue_1
 
 	father = 200160 # Count Munio Velaz of Burgos
-	mother = basque0055 # Countes Velasquita S√°nchez
+	mother = basque0055 # Countes Velasquita S·nchez
 
 	929.1.1 = {
 		birth = yes
@@ -8836,7 +8836,7 @@ basque0023 = {
 }
 
 basque0024 = {
-	name = "Belaskita" # Velasquita Mu√±oz
+	name = "Belaskita" # Velasquita MuÒoz
 	female = yes
 	dynasty_house = house_vela # House Vela
 	religion = catholic
@@ -8844,7 +8844,7 @@ basque0024 = {
 	trait = education_stewardship_1
 
 	father = 200160 # Count Munio Velaz of Burgos
-	mother = basque0055 # Countes Velasquita S√°nchez
+	mother = basque0055 # Countes Velasquita S·nchez
 
 	930.1.1 = {
 		birth = yes
@@ -8855,13 +8855,13 @@ basque0024 = {
 }
 
 basque0025 = {
-	name = "Gartzia" # Garc√≠a Azn√°rez
+	name = "Gartzia" # GarcÌa Azn·rez
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = basque0021 # Aznar Mu√±oz
+	father = basque0021 # Aznar MuÒoz
 
 	951.1.1 = {
 		birth = yes
@@ -8872,14 +8872,14 @@ basque0025 = {
 }
 
 basque0026 = {
-	name = "Orti" # Fort√∫n √ç√±iguez I
+	name = "Orti" # Fort˙n ÕÒiguez I
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 70290 # √ç√±igo Jim√©nez
-	mother = 73811 # √ìneca
+	father = 70290 # ÕÒigo JimÈnez
+	mother = 73811 # ”neca
 
 	790.1.1 = {
 		birth = yes
@@ -8893,7 +8893,7 @@ basque0026 = {
 }
 
 basque0027 = {
-	name = "Oneka" # √ìneca Gal√≠ndez, wife of King √ç√±igo 'Arista' of Navarra (70291)
+	name = "Oneka" # ”neca GalÌndez, wife of King ÕÒigo 'Arista' of Navarra (70291)
 	female = yes
 	dynasty = 12285 # Belascotenes Dynasty
 	religion = catholic
@@ -8911,7 +8911,7 @@ basque0027 = {
 }
 
 basque0028 = {
-	name = "Goldegrodo" # Goldegrodo, wife of Duke Galindo I of Arag√≥n (70303)
+	name = "Goldegrodo" # Goldegrodo, wife of Duke Galindo I of AragÛn (70303)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -8921,7 +8921,7 @@ basque0028 = {
 		birth = yes
 	}
 	851.7.1 = {
-		employer = 70292 # King Garc√≠a I of Navarra
+		employer = 70292 # King GarcÌa I of Navarra
 	}
 	870.1.1 = {
 		death = yes
@@ -8929,7 +8929,7 @@ basque0028 = {
 }
 
 basque0029 = {
-	name = "Urraka" # Urraca ibn Mutarrif, wife of King Garc√≠a I of Navarra (70292)
+	name = "Urraka" # Urraca ibn Mutarrif, wife of King GarcÌa I of Navarra (70292)
 	female = yes
 	dynasty = 12293 # Banu Qasi Dynasty
 	religion = mozarabic_church
@@ -8947,7 +8947,7 @@ basque0029 = {
 }
 
 basque0030 = {
-	name = "Tota" # Toda, fictional wife of Sancho Garc√©s (70295)
+	name = "Tota" # Toda, fictional wife of Sancho GarcÈs (70295)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -8962,14 +8962,14 @@ basque0030 = {
 }
 
 basque0031 = {
-	name = "Antso" # Sancho Azn√°rez
+	name = "Antso" # Sancho Azn·rez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 70296 # Aznar S√°nchez
-	mother = 70294 # Emiress √ìneca Fort√∫nez
+	father = 70296 # Aznar S·nchez
+	mother = 70294 # Emiress ”neca Fort˙nez
 
 	883.1.1 = {
 		birth = yes
@@ -8980,14 +8980,14 @@ basque0031 = {
 }
 
 basque0032 = {
-	name = "Ximena" # Jimena Vel√°zquez, wife of Baron √ç√±igo Garc√©s of Tafalla (basque0048)
+	name = "Ximena" # Jimena Vel·zquez, wife of Baron ÕÒigo GarcÈs of Tafalla (basque0048)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 73781 # Velasco Fort√∫nez
+	father = 73781 # Velasco Fort˙nez
 
 	887.1.1 = {
 		birth = yes
@@ -8998,14 +8998,14 @@ basque0032 = {
 }
 
 basque0033 = {
-	name = "Tota" # Toda Vel√°zquez, wife of √ç√±igo Manzones (basque0035)
+	name = "Tota" # Toda Vel·zquez, wife of ÕÒigo Manzones (basque0035)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 73781 # Velasco Fort√∫nez
+	father = 73781 # Velasco Fort˙nez
 
 	889.1.1 = {
 		birth = yes
@@ -9016,14 +9016,14 @@ basque0033 = {
 }
 
 basque0034 = {
-	name = "Antsa" # Sancha Vel√°zquez, wife of Galindo Jim√©nez (basque0036)
+	name = "Antsa" # Sancha Vel·zquez, wife of Galindo JimÈnez (basque0036)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 73781 # Velasco Fort√∫nez
+	father = 73781 # Velasco Fort˙nez
 
 	891.1.1 = {
 		birth = yes
@@ -9034,7 +9034,7 @@ basque0034 = {
 }
 
 basque0035 = {
-	name = "Eneko" # √ç√±igo Manzones
+	name = "Eneko" # ÕÒigo Manzones
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9043,7 +9043,7 @@ basque0035 = {
 		birth = yes
 	}
 	909.1.1 = {
-		add_matrilineal_spouse = basque0033 # Toda Vel√°zquez
+		add_matrilineal_spouse = basque0033 # Toda Vel·zquez
 	}
 	933.1.1 = {
 		death = yes
@@ -9051,7 +9051,7 @@ basque0035 = {
 }
 
 basque0036 = {
-	name = "Garindo" # Galindo Jim√©nez
+	name = "Garindo" # Galindo JimÈnez
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9060,7 +9060,7 @@ basque0036 = {
 		birth = yes
 	}
 	910.1.1 = {
-		add_matrilineal_spouse = basque0034 # Sancha Vel√°zquez
+		add_matrilineal_spouse = basque0034 # Sancha Vel·zquez
 	}
 	935.1.1 = {
 		death = yes
@@ -9068,13 +9068,13 @@ basque0036 = {
 }
 
 basque0037 = {
-	name = "Orti" # Fort√∫n Azn√°rez 'Orbita'
+	name = "Orti" # Fort˙n Azn·rez 'Orbita'
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 73780 # Aznar Fort√∫nez
+	father = 73780 # Aznar Fort˙nez
 
 	907.1.1 = {
 		birth = yes
@@ -9085,13 +9085,13 @@ basque0037 = {
 }
 
 basque0038 = {
-	name = "Gartzia" # Garc√≠a Fort√∫nez
+	name = "Gartzia" # GarcÌa Fort˙nez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0037 # Fort√∫n Azn√°rez
+	father = basque0037 # Fort˙n Azn·rez
 
 	930.1.1 = {
 		birth = yes
@@ -9102,14 +9102,14 @@ basque0038 = {
 }
 
 basque0039 = {
-	name = "Orti" # Fort√∫n √ç√±iguez II
+	name = "Orti" # Fort˙n ÕÒiguez II
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 73779 # √ç√±igo Fort√∫nez I
-	mother = 73770 # Sancha Garc√©s
+	father = 73779 # ÕÒigo Fort˙nez I
+	mother = 73770 # Sancha GarcÈs
 
 	903.1.1 = {
 		birth = yes
@@ -9120,13 +9120,13 @@ basque0039 = {
 }
 
 basque0040 = {
-	name = "Gartzia" # Garc√≠a Fort√∫nez
+	name = "Gartzia" # GarcÌa Fort˙nez
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0039 # Fort√∫n √ç√±iguez II
+	father = basque0039 # Fort˙n ÕÒiguez II
 
 	922.1.1 = {
 		birth = yes
@@ -9137,13 +9137,13 @@ basque0040 = {
 }
 
 basque0041 = {
-	name = "Eneko" # √ç√±igo Fort√∫nez II
+	name = "Eneko" # ÕÒigo Fort˙nez II
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0039 # Fort√∫n √ç√±iguez II
+	father = basque0039 # Fort˙n ÕÒiguez II
 
 	924.1.1 = {
 		birth = yes
@@ -9154,14 +9154,14 @@ basque0041 = {
 }
 
 basque0042 = {
-	name = "Antsa" # Sancha Fort√∫nez
+	name = "Antsa" # Sancha Fort˙nez
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0039 # Fort√∫n √ç√±iguez II
+	father = basque0039 # Fort˙n ÕÒiguez II
 
 	926.1.1 = {
 		birth = yes
@@ -9172,15 +9172,15 @@ basque0042 = {
 }
 
 basque0043 = {
-	name = "Oria" # Oria √ç√±iguez, wife of Munio Garc√≠a (basque0045)
+	name = "Oria" # Oria ÕÒiguez, wife of Munio GarcÌa (basque0045)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 73779 # √ç√±igo Fort√∫nez I
-	mother = 73770 # Sancha Garc√©s
+	father = 73779 # ÕÒigo Fort˙nez I
+	mother = 73770 # Sancha GarcÈs
 
 	904.1.1 = {
 		birth = yes
@@ -9191,15 +9191,15 @@ basque0043 = {
 }
 
 basque0044 = {
-	name = "Lopa" # Lopa √ç√±iguez, wife of Sancho L√≥pez (basque0046)
+	name = "Lopa" # Lopa ÕÒiguez, wife of Sancho LÛpez (basque0046)
 	female = yes
 	dynasty_house = house_iniga
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 73779 # √ç√±igo Fort√∫nez I
-	mother = 73770 # Sancha Garc√©s
+	father = 73779 # ÕÒigo Fort˙nez I
+	mother = 73770 # Sancha GarcÈs
 
 	905.1.1 = {
 		birth = yes
@@ -9210,7 +9210,7 @@ basque0044 = {
 }
 
 basque0045 = {
-	name = "Munio" # Munio Garc√≠a
+	name = "Munio" # Munio GarcÌa
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9219,7 +9219,7 @@ basque0045 = {
 		birth = yes
 	}
 	924.1.1 = {
-		add_matrilineal_spouse = basque0043 # Oria √ç√±iguez
+		add_matrilineal_spouse = basque0043 # Oria ÕÒiguez
 	}
 	948.1.1 = {
 		death = yes
@@ -9227,7 +9227,7 @@ basque0045 = {
 }
 
 basque0046 = {
-	name = "Antso" # Sancho L√≥pez
+	name = "Antso" # Sancho LÛpez
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9236,7 +9236,7 @@ basque0046 = {
 		birth = yes
 	}
 	925.1.1 = {
-		add_matrilineal_spouse = basque0044 # Lopa √ç√±iguez
+		add_matrilineal_spouse = basque0044 # Lopa ÕÒiguez
 	}
 	951.1.1 = {
 		death = yes
@@ -9244,7 +9244,7 @@ basque0046 = {
 }
 
 basque0047 = {
-	name = "Oneka" # √ìneca de Sang√ºesa, wife of Baron Garc√≠a Jim√©nez of Tafalla (70121)
+	name = "Oneka" # ”neca de Sang¸esa, wife of Baron GarcÌa JimÈnez of Tafalla (70121)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -9259,13 +9259,13 @@ basque0047 = {
 }
 
 basque0048 = {
-	name = "Eneko" # √ç√±igo Garc√©s, Baron of Tafalla (905-933)
+	name = "Eneko" # ÕÒigo GarcÈs, Baron of Tafalla (905-933)
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 
-	father = 70121 # Baron Garc√≠a Jim√©nez of Tafalla
-	mother = basque0047 # Baroness √ìneca de Sang√ºesa
+	father = 70121 # Baron GarcÌa JimÈnez of Tafalla
+	mother = basque0047 # Baroness ”neca de Sang¸esa
 
 	865.1.1 = {
 		birth = yes
@@ -9274,7 +9274,7 @@ basque0048 = {
 		trait = education_intrigue_2
 	}
 	903.1.1 = {
-		add_spouse = basque0032 # Jimena Vel√°zquez
+		add_spouse = basque0032 # Jimena Vel·zquez
 	}
 	933.1.1 = {
 		death = yes
@@ -9282,13 +9282,13 @@ basque0048 = {
 }
 
 basque0049 = {
-	name = "Gartzia" # Garc√≠a √ç√±iguez
+	name = "Gartzia" # GarcÌa ÕÒiguez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 
-	father = basque0048 # Baron √ç√±igo Garc√©s of Tafalla
-	mother = basque0032 # Baroness Jimena Vel√°zquez
+	father = basque0048 # Baron ÕÒigo GarcÈs of Tafalla
+	mother = basque0032 # Baroness Jimena Vel·zquez
 
 	904.1.1 = {
 		birth = yes
@@ -9301,14 +9301,14 @@ basque0049 = {
 }
 
 basque0050 = {
-	name = "Semeno" # Jimeno √ç√±iguez
+	name = "Semeno" # Jimeno ÕÒiguez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = basque0048 # Baron √ç√±igo Garc√©s of Tafalla
-	mother = basque0032 # Baroness Jimena Vel√°zquez
+	father = basque0048 # Baron ÕÒigo GarcÈs of Tafalla
+	mother = basque0032 # Baroness Jimena Vel·zquez
 
 	906.1.1 = {
 		birth = yes
@@ -9325,14 +9325,14 @@ basque0050 = {
 }
 
 basque0051 = {
-	name = "Orti" # Fort√∫n √ç√±iguez
+	name = "Orti" # Fort˙n ÕÒiguez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_intrigue_1
 
-	father = basque0048 # Baron √ç√±igo Garc√©s of Tafalla
-	mother = basque0032 # Baroness Jimena Vel√°zquez
+	father = basque0048 # Baron ÕÒigo GarcÈs of Tafalla
+	mother = basque0032 # Baroness Jimena Vel·zquez
 
 	908.1.1 = {
 		birth = yes
@@ -9349,14 +9349,14 @@ basque0051 = {
 }
 
 basque0052 = {
-	name = "Antso" # Sancho √ç√±iguez
+	name = "Antso" # Sancho ÕÒiguez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0048 # Baron √ç√±igo Garc√©s of Tafalla
-	mother = basque0032 # Baroness Jimena Vel√°zquez
+	father = basque0048 # Baron ÕÒigo GarcÈs of Tafalla
+	mother = basque0032 # Baroness Jimena Vel·zquez
 
 	910.1.1 = {
 		birth = yes
@@ -9376,15 +9376,15 @@ basque0052 = {
 }
 
 basque0053 = {
-	name = "Tota" # Toda √ç√±iguez, wife of Garc√≠a √ç√±iguez de Olza (basque0054)
+	name = "Tota" # Toda ÕÒiguez, wife of GarcÌa ÕÒiguez de Olza (basque0054)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_2
 
-	father = basque0048 # Baroness √ç√±igo Garc√©s of Tafalla
-	mother = basque0032 # Broness Jimena Vel√°zquez
+	father = basque0048 # Baroness ÕÒigo GarcÈs of Tafalla
+	mother = basque0032 # Broness Jimena Vel·zquez
 
 	912.1.1 = {
 		birth = yes
@@ -9395,7 +9395,7 @@ basque0053 = {
 }
 
 basque0054 = {
-	name = "Gartzia" # Garc√≠a √ç√±iguez de Olza
+	name = "Gartzia" # GarcÌa ÕÒiguez de Olza
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9404,7 +9404,7 @@ basque0054 = {
 		birth = yes
 	}
 	930.1.1 = {
-		add_matrilineal_spouse = basque0053 # Toda √ç√±iguez
+		add_matrilineal_spouse = basque0053 # Toda ÕÒiguez
 	}
 	957.1.1 = {
 		death = yes
@@ -9412,7 +9412,7 @@ basque0054 = {
 }
 
 basque0055 = {
-	name = "Belaskita" # Velasquita S√°nchez, wife of Count Munio Velaz of Burgos (200160 - castilian.txt), Galindo de Ribagorza (occitan0069 - occitan.txt) & Fort√∫n Gal√≠ndez (basque0063)
+	name = "Belaskita" # Velasquita S·nchez, wife of Count Munio Velaz of Burgos (200160 - castilian.txt), Galindo de Ribagorza (occitan0069 - occitan.txt) & Fort˙n GalÌndez (basque0063)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -9420,7 +9420,7 @@ basque0055 = {
 	trait = education_stewardship_2
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	910.1.1 = {
 		birth = yes
@@ -9431,7 +9431,7 @@ basque0055 = {
 }
 
 basque0056 = {
-	name = "Munia" # Munia S√°nchez
+	name = "Munia" # Munia S·nchez
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -9439,7 +9439,7 @@ basque0056 = {
 	trait = education_stewardship_1
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	915.1.1 = {
 		birth = yes
@@ -9450,7 +9450,7 @@ basque0056 = {
 }
 
 basque0057 = {
-	name = "Orbita" # Orbita S√°nchez, wife of Sheik Musa Aznar ibn Muhammad al-Tawil of Huesca (andalusian0013 - andalusian.txt)
+	name = "Orbita" # Orbita S·nchez, wife of Sheik Musa Aznar ibn Muhammad al-Tawil of Huesca (andalusian0013 - andalusian.txt)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -9458,7 +9458,7 @@ basque0057 = {
 	trait = education_diplomacy_1
 
 	father = 70122 # King Sancho I of Navarra
-	mother = 70297 # Queen Toda Azn√°rez
+	mother = 70297 # Queen Toda Azn·rez
 
 	926.1.1 = {
 		birth = yes
@@ -9469,7 +9469,7 @@ basque0057 = {
 }
 
 basque0058 = {
-	name = "Gaila" # Gaila, wife of Count Garc√≠a Azn√°rez of Ipuskoa (200168)
+	name = "Gaila" # Gaila, wife of Count GarcÌa Azn·rez of Ipuskoa (200168)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -9484,14 +9484,14 @@ basque0058 = {
 }
 
 basque0059 = {
-	name = "Belaskita" # Velasquita Garc√©s, wife of Sancho Fort√∫nez (basque0060)
+	name = "Belaskita" # Velasquita GarcÈs, wife of Sancho Fort˙nez (basque0060)
 	female = yes
 	dynasty_house = house_vela # House Vela
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 200168 # Count Garc√≠a Azn√°rez of Ipuskoa
+	father = 200168 # Count GarcÌa Azn·rez of Ipuskoa
 	mother = basque0058 # Gaila
 
 	1002.1.1 = {
@@ -9503,8 +9503,8 @@ basque0059 = {
 }
 
 basque0060 = {
-	name = "Antso" # Sancho Fort√∫nez
-	dynasty = sancho_fortunez # Sancho Fort√∫nez Dynasty
+	name = "Antso" # Sancho Fort˙nez
+	dynasty = sancho_fortunez # Sancho Fort˙nez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -9513,7 +9513,7 @@ basque0060 = {
 		birth = yes
 	}
 	1020.1.1 = {
-		add_spouse = basque0059 # Velasquita Garc√©s
+		add_spouse = basque0059 # Velasquita GarcÈs
 	}
 	1065.11.30 = {
 		death = yes
@@ -9521,14 +9521,14 @@ basque0060 = {
 }
 
 basque0061 = {
-	name = "Eneko" # √ç√±igo S√°nchez
-	dynasty = sancho_fortunez # Sancho Fort√∫nez Dynasty
+	name = "Eneko" # ÕÒigo S·nchez
+	dynasty = sancho_fortunez # Sancho Fort˙nez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0060 # Sancho Fort√∫nez
-	mother = basque0059 # Velasquita Garc√©s
+	father = basque0060 # Sancho Fort˙nez
+	mother = basque0059 # Velasquita GarcÈs
 
 	1021.1.1 = {
 		birth = yes
@@ -9539,14 +9539,14 @@ basque0061 = {
 }
 
 basque0062 = {
-	name = "Gartzia" # Garc√≠a S√°nchez
-	dynasty = sancho_fortunez # Sancho Fort√∫nez Dynasty
+	name = "Gartzia" # GarcÌa S·nchez
+	dynasty = sancho_fortunez # Sancho Fort˙nez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0060 # Sancho Fort√∫nez
-	mother = basque0059 # Velasquita Garc√©s
+	father = basque0060 # Sancho Fort˙nez
+	mother = basque0059 # Velasquita GarcÈs
 
 	1023.1.1 = {
 		birth = yes
@@ -9560,8 +9560,8 @@ basque0062 = {
 }
 
 basque0063 = {
-	name = "Orti" # Fort√∫n Gal√≠ndez, Count of N√°jera (950-970)
-	dynasty = galindez # Gal√≠ndez Dynasty
+	name = "Orti" # Fort˙n GalÌndez, Count of N·jera (950-970)
+	dynasty = galindez # GalÌndez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -9572,7 +9572,7 @@ basque0063 = {
 		birth = yes
 	}
 	950.1.1 = {
-		add_spouse = basque0055 # Velasquita S√°nchez
+		add_spouse = basque0055 # Velasquita S·nchez
 	}
 	972.11.30 = {
 		death = yes
@@ -9581,7 +9581,7 @@ basque0063 = {
 
 basque0064 = {
 	name = "Garindo" # Galindo
-	dynasty = galindez # Gal√≠ndez Dynasty
+	dynasty = galindez # GalÌndez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9595,15 +9595,15 @@ basque0064 = {
 }
 
 basque0065 = {
-	name = "Tota" # Toda Garc√©s
+	name = "Tota" # Toda GarcÈs
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70123 # King Garc√≠a II of Navarra
-	mother = 70275 # Queen Andregoto Gal√≠ndez, Duchess of Arag√≥n
+	father = 70123 # King GarcÌa II of Navarra
+	mother = 70275 # Queen Andregoto GalÌndez, Duchess of AragÛn
 
 	939.1.1 = {
 		birth = yes
@@ -9614,14 +9614,14 @@ basque0065 = {
 }
 
 basque0066 = {
-	name = "Semeno" # Jimeno Garc√©s II
+	name = "Semeno" # Jimeno GarcÈs II
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = 70123 # King Garc√≠a II of Navarra
-	mother = 70275 # Queen Andregoto Gal√≠ndez, Duchess of Arag√≥n
+	father = 70123 # King GarcÌa II of Navarra
+	mother = 70275 # Queen Andregoto GalÌndez, Duchess of AragÛn
 
 	946.1.1 = {
 		birth = yes
@@ -9632,20 +9632,20 @@ basque0066 = {
 }
 
 basque0067 = {
-	name = "Ramiro" # Ramiro Garc√©s de Viguera, Count of N√°jera (970-981)
+	name = "Ramiro" # Ramiro GarcÈs de Viguera, Count of N·jera (970-981)
 	dynasty_house = house_viguera # House of Viguera
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 70123 # King Garc√≠a II of Navarra
-	mother = 70275 # Queen Andregoto Gal√≠ndez, Duchess of Arag√≥n
+	father = 70123 # King GarcÌa II of Navarra
+	mother = 70275 # Queen Andregoto GalÌndez, Duchess of AragÛn
 
 	944.1.1 = {
 		birth = yes
 	}
 	966.1.1 = {
-		add_spouse = basque0068 # Sancha S√°nchez
+		add_spouse = basque0068 # Sancha S·nchez
 	}
 	981.7.9 = {
 		death = {
@@ -9656,7 +9656,7 @@ basque0067 = {
 }
 
 basque0068 = {
-	name = "Antsa" # Sancha S√°nchez, wife of Count Ramiro Garc√©s I of N√°jera (basque0067)
+	name = "Antsa" # Sancha S·nchez, wife of Count Ramiro GarcÈs I of N·jera (basque0067)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -9671,14 +9671,14 @@ basque0068 = {
 }
 
 basque0069 = {
-	name = "Antso" # Sancho Ram√≠rez de Viguera, Count of N√°jera (981-1002)
+	name = "Antso" # Sancho RamÌrez de Viguera, Count of N·jera (981-1002)
 	dynasty_house = house_viguera # House of Viguera
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_3
 
-	father = basque0067 # Count Ramiro Garc√©s I of N√°jera
-	mother = basque0068 # Countess Sancha S√°nchez
+	father = basque0067 # Count Ramiro GarcÈs I of N·jera
+	mother = basque0068 # Countess Sancha S·nchez
 
 	967.1.1 = {
 		birth = yes
@@ -9689,14 +9689,14 @@ basque0069 = {
 }
 
 basque0070 = {
-	name = "Gartzia" # Garc√≠a Ram√≠rez de Viguera, Count of N√°jera (1002-1030)
+	name = "Gartzia" # GarcÌa RamÌrez de Viguera, Count of N·jera (1002-1030)
 	dynasty_house = house_viguera # House of Viguera
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0067 # Count Ramiro Garc√©s I of N√°jera
-	mother = basque0068 # Countess Sancha S√°nchez
+	father = basque0067 # Count Ramiro GarcÈs I of N·jera
+	mother = basque0068 # Countess Sancha S·nchez
 
 	969.1.1 = {
 		birth = yes
@@ -9710,15 +9710,15 @@ basque0070 = {
 }
 
 basque0071 = {
-	name = "Tota" # Toda, wife of Count Garc√≠a Ram√≠rez of N√°jera
+	name = "Tota" # Toda, wife of Count GarcÌa RamÌrez of N·jera
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70123 # King Garc√≠a II of Navarra
-	mother = 70275 # Queen Andregoto Gal√≠ndez, Duchess of Arag√≥n
+	father = 70123 # King GarcÌa II of Navarra
+	mother = 70275 # Queen Andregoto GalÌndez, Duchess of AragÛn
 
 	973.1.1 = {
 		birth = yes
@@ -9729,14 +9729,14 @@ basque0071 = {
 }
 
 basque0072 = {
-	name = "Tota" # Toda Garc√©s de Viguera, wife of Count Fort√∫n S√°nchez of N√°jera (basque0073)
+	name = "Tota" # Toda GarcÈs de Viguera, wife of Count Fort˙n S·nchez of N·jera (basque0073)
 	female = yes
 	dynasty_house = house_viguera # House of Viguera
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = basque0070 # Count Garc√≠a Ram√≠rez of N√°jera
+	father = basque0070 # Count GarcÌa RamÌrez of N·jera
 	mother = basque0071 # Countess Toda
 
 	993.1.1 = {
@@ -9748,8 +9748,8 @@ basque0072 = {
 }
 
 basque0073 = {
-	name = "Orti" # Fort√∫n S√°nchez, Count of N√°jera (1030-1054)
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Orti" # Fort˙n S·nchez, Count of N·jera (1030-1054)
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_3
@@ -9760,25 +9760,25 @@ basque0073 = {
 		birth = yes
 	}
 	1011.1.1 = {
-		add_spouse = basque0072 # Toda Garc√©s de Viguera
+		add_spouse = basque0072 # Toda GarcÈs de Viguera
 	}
 	1054.9.1 = {
 		death = {
 			death_reason = death_battle
-			killer = 107510 # King Fernando I of Le√≥n
+			killer = 107510 # King Fernando I of LeÛn
 		}
 	}
 }
 
 basque0074 = {
-	name = "Antso" # Sancho Fort√∫nez, Count of N√°jera (1054-1059)
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Antso" # Sancho Fort˙nez, Count of N·jera (1054-1059)
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = basque0073 # Count Fort√∫n S√°nchez of N√°jera
-	mother = basque0072 # Countess Toda Garc√©s de Viguera
+	father = basque0073 # Count Fort˙n S·nchez of N·jera
+	mother = basque0072 # Countess Toda GarcÈs de Viguera
 
 	1012.1.1 = {
 		birth = yes
@@ -9792,7 +9792,7 @@ basque0074 = {
 }
 
 basque0075 = {
-	name = "Antsa" # Sancha Aiorez, wife of Count Sancho Fort√∫nez of N√°jera (basque0074)
+	name = "Antsa" # Sancha Aiorez, wife of Count Sancho Fort˙nez of N·jera (basque0074)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -9802,7 +9802,7 @@ basque0075 = {
 		birth = yes
 	}
 	1059.6.19 = {
-		employer = 106011 # Count Ramiro Garc√©s of N√°jera
+		employer = 106011 # Count Ramiro GarcÈs of N·jera
 	}
 	1067.1.1 = {
 		death = yes
@@ -9811,7 +9811,7 @@ basque0075 = {
 
 basque0076 = {
 	name = "Antso" # Sancho
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9825,8 +9825,8 @@ basque0076 = {
 }
 
 basque0077 = {
-	name = "Eneko" # √ç√±igo S√°nchez
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Eneko" # ÕÒigo S·nchez
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
@@ -9842,8 +9842,8 @@ basque0077 = {
 }
 
 basque0078 = {
-	name = "Azeari" # Aznar S√°nchez
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Azeari" # Aznar S·nchez
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
@@ -9859,19 +9859,19 @@ basque0078 = {
 }
 
 basque0079 = {
-	name = "Orti" # Fort√∫n Azn√°rez
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Orti" # Fort˙n Azn·rez
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0078 # Aznar S√°nchez
+	father = basque0078 # Aznar S·nchez
 
 	1020.1.1 = {
 		birth = yes
 	}
 	1059.6.19 = {
-		employer = 106011 # Count Ramiro Garc√©s of N√°jera
+		employer = 106011 # Count Ramiro GarcÈs of N·jera
 	}
 	1080.1.1 = {
 		death = yes
@@ -9879,8 +9879,8 @@ basque0079 = {
 }
 
 basque0080 = {
-	name = "Auriol" # Aurelio S√°nchez
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Auriol" # Aurelio S·nchez
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
@@ -9896,8 +9896,8 @@ basque0080 = {
 }
 
 basque0081 = {
-	name = "Gartzia" # Garc√≠a S√°nchez
-	dynasty = sanchez_2 # S√°nchez Dynasty
+	name = "Gartzia" # GarcÌa S·nchez
+	dynasty = sanchez_2 # S·nchez Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_intrigue_1
@@ -9913,14 +9913,14 @@ basque0081 = {
 }
 
 basque0082 = {
-	name = "Fronilde" # Fronilde Garc√©s de Viguera
+	name = "Fronilde" # Fronilde GarcÈs de Viguera
 	female = yes
 	dynasty_house = house_viguera # House of Viguera
 	religion = catholic
 	culture = basque
 	trait = education_intrigue_1
 
-	father = basque0070 # Count Garc√≠a S√°nchez of N√°jera
+	father = basque0070 # Count GarcÌa S·nchez of N·jera
 	mother = basque0071 # Countess Toda
 
 	995.1.1 = {
@@ -9932,14 +9932,14 @@ basque0082 = {
 }
 
 basque0083 = {
-	name = "Ramiro" # Ramiro S√°nchez
+	name = "Ramiro" # Ramiro S·nchez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
 	father = 70124 # King Sancho II of Navarra
-	mother = 107682 # Queen Urraca Fern√°ndez (castilian.txt)
+	mother = 107682 # Queen Urraca Fern·ndez (castilian.txt)
 
 	967.1.1 = {
 		birth = yes
@@ -9950,14 +9950,14 @@ basque0083 = {
 }
 
 basque0084 = {
-	name = "Gontzal" # Gonzalo S√°nchez
+	name = "Gontzal" # Gonzalo S·nchez
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_3
 
 	father = 70124 # King Sancho II of Navarra
-	mother = 107682 # Queen Urraca Fern√°ndez (castilian.txt)
+	mother = 107682 # Queen Urraca Fern·ndez (castilian.txt)
 
 	969.1.1 = {
 		birth = yes
@@ -9968,7 +9968,7 @@ basque0084 = {
 }
 
 basque0085 = {
-	name = "Elbira" # Elvira Garc√©s, Nun
+	name = "Elbira" # Elvira GarcÈs, Nun
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -9976,8 +9976,8 @@ basque0085 = {
 	trait = devoted
 	trait = education_learning_1
 
-	father = 106040 # King Garc√≠a III of Navarra
-	mother = 106041 # Queen Jimena Fern√°ndez de Cea
+	father = 106040 # King GarcÌa III of Navarra
+	mother = 106041 # Queen Jimena Fern·ndez de Cea
 
 	994.1.1 = {
 		birth = yes
@@ -9988,13 +9988,13 @@ basque0085 = {
 }
 
 basque0086 = {
-	name = "Gartzia" # Garc√≠a Garc√©s
+	name = "Gartzia" # GarcÌa GarcÈs
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
 	culture = basque
 
-	father = 106040 # King Garc√≠a III of Navarra
-	mother = 106041 # Queen Jimena Fern√°ndez de Cea
+	father = 106040 # King GarcÌa III of Navarra
+	mother = 106041 # Queen Jimena Fern·ndez de Cea
 
 	996.1.1 = {
 		birth = yes
@@ -10005,7 +10005,7 @@ basque0086 = {
 }
 
 basque0087 = {
-	name = "Maior" # Mayor S√°nchez, wife of Duke Pons II of Toulouse (334)
+	name = "Maior" # Mayor S·nchez, wife of Duke Pons II of Toulouse (334)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -10013,7 +10013,7 @@ basque0087 = {
 	trait = education_diplomacy_1
 
 	father = 106030 # King Sancho III of Navarra
-	mother = 107650 # Queen Muniadona S√°nchez (castilian.txt)
+	mother = 107650 # Queen Muniadona S·nchez (castilian.txt)
 
 	1014.1.1 = {
 		birth = yes
@@ -10024,7 +10024,7 @@ basque0087 = {
 }
 
 basque0088 = {
-	name = "Ximena" # Jimena S√°nchez, wife of King Bermudo III of Le√≥n (70075)
+	name = "Ximena" # Jimena S·nchez, wife of King Bermudo III of LeÛn (70075)
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -10032,7 +10032,7 @@ basque0088 = {
 	trait = education_diplomacy_1
 
 	father = 106030 # King Sancho III of Navarra
-	mother = 107650 # Queen Muniadona S√°nchez (castilian.txt)
+	mother = 107650 # Queen Muniadona S·nchez (castilian.txt)
 
 	1018.1.1 = {
 		birth = yes
@@ -10043,14 +10043,14 @@ basque0088 = {
 }
 
 basque0089 = {
-	name = "Andregoto" # Andregoto S√°nchez
+	name = "Andregoto" # Andregoto S·nchez
 	female = yes
-	dynasty = maceratiz # Macer√°tiz Dynasty
+	dynasty = maceratiz # Macer·tiz Dynasty
 	religion = catholic
 	culture = basque
 
-	father = basque0096 # Sancho Macer√°tiz
-	mother = 106020 # Andregoto Gal√≠ndez de Estigi
+	father = basque0096 # Sancho Macer·tiz
+	mother = 106020 # Andregoto GalÌndez de Estigi
 
 	1052.1.1 = {
 		birth = yes
@@ -10064,7 +10064,7 @@ basque0089 = {
 }
 
 basque0090 = {
-	name = "Antsa" # Sancha Garc√©s
+	name = "Antsa" # Sancha GarcÈs
 	female = yes
 	dynasty = 442 # Jimena Dynasty
 	religion = catholic
@@ -10072,7 +10072,7 @@ basque0090 = {
 	trait = devoted
 	trait = education_learning_1
 
-	father = 106010 # King Garc√≠a IV of Navarra
+	father = 106010 # King GarcÌa IV of Navarra
 	trait = bastard
 
 	1032.1.1 = {
@@ -10087,7 +10087,7 @@ basque0090 = {
 }
 
 basque0091 = {
-	name = "Lope" # Lope √ç√±iguez de Mara√±√≥n
+	name = "Lope" # Lope ÕÒiguez de MaraÒÛn
 	dynasty = 8615 # Ochoa Dynasty
 	religion = catholic
 	culture = basque
@@ -10108,7 +10108,7 @@ basque0092 = {
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0091 # Lope √ç√±iguez de Mara√±√≥n
+	father = basque0091 # Lope ÕÒiguez de MaraÒÛn
  
 	1007.1.1 = {
 		birth = yes
@@ -10124,7 +10124,7 @@ basque0093 = {
 	religion = catholic
 	culture = basque
 
-	father = basque0091 # Lope √ç√±iguez de Mara√±√≥n
+	father = basque0091 # Lope ÕÒiguez de MaraÒÛn
  
 	1009.1.1 = {
 		birth = yes
@@ -10135,7 +10135,7 @@ basque0093 = {
 }
 
 basque0094 = {
-	name = "Andregoto" # Andregoto, wife of Baron Jimeno Fort√∫nez of Logro√±o (70134)
+	name = "Andregoto" # Andregoto, wife of Baron Jimeno Fort˙nez of LogroÒo (70134)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -10145,7 +10145,7 @@ basque0094 = {
 		birth = yes
 	}
 	1059.6.19 = {
-		employer = 106011 # Count Ramiro Garc√©s of N√°jera
+		employer = 106011 # Count Ramiro GarcÈs of N·jera
 	}
 	1108.1.1 = {
 		death = yes
@@ -10153,7 +10153,7 @@ basque0094 = {
 }
 
 basque0095 = {
-	name = "Mentzia" # Menc√≠a Jim√©nez
+	name = "Mentzia" # MencÌa JimÈnez
 	female = yes
 	dynasty = 8615 # Ochoa Dynasty
 	religion = catholic
@@ -10169,8 +10169,8 @@ basque0095 = {
 }
 
 basque0096 = {
-	name = "Antso" # Sancho Macer√°tiz
-	dynasty = maceratiz # Macer√°tiz Dynasty
+	name = "Antso" # Sancho Macer·tiz
+	dynasty = maceratiz # Macer·tiz Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
@@ -10179,7 +10179,7 @@ basque0096 = {
 		birth = yes
 	}
 	1048.1.1 = {
-		add_spouse = 106020 # Andregoto Gal√≠ndez de Estigi
+		add_spouse = 106020 # Andregoto GalÌndez de Estigi
 	}
 	1054.9.1 = {
 		employer = 106000 # King Sancho IV of Navarra
@@ -10190,7 +10190,7 @@ basque0096 = {
 }
 
 basque0097 = {
-	name = "Andregoto" # Andregoto Gal√≠ndez, wife of Duke Sanche I of Gascogne (168106)
+	name = "Andregoto" # Andregoto GalÌndez, wife of Duke Sanche I of Gascogne (168106)
 	female = yes
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
@@ -10230,7 +10230,7 @@ basque0099 = {
 	trait = education_intrigue_2
 
 	father = 168106 # Duke Sanche I of Gascogne
-	mother = basque0097 # Duchess Matrona Gal√≠ndez
+	mother = basque0097 # Duchess Matrona GalÌndez
  
 	801.1.1 = {
 		birth = yes
@@ -10297,15 +10297,15 @@ basque0104 = {
 }
 
 basque0105 = {
-	name = "Belaskita" # Velasquita Gal√≠ndez, wife of √ç√±igo L√≥pez de Estigi (basque0107)
+	name = "Belaskita" # Velasquita GalÌndez, wife of ÕÒigo LÛpez de Estigi (basque0107)
 	female = yes
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_2
 
-	father = 70274 # Duke Galindo III of Arag√≥n
-	mother = 73770 # Duchess Sancha Garc√©s
+	father = 70274 # Duke Galindo III of AragÛn
+	mother = 73770 # Duchess Sancha GarcÈs
 
 	919.1.1 = {
 		birth = yes
@@ -10333,7 +10333,7 @@ basque0106 = {
 }
 
 basque0107 = {
-	name = "Eneko" # √ç√±igo L√≥pez de Estigi
+	name = "Eneko" # ÕÒigo LÛpez de Estigi
 	dynasty = estigi # Estigi Dynasty
 	religion = catholic
 	culture = basque
@@ -10343,7 +10343,7 @@ basque0107 = {
 		birth = yes
 	}
 	938.1.1 = {
-		add_spouse = basque0105 # Velasquita Gal√≠ndez
+		add_spouse = basque0105 # Velasquita GalÌndez
 	}
 	960.1.1 = {
 		death = yes
@@ -10351,14 +10351,14 @@ basque0107 = {
 }
 
 basque0108 = {
-	name = "Lope" # Lope, name unknown, √ç√±iguez de Estigi
+	name = "Lope" # Lope, name unknown, ÕÒiguez de Estigi
 	dynasty = estigi # Estigi Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0107 # √ç√±igo L√≥pez de Estigi
-	mother = basque0105 # Velasquita Gal√≠ndez
+	father = basque0107 # ÕÒigo LÛpez de Estigi
+	mother = basque0105 # Velasquita GalÌndez
 
 	950.1.1 = {
 		birth = yes
@@ -10369,7 +10369,7 @@ basque0108 = {
 }
 
 basque0109 = {
-	name = "Oria" # Auria, wife of Count Centulle I of B√©arn (138162)
+	name = "Oria" # Auria, wife of Count Centulle I of BÈarn (138162)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -10384,13 +10384,13 @@ basque0109 = {
 }
 
 basque0110 = {
-	name = "Garindo" # Galindo, name unknown, L√≥pez de Estigi
+	name = "Garindo" # Galindo, name unknown, LÛpez de Estigi
 	dynasty = estigi # Estigi Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = basque0108 # Lope √ç√±iguez de Estigi
+	father = basque0108 # Lope ÕÒiguez de Estigi
 
 	980.1.1 = {
 		birth = yes
@@ -10401,14 +10401,14 @@ basque0110 = {
 }
 
 basque0111 = {
-	name = "Redemptus" # Redemptus Gal√≠ndez, Bishop
+	name = "Redemptus" # Redemptus GalÌndez, Bishop
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = devoted
 	trait = education_learning_3
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	mother = 54001 # Duchess Acibella de Gascogne
  
 	903.1.1 = {
@@ -10420,12 +10420,12 @@ basque0111 = {
 }
 
 basque0112 = {
-	name = "Miron" # Mir√≥n Gal√≠ndez
+	name = "Miron" # MirÛn GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	mother = 54001 # Duchess Acibella de Gascogne
  
 	905.1.1 = {
@@ -10437,13 +10437,13 @@ basque0112 = {
 }
 
 basque0113 = {
-	name = "Guntislo" # Guntislo Gal√≠ndez
+	name = "Guntislo" # Guntislo GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_3
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	trait = bastard
  
 	907.1.1 = {
@@ -10458,7 +10458,7 @@ basque0113 = {
 }
 
 basque0114 = {
-	name = "Oria" # Oria, wife of Guntislo Gal√≠ndez (basque0113)
+	name = "Oria" # Oria, wife of Guntislo GalÌndez (basque0113)
 	female = yes
 	religion = catholic
 	culture = basque
@@ -10473,13 +10473,13 @@ basque0114 = {
 }
 
 basque0115 = {
-	name = "Semeno" # Jimeno Gunt√≠slez
+	name = "Semeno" # Jimeno GuntÌslez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0113 # Guntislo Gal√≠ndez
+	father = basque0113 # Guntislo GalÌndez
 	mother = basque0114 # Oria
  
 	931.1.1 = {
@@ -10491,13 +10491,13 @@ basque0115 = {
 }
 
 basque0116 = {
-	name = "Antso" # Sancho Gal√≠ndez
+	name = "Antso" # Sancho GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	trait = bastard
  
 	909.1.1 = {
@@ -10509,13 +10509,13 @@ basque0116 = {
 }
 
 basque0117 = {
-	name = "Belasko" # Velasco Gal√≠ndez
+	name = "Belasko" # Velasco GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_intrigue_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	trait = bastard
  
 	911.1.1 = {
@@ -10527,13 +10527,13 @@ basque0117 = {
 }
 
 basque0118 = {
-	name = "Bancio" # Bancio Gal√≠ndez
+	name = "Bancio" # Bancio GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_diplomacy_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	trait = bastard
  
 	913.1.1 = {
@@ -10551,7 +10551,7 @@ basque0119 = {
 	culture = basque
 	trait = education_stewardship_1
 
-	father = basque0118 # Bancio Gal√≠ndez
+	father = basque0118 # Bancio GalÌndez
  
 	935.1.1 = {
 		birth = yes
@@ -10562,13 +10562,13 @@ basque0119 = {
 }
 
 basque0120 = {
-	name = "Azeari" # Aznar Gal√≠ndez
+	name = "Azeari" # Aznar GalÌndez
 	dynasty = galinda # Galinda Dynasty
 	religion = catholic
 	culture = basque
 	trait = education_martial_1
 
-	father = 70274 # Duke Galindo III of Arag√≥n
+	father = 70274 # Duke Galindo III of AragÛn
 	trait = bastard
  
 	915.1.1 = {
@@ -10595,7 +10595,7 @@ basque0123 = {
 }
 
 basque0124 = {
-	name = "Garindo" # Galindo Vel√°zquez
+	name = "Garindo" # Galindo Vel·zquez
 	dynasty = 778 # Haro Dynasty
 	religion = catholic
 	culture = basque
@@ -10612,7 +10612,7 @@ basque0124 = {
 }
 
 basque0125 = {
-	name = "Gartzia" # Garc√≠a Vel√°zquez
+	name = "Gartzia" # GarcÌa Vel·zquez
 	dynasty = 778 # Haro Dynasty
 	religion = catholic
 	culture = basque
@@ -10665,7 +10665,7 @@ basque0127 = {
 }
 
 basque0128 = {
-	name = "Oria" # Awriyah, name unknown, ibn Lubb, wife of Fort√∫n √ç√±iguez I (basque0026)
+	name = "Oria" # Awriyah, name unknown, ibn Lubb, wife of Fort˙n ÕÒiguez I (basque0026)
 	female = yes
 	dynasty = 12293 # Banu Qasi Dynasty
 	religion = mozarabic_church
@@ -10718,7 +10718,7 @@ basque0130 = {
 }
 
 basque0131 = {
-	name = "Yunus" # Yunus, name unknown, ibn Zahir, Walih of Logro√±o (819-821)
+	name = "Yunus" # Yunus, name unknown, ibn Zahir, Walih of LogroÒo (819-821)
 	dynasty = 12293 # Banu Qasi Dynasty
 	religion = muwalladi
 	culture = basque
@@ -10750,7 +10750,7 @@ basque0132 = {
 }
 
 basque0133 = {
-	name = "Oria" # Awriyah, name unknown, ibn Lubb, wife of Jimeno √ç√±iguez (basque0050)
+	name = "Oria" # Awriyah, name unknown, ibn Lubb, wife of Jimeno ÕÒiguez (basque0050)
 	female = yes
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
@@ -10769,7 +10769,7 @@ basque0133 = {
 }
 
 basque0134 = {
-	name = "Munia" # Munya, name unknown, ibn Lubb, wife of Fort√∫n √ç√±iguez (basque0051)
+	name = "Munia" # Munya, name unknown, ibn Lubb, wife of Fort˙n ÕÒiguez (basque0051)
 	female = yes
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
@@ -10788,7 +10788,7 @@ basque0134 = {
 }
 
 basque0135 = {
-	name = "Tota" # Toda, name unknown, ibn Lubb, wife of Sancho √ç√±iguez (basque0052)
+	name = "Tota" # Toda, name unknown, ibn Lubb, wife of Sancho ÕÒiguez (basque0052)
 	female = yes
 	dynasty_house = house_musa # House Banu Musa
 	religion = muwalladi
@@ -10984,7 +10984,7 @@ basque0145 = {
 }
 
 basque0146 = {
-	name = "Oneka" # √ìneca, name unknwon, ibn Mutarrif, wife of Ramon I de Ribagor√ßa (70272)
+	name = "Oneka" # ”neca, name unknwon, ibn Mutarrif, wife of Ramon I de RibagorÁa (70272)
 	female = yes
 	dynasty_house = house_musa # House Banu Musa
 	religion = mozarabic_church

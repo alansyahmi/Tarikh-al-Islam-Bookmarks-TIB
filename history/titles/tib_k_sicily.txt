@@ -1,0 +1,240 @@
+﻿d_sicily = {
+	867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 15 }
+	
+	536.1.1 = {
+		liege = e_byzantium
+	}
+	756.1.1 = {
+		holder = 145854 # Elpidios, placeholder
+	}
+	831.9.1 = {
+		holder = 0
+		liege = k_africa
+	}
+	862.1.1 = {
+		holder = baranis0001 # Khafaja ibn Sufyan
+	}
+	869.1.1 = {
+		holder = baranis0002 # Muhammad ibn Khafaja
+	}
+	871.1.1 = {
+		holder = 0
+	}
+	872.1.1 = {
+		holder = baranis0009 # Ahmad ibn Ya'qub
+	}
+	872.5.1 = {
+		holder = 0
+	}
+	875.1.1 = {
+		holder = baranis0003 # Dja'far ibn Muhammad
+	}
+	878.1.1 = {
+		holder = 0
+	}
+	885.1.1 = {
+		holder = baranis0004 # Sawada ibn Muhammad
+	}
+	887.1.1 = {
+		holder = 0
+	}
+#	890.1.1 = {
+#		holder = baranis0004 # Sawada ibn Muhammad (2nd time)
+#	}
+#	892.1.1 = {
+#		holder = 0
+#	}
+	910.1.1 = {
+		liege = k_egypt
+	}
+	948.1.1 = {
+		holder = 159183 # al-Hasan of Sicily
+		liege = k_africa
+	}
+	954.1.1 = {
+		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
+	}
+	970.1.1 = {
+		holder = 159185 # Abi l-Qasim Ali  of Sicily
+	}
+	982.1.1 = {
+		holder = 159186 # Jabir of Sicily
+	}
+	983.1.1 = {
+		holder = 159188 # Jafar bin Muhammad I of Sicily
+	}
+	985.1.1 = {
+		holder = 159189 # Abdallah bin Muhammad Kalbid
+		liege = 0
+	}
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
+	}
+	998.1.1 = {
+		holder = 159191 # Ja'far II Kalbid
+	}
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
+	}
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
+	}
+	1019.1.1 = {
+		holder = 159190a # Ahmad al-Akhal Kalbid
+	}
+	1035.1.1 = {
+		holder = 159190aa # Ja'far III Kalbid
+	}
+	1035.6.1 = {
+		holder = later_kalbid_1 # Hasan Samsam ad-Dawla I Kalbid
+	}
+	1060.1.1 = {
+		holder = later_kalbid_3 # Ni'ma bin Hasan Samsam ad-Dawla I Kalbid, nominal emir, capital controlled by Ibn al-Hawwas
+	}
+	
+	1071.1.1 = {
+		holder = 1132 # Roger I de Hauteville
+	}
+	1101.6.22 = {
+		holder = 127070 # Simon
+	}
+	1105.9.28 = {
+		holder = 211502 # Roger II
+	}
+	1130.12.25 = {
+		holder = 0
+	}
+	1302.8.31 = {
+		de_jure_liege = k_trinacria
+	}
+}
+c_malta = {
+	536.1.1 = {
+		liege = d_sicily
+	}
+	#751.1.1 = {
+	#	holder = 145859 # Drosos, placeholder
+	#}
+	862.1.1 = {
+		holder = baranis0001 # Khafaja ibn Sufyan
+	}
+	869.1.1 = {
+		holder = baranis0002 # Muhammad ibn Khafaja
+	}
+	872.1.1 = {
+		holder = baranis0009 # Ahmad ibn Ya'qub
+	}
+	875.1.1 = {
+		holder = baranis0003 # Dja'far ibn Muhammad
+	}
+	885.1.1 = {
+		holder = baranis0004 # Sawada ibn Muhammad
+	}
+#	890.1.1 = {
+#		holder = baranis0004 # Sawada ibn Muhammad (2nd time)
+#	}
+
+	# Kalbids
+	948.1.1 = {
+		holder = 159183 # al-Hasan of Sicily
+	}
+	954.1.1 = {
+		holder = 159184 # Abi l-Husayn Ahmad I of Sicily
+	}
+	970.1.1 = {
+		holder = 159185 # Abi l-Qasim Ali  of Sicily
+	}
+	982.1.1 = {
+		holder = 159186 # Jabir of Sicily
+	}
+	983.1.1 = {
+		holder = 159188 # Jafar bin Muhammad I of Sicily
+	}
+	985.1.1 = {
+		holder = 159189 # Abdallah bin Muhammad Kalbid
+		#liege = d_sicily
+	}
+	990.1.1 = {
+		holder = 159190 # Abu l-Futuh Yusuf
+	}
+	998.1.1 = {
+		holder = 159191 # Ja'far II Kalbid
+	}
+	1015.1.1 = {
+		holder = 159190b # Ali Kalbid
+	}
+	1015.6.1 = {
+		holder = 159191 # Ja'far II Kalbid, again
+	}
+	1019.1.1 = {
+		holder = 159190a # Ahmad al-Akhal Kalbid
+	}
+	1035.1.1 = {
+		holder = 159190aa # Ja'far III Kalbid
+	}
+	1035.6.1 = {
+		holder = later_kalbid_1 # Hasan Samsam ad-Dawla I Kalbid
+	}
+	1060.1.1 = {
+		holder = later_kalbid_2 # Ja'far IV Kalbid
+		liege = d_sicily # to his nominal Emir brother, Ni'ma
+	}
+	1070.1.1 = {
+		holder = later_kalbid_2a # Ja'far V Kalbid
+	}
+	1088.1.1 = {
+		holder = later_kalbid_2aa # Hasan Samsam ad-Dawla II Kalbid
+	}
+	1115.1.1 = {
+		holder = later_kalbid_2aaa # Ja'far VI Kalbid
+	}
+	1127.1.1 = {
+		liege = d_sicily
+		#holder = 211502 # Roger II of Sicily
+	}
+
+	1130.12.25 = {
+		liege = k_sicily
+	}
+	1154.2.26 = {
+		holder = 211501 # William I of Sicily
+	}
+	1166.5.7 = {
+		holder = 211500 # William II of Sicily
+	}
+	1189.11.11 = {
+		holder = 211509 # Tancred of Sicily
+	}
+	1192.1.1 = {
+		holder = 211531 # Margaritone di Brindisi
+	}
+	1197.1.1 = {
+		holder = 211532 # Guglielmo Grasso
+	}
+	1204.1.1 = {
+		holder = 31403 # Arrigo de Candia
+	}
+	1232.1.1 = {
+		holder = 31404 # Niccolò de Candia
+	}
+	1282.3.30 = {
+		liege = k_trinacria
+	}
+	1285.1.1 = {
+		holder = 31406 # Andrea de Candia
+	}
+	1300.1.1 = {
+		holder = 71703 # Roger de Lauria
+	}
+	1305.1.19 = {
+		holder = 31411 # Lucina de Candia
+	}
+	1329.1.1 = {
+		holder = 71667 # Guglielmo Raimondo de Montcada
+	}
+	1330.1.1 = {
+		holder = 461550 # Alfonso Fadrique
+	}
+}

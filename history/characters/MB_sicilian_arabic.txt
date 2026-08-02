@@ -1,4 +1,4 @@
-﻿# -*- ck2.history.characters -*-
+﻿# Sicilian Arabs - Arab speaking Sicilian dynasties, Arabized Latins/Greeks/Berbers and other non-Hilali Arabs of Sicily
 
 73309 = {
 	name="Muhammad" #b. Ibrahim b. al-Thumna

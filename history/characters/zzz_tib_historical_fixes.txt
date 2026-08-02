@@ -1,0 +1,256 @@
+# Tarikh al-Islam Bookmarks: Historical Fixes and Modernization
+# This file overrides character definitions from both vanilla and mod files to ensure compatibility with 1.19 and Roads to Power.
+
+# 1178 Landless Adventurers Fixes
+
+kayi_3 = { # Kizil Buga Kayi
+	name = "Kizil_Buga"
+	dynasty = 1042198 # Kayi
+	religion = "ashari"
+	culture = "turkish"
+	trait = education_martial_2
+	1120.1.1 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1178.1.1 = {
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+170252 = { # Muhammad ibn Bakhtiyar
+	name = "Bakhtiyar" #Muhammad Bakhtiyar
+	dynasty = 1040205 # Khalji
+	religion = "ashari"
+	culture = "turkish"
+	1150.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
+	1206.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = 170254
+		}
+	}
+}
+
+217501 = { # Todor (Petar IV)
+	name = "Todor" #born Theodore, later Petar IV
+	dynasty = 185
+	martial = 5
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 5
+	religion = "orthodox"
+	culture = "bulgarian"
+	trait = honest
+	trait = calm
+	trait = humble
+	trait = education_learning_2
+	father = 217503
+	1156.1.1 = {
+		birth = "1156.1.1"
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1178.10.1 = {
+		effect = {
+			add_character_modifier = ep3_master_todor_modifier
+			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
+			add_gold = 200
+			if = {
+				limit = {
+					has_dlc_feature = roads_to_power
+				}
+				change_government = landless_adventurer_government
+				spawn_army = {
+					name = culture_separatists
+					levies = 2500
+					men_at_arms = {
+						type = handpicked_faithful
+						stacks = 4
+					}
+					location = province:499
+					origin = province:499
+					inheritable = yes
+				}
+				spawn_army = {
+					name = culture_separatists
+					levies = 2500
+					men_at_arms = {
+						type = handpicked_faithful
+						stacks = 4
+					}
+					location = province:499
+					origin = province:499
+					inheritable = yes
+				}
+				spawn_army = {
+					name = culture_separatists
+					levies = 2500
+					men_at_arms = {
+						type = handpicked_faithful
+						stacks = 4
+					}
+					location = province:499
+					origin = province:499
+					inheritable = yes
+				}
+				spawn_army = {
+					name = culture_separatists
+					men_at_arms = {
+						type = light_horsemen
+						stacks = 10
+					}
+					men_at_arms = {
+						type = trebuchet
+						stacks = 8
+					}
+					men_at_arms = {
+						type = crossbowmen
+						stacks = 8
+					}
+					location = province:499
+					origin = province:499
+					inheritable = yes
+				}
+			}
+		}
+	}
+	1197.1.1 = {
+		death = "1197.1.1"
+	}
+}
+
+# New Historical Figures Missing from Mod
+
+guardia_3 = { # Abu-l-Hasan Ali ibn Reverter
+	name = "Reverter"
+	dynasty = catalan_guardia
+	religion = ashari
+	culture = catalan
+	trait = education_martial_2
+	father = guardia_1
+	1128.1.1 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1147.1.1 = {
+		name = "Ali"
+		religion = ashari
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+
+guardia_1 = { # Ancestor for Reverter
+	name = "Reverter"
+	dynasty = catalan_guardia
+	religion = catholic
+	culture = catalan
+	1090.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+
+215529 = { # Andronikos Komnenos
+	name = "Andronikos"
+	dynasty = 634 # Komnenos
+	martial = 6
+	diplomacy = 2
+	intrigue = 5
+	stewardship = 3
+	religion = "orthodox"
+	culture = "greek"
+	trait = ambitious
+	trait = brave
+	trait = lustful
+	trait = education_intrigue_3
+	trait = physique_good_1
+	trait = beauty_good_2
+	trait = shrewd
+	trait = seducer
+	father = 215528
+	1118.1.1 = {
+		birth = "1118.1.1"
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1166.1.1 = {
+		effect = {
+			set_relation_lover = { target = character:231066 }
+			set_relation_rival = { target = character:215530 }
+		}
+	}
+	1178.6.1 = {
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
+	1183.9.24 = {
+		add_spouse = 205519
+	}
+	1185.9.12 = {
+		death = "1185.9.12"
+	}
+}
+
+215528 = { # Ancestor for Andronikos
+	name = "Isaakios"
+	dynasty = 634
+	religion = "orthodox"
+	culture = "greek"
+	trait = born_in_the_purple
+	1093.1.16 = {
+		birth = "1093.1.16"
+	}
+	1153.1.2 = {
+		death = "1153.1.2"
+	}
+}
+
+32233 = { # Lalibela
+	name = "Lalibela"
+	dynasty = 101793
+	religion = "coptic"
+	culture = "ethiopian"
+	trait = zealous
+	father = zagwe_3
+	1140.1.1 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1178.6.1 = {
+		effect = {
+			set_landless_government_effect = yes
+		}
+	}
+	1221.1.1 = {
+		death = yes
+	}
+}
+
+zagwe_3 = { # Ancestor for Lalibela
+	name = "Jan_Seyum"
+	dynasty = 101793
+	religion = "coptic"
+	culture = "ethiopian"
+	992.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}

@@ -1,4 +1,4 @@
-﻿###PIAST DYNASTY
+###PIAST DYNASTY
 
 		#EARLY PIAST
 
@@ -388,7 +388,7 @@
 	name = "BolesL_aw"	#The Forgotten
 	#6th ruler of Poland
 	#Odd char, semi-legendary that would have been sentenced to "Damnatio_Memoriae"
-	#Removed from k_poland title history due to mucking things up for all the other Bolesławs. Good job, mate.
+	#Removed from k_poland title history due to mucking things up for all the other Boleslaws. Good job, mate.
 	dynasty = 699
 	trait = sadistic
 	religion = "catholic"
@@ -491,7 +491,7 @@
 	stewardship = 5
 	religion = "catholic"
 	culture = "polish"
-	trait = infirm
+	trait = faltering_heart
 	trait = shy
 	trait = craven
 	trait = generous
@@ -7427,7 +7427,7 @@ fenenna_piast = {
 
 302055 = {
 	name = Krak
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = polans
 	
@@ -7440,7 +7440,7 @@ fenenna_piast = {
 }
 302056 = {
 	name = Krak
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = polans
 	father = 302055
@@ -7453,7 +7453,7 @@ fenenna_piast = {
 }
 302057 = {
 	name = Lech
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = polans
 	father = 302055
@@ -7468,7 +7468,7 @@ fenenna_piast = {
 #Vistulians in Great Moravia
 302058 = {
 	name = Krak
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = vistulan
 	father = 302056
@@ -7483,7 +7483,7 @@ fenenna_piast = {
 302059 = {
 	name = Wanda
 	female = yes
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = vistulan
 	father = 302056
@@ -7498,7 +7498,7 @@ fenenna_piast = {
 #Vistulians (independent)
 302060 = {
 	name = Lech
-	dynasty = 2001003	#z Wiślanie
+	dynasty = 2001003	#z Wislanie
 	religion = slavic_pagan
 	culture = vistulan
 	father = 302057
@@ -7513,7 +7513,7 @@ fenenna_piast = {
 #Lendians
 302061 = {
 	name = Aleksander
-	dynasty = 2001004	#z Lędzianie
+	dynasty = 2001004	#z Ledzianie
 	religion = slavic_pagan
 	culture = lendian
 	836.10.23 = {
@@ -7569,7 +7569,7 @@ fenenna_piast = {
 #Leczycans
 302065 = {
 	name = WacL_aw
-	dynasty = 2001008	#z Łęczycanie
+	dynasty = 2001008	#z Leczycanie
 	religion = slavic_pagan
 	culture = polans
 	848.1.21 = {
