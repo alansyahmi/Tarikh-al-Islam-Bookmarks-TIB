@@ -1,0 +1,16 @@
+l_english:
+ bm_group_716:0 "716"
+ bm_group_936:0 "936"
+ bm_group_1260:0 "1260"
+
+ bm_716_constantinople:0 "The Promise of Constantinople"
+ bm_716_constantinople_desc:0 "In 716 AD, the Umayyad Caliphate stands at the apex of its military expansion. As Maslama ibn Abd al-Malik prepares a colossal army and fleet to besiege Constantinople, the Byzantine Empire grapples with internal strife. Will the strategic jewel of the Bosphorus fall, or will the Empire endure?"
+ start_year_716_01_01_desc:0 "The year 716 AD witnesses the culmination of Umayyad ambition in the East as armies converge on Constantinople, while in Al-Andalus and Central Asia the boundaries of the medieval world are redrawn."
+
+ bm_936_three_caliphates:0 "The Three Caliphates"
+ bm_936_three_caliphates_desc:0 "By 936 AD, the Islamic world is fractured between three rival Caliphates: Abd al-Rahman III has proclaimed the Umayyad Caliphate of Córdoba, the Fatimids assert their divine right in North Africa, and the Abbasids in Baghdad struggle against rising regional dynasties. Who will claim supremacy over the Ummah?"
+ start_year_936_01_01_desc:0 "In 936 AD, the Islamic world reaches a dramatic crossroads as three rival Caliphates vie for legitimacy, while Otto I ascends the throne in East Francia."
+
+ bm_1260_shield_of_islam:0 "The Shield of Islam"
+ bm_1260_shield_of_islam_desc:0 "In the wake of the catastrophic fall of Baghdad in 1258, the unstoppable Mongol tide sweeps westward. In 1260 AD, at the historic crossroads of Ain Jalut, the Mamluk Sultanate of Cairo stands as the final bastion protecting the Islamic heartlands from total conquest."
+ start_year_1260_01_01_desc:0 "The year 1260 AD marks a decisive clash of empires. From the sands of Palestine to the battlefields of Europe, new dynasties arise to challenge the Mongol conquerors."

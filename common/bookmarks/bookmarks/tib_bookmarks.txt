@@ -1,0 +1,29 @@
+bm_716_constantinople = {
+	start_date = 716.1.1
+	is_playable = yes
+	group = bm_group_716
+	weight = {
+		value = 100
+	}
+	recommended = yes
+}
+
+bm_936_three_caliphates = {
+	start_date = 936.1.1
+	is_playable = yes
+	group = bm_group_936
+	weight = {
+		value = 100
+	}
+	recommended = yes
+}
+
+bm_1260_shield_of_islam = {
+	start_date = 1260.1.1
+	is_playable = yes
+	group = bm_group_1260
+	weight = {
+		value = 100
+	}
+	recommended = yes
+}
