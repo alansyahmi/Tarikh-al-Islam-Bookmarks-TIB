@@ -1,0 +1,855 @@
+### TIB 716 Bookmark Characters & Andalusian Dynastic Families
+
+# ==========================================
+# 1. UMAYYAD HIGH COMMAND & FAMILY
+# ==========================================
+
+# Prince Maslama ibn Abd al-Malik (Umayyad Commander & Prince)
+tib_716_maslama = {
+	name = "Maslama"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	father = 163002 # Abd al-Malik ibn Marwan
+	martial = 14
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 9
+	prowess = 12
+	trait = sayyid
+	trait = brilliant_strategist
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = organizer
+	
+	685.1.1 = {
+		birth = yes
+	}
+	705.1.1 = {
+		add_spouse = tib_716_maslama_wife
+	}
+	738.12.24 = {
+		death = yes
+	}
+}
+
+tib_716_maslama_wife = {
+	name = "Umm_Salama"
+	female = yes
+	dynasty = 597
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_diplomacy_2
+	
+	690.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_maslama_son_said = {
+	name = "Sa_id"
+	dynasty = 597
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_maslama
+	mother = tib_716_maslama_wife
+	trait = sayyid
+	trait = education_martial_2
+	
+	707.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_maslama_daughter_atiqa = {
+	name = "Atiqa"
+	female = yes
+	dynasty = 597
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_maslama
+	mother = tib_716_maslama_wife
+	trait = sayyid
+	
+	710.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+
+# Wali Al-Hurr ibn Abd al-Rahman al-Thaqafi
+tib_716_al_hurr = {
+	name = "al-Hurr"
+	dynasty = 812 # Thaqifi dynasty
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_al_hurr_father
+	martial = 11
+	diplomacy = 9
+	stewardship = 10
+	trait = skilled_tactician
+	trait = just
+	trait = diligent
+	trait = honest
+	
+	680.1.1 = {
+		birth = yes
+	}
+	702.1.1 = {
+		add_spouse = tib_716_al_hurr_wife
+	}
+	722.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_al_hurr_father = {
+	name = "Abd-al-Rahman"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	
+	655.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_al_hurr_wife = {
+	name = "Habiba"
+	female = yes
+	religion = "ashari"
+	culture = "bedouin"
+	
+	685.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_al_hurr_son_abdallah = {
+	name = "Abdallah"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_al_hurr
+	mother = tib_716_al_hurr_wife
+	trait = education_stewardship_2
+	
+	705.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+
+# Ayyub ibn Habib al-Lakhmi (Interim Wali in 716)
+tib_716_ayyub_lakhmi = {
+	name = "Ayyub"
+	dynasty = 1027013 # Lakhmid
+	religion = "ashari"
+	culture = "bedouin"
+	martial = 8
+	stewardship = 11
+	trait = education_stewardship_2
+	trait = calm
+	
+	682.1.1 = {
+		birth = yes
+	}
+	706.1.1 = {
+		add_spouse = tib_716_ayyub_wife
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_ayyub_wife = {
+	name = "Zaynab"
+	female = yes
+	religion = "ashari"
+	culture = "bedouin"
+	
+	688.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_ayyub_son_habib = {
+	name = "Habib"
+	dynasty = 1027013
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_ayyub_lakhmi
+	mother = tib_716_ayyub_wife
+	
+	708.1.1 = {
+		birth = yes
+	}
+	768.1.1 = {
+		death = yes
+	}
+}
+
+# ==========================================
+# 2. BERBER (AMAZIGH) TRIBAL FAMILIES
+# ==========================================
+
+# Munuza (Uthman ibn Naissa - Berber Frontier Commander in Cerdanya)
+tib_716_munuza = {
+	name = "Uthman"
+	dynasty = 841 # Baranis clan
+	religion = "ashari"
+	culture = "baranis"
+	martial = 12
+	intrigue = 9
+	trait = ambitious
+	trait = brave
+	trait = education_martial_3
+	
+	685.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		add_spouse = 190497 # Lampagie (Daughter of Duke Eudes of Aquitaine)
+	}
+	731.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_munuza_son = {
+	name = "Uthman"
+	dynasty = 841
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_munuza
+	mother = 190497
+	
+	731.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+# Waddah al-Nafzi (Nefza Berber Chieftain of Santaver & Cuenca)
+tib_716_waddah_nafzi = {
+	name = "Waddah"
+	dynasty = 842 # Nefza Berber
+	religion = "ashari"
+	culture = "baranis"
+	martial = 9
+	stewardship = 8
+	trait = stubborn
+	trait = brave
+	trait = education_martial_2
+	
+	682.1.1 = {
+		birth = yes
+	}
+	704.1.1 = {
+		add_spouse = tib_716_waddah_wife
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_waddah_wife = {
+	name = "Tamazust"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	686.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_waddah_son_maysara = {
+	name = "Maysara"
+	dynasty = 842
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_waddah_nafzi
+	mother = tib_716_waddah_wife
+	trait = education_martial_2
+	
+	706.1.1 = {
+		birth = yes
+	}
+	755.1.1 = {
+		death = yes
+	}
+}
+
+# Immeghar ibn Awsaga (Zanata Berber Chieftain of Santarém & Évora)
+tib_716_immeghar_awsaga = {
+	name = "Immeghar"
+	dynasty = baranisdyn002 # Banu Danis Ancestor
+	religion = "ashari"
+	culture = "baranis"
+	stewardship = 10
+	diplomacy = 8
+	trait = diligent
+	trait = calm
+	trait = education_stewardship_2
+	
+	685.1.1 = {
+		birth = yes
+	}
+	708.1.1 = {
+		add_spouse = tib_716_immeghar_wife
+	}
+	742.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_immeghar_wife = {
+	name = "Kenza"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	690.1.1 = {
+		birth = yes
+	}
+	748.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_immeghar_son_awsaga = {
+	name = "Awsaga"
+	dynasty = baranisdyn002
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_immeghar_awsaga
+	mother = tib_716_immeghar_wife
+	
+	710.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+
+# Ghalib al-Masmudi (Masmuda Berber Chieftain of Ronda)
+tib_716_ghalib_masmudi = {
+	name = "Ghalib"
+	dynasty = 843 # Masmuda Berber
+	religion = "ashari"
+	culture = "baranis"
+	martial = 10
+	trait = brave
+	trait = honest
+	trait = education_martial_2
+	
+	680.1.1 = {
+		birth = yes
+	}
+	703.1.1 = {
+		add_spouse = tib_716_ghalib_wife
+	}
+	738.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_ghalib_wife = {
+	name = "Zahra"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	685.1.1 = {
+		birth = yes
+	}
+	741.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_ghalib_son_tariq = {
+	name = "Tariq"
+	dynasty = 843
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_ghalib_masmudi
+	mother = tib_716_ghalib_wife
+	
+	705.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+
+# Huzayl al-Miknasi (Miknasa Berber Chieftain of Albarracín)
+tib_716_huzayl_miknasi = {
+	name = "Huzayl"
+	dynasty = 845 # Miknasa Berber
+	religion = "ashari"
+	culture = "baranis"
+	stewardship = 9
+	trait = patient
+	trait = education_stewardship_2
+	
+	688.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		add_spouse = tib_716_huzayl_wife
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_huzayl_wife = {
+	name = "Fatima"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	692.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_huzayl_son_yahya = {
+	name = "Yahya"
+	dynasty = 845
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_huzayl_miknasi
+	mother = tib_716_huzayl_wife
+	
+	712.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+# Abu Daw al-Baranisi (Baranis Berber Chieftain of Silves)
+tib_716_abu_daw = {
+	name = "Abu-Daw"
+	dynasty = 846 # Baranis Berber
+	religion = "ashari"
+	culture = "baranis"
+	trait = content
+	trait = education_martial_1
+	
+	683.1.1 = {
+		birth = yes
+	}
+	705.1.1 = {
+		add_spouse = tib_716_abu_daw_wife
+	}
+	739.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_abu_daw_wife = {
+	name = "Tafrara"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	688.1.1 = {
+		birth = yes
+	}
+	742.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_abu_daw_son_masoud = {
+	name = "Masoud"
+	dynasty = 846
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_abu_daw
+	mother = tib_716_abu_daw_wife
+	
+	707.1.1 = {
+		birth = yes
+	}
+	762.1.1 = {
+		death = yes
+	}
+}
+
+# Maysara al-Matghari (Matghara Berber Leader)
+tib_716_maysara = {
+	name = "Maysara"
+	dynasty = 847 # Matghara Berber
+	religion = "ashari"
+	culture = "baranis"
+	martial = 11
+	trait = ambitious
+	trait = wrathful
+	trait = education_martial_3
+	
+	690.1.1 = {
+		birth = yes
+	}
+	712.1.1 = {
+		add_spouse = tib_716_maysara_wife
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_maysara_wife = {
+	name = "Lalla"
+	female = yes
+	religion = "ashari"
+	culture = "baranis"
+	
+	694.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_maysara_son_abdallah = {
+	name = "Abdallah"
+	dynasty = 847
+	religion = "ashari"
+	culture = "baranis"
+	father = tib_716_maysara
+	mother = tib_716_maysara_wife
+	
+	714.1.1 = {
+		birth = yes
+	}
+	768.1.1 = {
+		death = yes
+	}
+}
+
+# Tariqid Garrison Commander at Algeciras
+tib_716_tariqid_commander = {
+	name = "Ziyad"
+	dynasty = 101055 # Berber Tariqid
+	religion = "ashari"
+	culture = "baranis"
+	martial = 9
+	trait = loyal
+	trait = brave
+	trait = education_martial_2
+	
+	685.1.1 = {
+		birth = yes
+	}
+	736.1.1 = {
+		death = yes
+	}
+}
+
+# ==========================================
+# 3. VISIGOTHIC & ARAB NOBLE FAMILIES
+# ==========================================
+
+# Artabas Witiziana (Son of King Witiza)
+tib_716_artabas = {
+	name = "Artabas"
+	dynasty = witiziana # House of Witiza
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	father = 200244 # King Witiza
+	stewardship = 12
+	trait = education_stewardship_3
+	trait = greedy
+	
+	702.1.1 = {
+		birth = yes
+	}
+	724.1.1 = {
+		add_spouse = tib_716_artabas_wife
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_artabas_wife = {
+	name = "Maria"
+	female = yes
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	
+	705.1.1 = {
+		birth = yes
+	}
+	755.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_artabas_son_witiza = {
+	name = "Witiza"
+	dynasty = witiziana
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	father = tib_716_artabas
+	mother = tib_716_artabas_wife
+	
+	725.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+# Atanagildo of Tudmir (Son & Heir of Duke Theodemir)
+tib_716_atanagildo = {
+	name = "Atanagildo"
+	dynasty_house = house_tudmir
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	father = 73901 # Duke Teodomiro
+	stewardship = 8
+	diplomacy = 7
+	trait = education_diplomacy_1
+	
+	700.1.1 = {
+		birth = yes
+	}
+	722.1.1 = {
+		add_spouse = tib_716_atanagildo_wife
+	}
+	755.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_atanagildo_wife = {
+	name = "Ermesinda"
+	female = yes
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	
+	704.1.1 = {
+		birth = yes
+	}
+	758.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_atanagildo_son_teodomiro = {
+	name = "Teodomiro"
+	dynasty_house = house_tudmir
+	religion = "mozarabic_church"
+	culture = "visigothic"
+	father = tib_716_atanagildo
+	mother = tib_716_atanagildo_wife
+	
+	724.1.1 = {
+		birth = yes
+	}
+	775.1.1 = {
+		death = yes
+	}
+}
+
+# Al-Samh ibn Malik al-Khawlani (Frontier Commander in Zaragoza)
+tib_716_al_samh = {
+	name = "al-Samh"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	martial = 13
+	prowess = 11
+	trait = brilliant_strategist
+	trait = zealous
+	trait = brave
+	
+	680.1.1 = {
+		birth = yes
+	}
+	702.1.1 = {
+		add_spouse = tib_716_al_samh_wife
+	}
+	721.6.10 = {
+		death = yes # Battle of Toulouse
+	}
+}
+
+tib_716_al_samh_wife = {
+	name = "Hind"
+	female = yes
+	religion = "ashari"
+	culture = "bedouin"
+	
+	685.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_al_samh_son_malik = {
+	name = "Malik"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_al_samh
+	mother = tib_716_al_samh_wife
+	
+	705.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+
+# Abdul Rahman Al-Ghafiqi (Umayyad Commander in Badajoz)
+tib_716_al_ghafiqi = {
+	name = "Abd-al-Rahman"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	martial = 15
+	diplomacy = 10
+	stewardship = 9
+	prowess = 12
+	trait = brilliant_strategist
+	trait = just
+	trait = brave
+	trait = diligent
+	
+	685.1.1 = {
+		birth = yes
+	}
+	708.1.1 = {
+		add_spouse = tib_716_al_ghafiqi_wife
+	}
+	732.10.10 = {
+		death = yes # Battle of Tours
+	}
+}
+
+tib_716_al_ghafiqi_wife = {
+	name = "Asma"
+	female = yes
+	religion = "ashari"
+	culture = "bedouin"
+	
+	690.1.1 = {
+		birth = yes
+	}
+	742.1.1 = {
+		death = yes
+	}
+}
+
+tib_716_al_ghafiqi_son_muhammad = {
+	name = "Muhammad"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	father = tib_716_al_ghafiqi
+	mother = tib_716_al_ghafiqi_wife
+	
+	710.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+	}
+}
+
+# Balj ibn Bishr al-Qushayri (Syrian Commander in Jaén)
+tib_716_balj = {
+	name = "Balj"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	martial = 11
+	trait = arrogant
+	trait = brave
+	trait = education_martial_3
+	
+	690.1.1 = {
+		birth = yes
+	}
+	742.8.1 = {
+		death = yes
+	}
+}
+
+# Thalaba ibn Salama al-Amili (Syrian Commander in Granada)
+tib_716_thalaba = {
+	name = "Thalaba"
+	dynasty = 812
+	religion = "ashari"
+	culture = "bedouin"
+	martial = 10
+	trait = harsh
+	trait = education_martial_2
+	
+	692.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+# Tuqba ibn Salama (Fihrid Commander in Valencia)
+tib_716_tuqba = {
+	name = "Tuqba"
+	dynasty = 1046001
+	religion = "ashari"
+	culture = "bedouin"
+	stewardship = 9
+	trait = education_diplomacy_2
+	
+	688.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  bm_group_716:0 "716"
  bm_group_936:0 "936"
  bm_group_1260:0 "1260"
@@ -6,6 +6,21 @@ l_english:
  bm_716_constantinople:0 "The Promise of Constantinople"
  bm_716_constantinople_desc:0 "In 716 AD, the Umayyad Caliphate stands at the apex of its military expansion. As Maslama ibn Abd al-Malik prepares a colossal army and fleet to besiege Constantinople, the Byzantine Empire grapples with internal strife. Will the strategic jewel of the Bosphorus fall, or will the Empire endure?"
  start_year_716_01_01_desc:0 "The year 716 AD witnesses the culmination of Umayyad ambition in the East as armies converge on Constantinople, while in Al-Andalus and Central Asia the boundaries of the medieval world are redrawn."
+
+ bookmark_716_maslama:0 "Maslama ibn Abd al-Malik"
+ bookmark_716_maslama_desc:0 "Prince Maslama, brother to Caliph Sulayman, is revered as one of the greatest Umayyad generals. Tasked with leading the monumental land and sea siege of Constantinople, he faces formidable Byzantine defenses and harsh winter weather."
+
+ bookmark_716_sulayman:0 "Caliph Sulayman ibn Abd al-Malik"
+ bookmark_716_sulayman_desc:0 "Sitting on the throne in Damascus, Caliph Sulayman commands an empire stretching from the Atlantic to the Indus. He has mobilized the entire wealth of the Caliphate for the conquest of Byzantium, but intrigue and imperial governance demand constant vigilance."
+
+ bookmark_716_al_hurr:0 "al-Hurr ibn Abd al-Rahman"
+ bookmark_716_al_hurr_desc:0 "Newly appointed as Wali of Al-Andalus, al-Hurr faces the immense task of consolidating Islamic rule across the Iberian Peninsula, organizing civil administration in Córdoba, and pushing expeditions beyond the Pyrenees into Frankish lands."
+
+ bookmark_716_yazid_muhallab:0 "Yazid ibn al-Muhallab"
+ bookmark_716_yazid_muhallab_desc:0 "Scion of the influential Muhallabid family, Yazid governs Iraq and Khurasan. Known for his martial prowess and political ambition, he must maintain stability over the turbulent eastern provinces while expanding Umayyad influence into Transoxiana."
+
+ bookmark_716_leo_isaurian:0 "Leo the Isaurian"
+ bookmark_716_leo_isaurian_desc:0 "General of the Anatolikon Theme, Leo is a brilliant military commander maneuvering amidst Byzantine civil conflict. As the Umayyad war machine advances on Constantinople, Leo moves to seize the imperial throne and save the Roman state from total collapse."
 
  bm_936_three_caliphates:0 "The Three Caliphates"
  bm_936_three_caliphates_desc:0 "By 936 AD, the Islamic world is fractured between three rival Caliphates: Abd al-Rahman III has proclaimed the Umayyad Caliphate of Córdoba, the Fatimids assert their divine right in North Africa, and the Abbasids in Baghdad struggle against rising regional dynasties. Who will claim supremacy over the Ummah?"

@@ -6,6 +6,91 @@ bm_716_constantinople = {
 		value = 100
 	}
 	recommended = yes
+
+	# Prince Maslama ibn Abd al-Malik (Commander of the Constantinople Offensive)
+	character = {
+		name = "bookmark_716_maslama"
+		history_id = tib_716_maslama
+		dynasty = 597
+		dynasty_splendor_level = 3
+		type = male
+		birth = 685.1.1
+		title = c_raqqa
+		government = clan_government
+		culture = bedouin
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 1020 540 }
+		animation = personality_bold
+	}
+
+	# Caliph Sulayman ibn Abd al-Malik (Caliph of the Umayyad Realm)
+	character = {
+		name = "bookmark_716_sulayman"
+		history_id = 163033
+		dynasty = 597
+		dynasty_splendor_level = 4
+		type = male
+		birth = 674.1.1
+		title = e_arabia
+		government = clan_government
+		culture = bedouin
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1080 670 }
+		animation = personality_zealous
+	}
+
+	# Al-Hurr ibn Abd al-Rahman al-Thaqafi (Wali of Al-Andalus)
+	character = {
+		name = "bookmark_716_al_hurr"
+		history_id = tib_716_al_hurr
+		dynasty = 812
+		dynasty_splendor_level = 1
+		type = male
+		birth = 680.1.1
+		title = k_andalusia
+		government = clan_government
+		culture = bedouin
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 430 520 }
+		animation = personality_honorable
+	}
+
+	# Yazid ibn al-Muhallab (Wali of Khurasan & Iraq)
+	character = {
+		name = "bookmark_716_yazid_muhallab"
+		history_id = 210002
+		dynasty = 1048001
+		dynasty_splendor_level = 2
+		type = male
+		birth = 670.1.1
+		title = c_merv
+		government = clan_government
+		culture = bedouin
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 1350 560 }
+		animation = personality_rational
+	}
+
+	# Leo III the Isaurian (Strategos of Anatolikon / Pretender)
+	character = {
+		name = "bookmark_716_leo_isaurian"
+		history_id = 70502
+		dynasty = 709
+		dynasty_splendor_level = 2
+		type = male
+		birth = 685.1.1
+		title = e_byzantium
+		government = administrative_government
+		culture = greek
+		religion = orthodox
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 920 480 }
+		animation = war_over_win
+	}
 }
 
 bm_936_three_caliphates = {
@@ -21,7 +106,7 @@ bm_936_three_caliphates = {
 bm_1260_shield_of_islam = {
 	start_date = 1260.1.1
 	is_playable = yes
-	group = bm_group_1260
+	group = bm_group_936
 	weight = {
 		value = 100
 	}

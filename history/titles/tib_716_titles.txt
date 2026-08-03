@@ -1,0 +1,4 @@
+# Title history overrides are modularized in:
+# - history/titles/k_andalusia.txt
+# - history/titles/k_jazira.txt
+# - history/titles/k_khorasan.txt
